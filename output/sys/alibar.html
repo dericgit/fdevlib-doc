@@ -13,9 +13,6 @@
                 <li>
                     页头窄条通栏，包括用户登录状态和网站导航，称为alibar
                 </li>
-                <li>
-                    目前alibar不可个性化，全站通用一套
-                </li>
             </ul>
             <h2>版本</h2>
             <ul>
@@ -79,9 +76,94 @@
                     老版Alibar文档，请移步 <a title="老版Alibar文档" href="alibar.old.html">老版Alibar文档</a>
                 </li>
             </ul>
+            <h2>Methods</h2>
+                <ul>
+                    <li>Alibar.refresh : 刷新用户状态</li>
+                    <li>Alibar.purchaselistRefresh : 刷新进货单信息</li>
+                </ul>
+            <h2>Event</h2>
+                <ul>
+                    <li>delitem.alibar : 用户删除进货单数据时候，在document上分发事件</li>
+                </ul>
             <h2>Demo</h2>
             <ul>
                 <li><a title="Alibar+Masthead" href="http://page.china.alibaba.com/denis/test1.html" target="_blank">Alibar+Masthead</a></li>
+            </ul>
+            <h2>个性化</h2>
+            <ul>
+                <li>目前alibar允许个性化，但只限于:底色、文字颜色、下拉菜单隐藏\显示图标、菜单间隔符的修改</li>
+                <li><b>不允许擅自修改交互，菜单项图标，添加/删除菜单项，如有相关需要，必须先知会李龙</b></li>
+                <li>
+                    个性化样式示例：
+                    必须以standard-v4.css为基础，重写相关样式。即先引入standard-v4.css，然后新建css，重写之。
+                    <p>引入示例：</p>
+                    <pre class="prettyprint language-html">
+&lt;head>
+    ...
+    &lt;link href="http://style.china.alibaba.com/sys/css/universal/alibar/standard-v4-min.css" rel="stylesheet"/>
+    &lt;link href="http://style.china.alibaba.com/XXXX/myalibar.css" rel="stylesheet"/>
+    ...
+&lt;/head>
+                    </pre>
+                    <p>代码示例：</p>
+                    </pre>
+                    <pre class="prettyprint language-css">
+/**底色、上下边线**/
+#alibar-v4{
+    background-color:#122D43;
+    border-top: solid 1px #122D43;
+    border-bottom: solid 1px #122D43;
+}
+/**用户信息区域链接颜色**/
+#alibar-v4 .account-sign-status a:link, #alibar-v4 .account-sign-status a:visited{
+    color:#FFF;
+}
+/**[修改会员名]链接颜色**/
+#alibar-v4 .account-sign-status a.modify-nick {
+    color: #ABC8D9;
+}
+/**"您好"颜色**/
+#alibar-v4 .account-sign-status{
+    color:#ABC8D9;
+}
+/**右侧可点项链接颜色**/
+#alibar-v4 .topnav a:link,
+#alibar-v4 .topnav a:visited{
+    color:#ABC8D9;
+}
+/**菜单下拉状态，主菜单背景色**/
+#alibar-v4 .extra:hover .nav-title,
+#alibar-v4 .nav-hover .nav-title{
+    background-color:#0A1A28;
+}
+/**菜单下拉状态，下拉栏背景色**/
+#alibar-v4 .nav-content{
+    background-color:#0D2333;
+}
+/**菜单下拉状态，说明项文字颜色**/
+#alibar-v4 .nav-content dt{
+    color:#608CAC;
+}
+/**进货单，统计信息背景色**/
+#alibar-v4 .topnav-purchaselist .purchase-info{
+    background-color:#163952;
+}
+/**菜单下拉状态，主边框所有边框颜色**/
+#alibar-v4 .extra:hover .nav-title, #alibar-v4 .nav-hover .nav-title{
+    border-left: solid 1px #0A1A28;
+    border-right: solid 1px #0A1A28;
+}
+/**菜单隐藏/显示图标**/
+#alibar-v4 .nav-arrow{
+    background: url("http://img.china.alibaba.com/cms/upload/2012/055/744/447550_1451252140.png") no-repeat;
+    background-position:right -114px;
+}
+#alibar-v4 .topnav li:hover .nav-arrow,
+#alibar-v4 .topnav .nav-hover .nav-arrow{
+    background-position:right -140px;
+}
+                    </pre>
+                </li>
             </ul>
         </div>
         <script src="../../static/js/app-merge.js">
