@@ -4,6 +4,11 @@
         <meta charset="gbk" />
         <title>Alibar</title>
         <link href="../../static/css/app-merge.css" rel="stylesheet"/>
+        <style type="text/css">
+            #alibar-editor{
+                font-size: 20px;
+            }
+        </style>
     </head>
     <body>
         <div id="doc">
@@ -27,6 +32,9 @@
                 </li>
                 <li>
                     @create Denis 2012.02.04 4.0版
+                </li>
+                <li>
+                    @update jianping.shenjp
                 </li>
             </ul>
             <h2>使用说明</h2>
@@ -92,7 +100,7 @@
             <h2>个性化</h2>
             <ul>
                 <li>目前alibar允许个性化，但只限于:底色、文字颜色、下拉菜单隐藏\显示图标、菜单间隔符的修改</li>
-                <li><b>不允许擅自修改交互，菜单项图标，添加/删除菜单项，如有相关需要，必须先知会李龙</b></li>
+                <li><b>绝不允许擅自修改交互，菜单项图标，添加/删除菜单项，如有相关需求，必须先知会李龙</b></li>
                 <li>
                     个性化样式示例：
                     必须以standard-v4.css为基础，重写相关样式。即先引入standard-v4.css，然后新建css，重写之。
@@ -105,9 +113,14 @@
     ...
 &lt;/head>
                     </pre>
-                    <p>代码示例：</p>
+                    <p>代码示例(仅为样例，根据自己需要增减)：</p><p><a id="alibar-editor" href="http://page.china.alibaba.com/test/alibar_editor.html" target="_blank">简易alibar样式编辑器</a></p>
                     </pre>
                     <pre class="prettyprint language-css">
+/**宽度设置**/
+#alibar-v4 .alibar-container{
+    padding: 0 5px;
+    width: 990px;
+}
 /**底色、上下边线**/
 #alibar-v4{
     background-color:#122D43;
@@ -148,11 +161,20 @@
 #alibar-v4 .topnav-purchaselist .purchase-info{
     background-color:#163952;
 }
-/**菜单下拉状态，主边框所有边框颜色**/
+/**菜单下拉状态，主菜单边框颜色**/
 #alibar-v4 .extra:hover .nav-title, #alibar-v4 .nav-hover .nav-title{
     border-left: solid 1px #0A1A28;
     border-right: solid 1px #0A1A28;
 }
+/**菜单下拉状态，下拉栏边框颜色**/
+#alibar-v4 .nav-content{
+    border: solid 1px #0D2333;
+}
+/**主菜单右侧竖线样式
+#alibar-v4 .topnav li{
+    background:none;
+}
+**/
 /**菜单隐藏/显示图标**/
 #alibar-v4 .nav-arrow{
     background: url("http://img.china.alibaba.com/cms/upload/2012/055/744/447550_1451252140.png") no-repeat;
