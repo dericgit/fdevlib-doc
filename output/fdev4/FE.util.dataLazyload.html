@@ -88,6 +88,20 @@ $.use('web-datalazyload', function(){
                 </dd>
             </dl>
             <dl>
+                <dt><b>函数</b></dt>
+                <dd>
+                    <pre class="prettyprint language-html">
+&lt;div class="lazyload-fn" data-lazyload-fn-body="P4pSearch.getData">
+    ...
+&lt;/div>
+                    </pre>
+                </dd>
+                <dd>
+                    说明：<strong>data-lazyload-fn-body</strong>属性中的值是要延迟执行的方法。这里我是将P4pSearch直接挂在了window下，其实是这样的：<strong>window.P4pSearch.getData</strong>。各业务线可能有自己的名字空间，例如SearchWeb，可能就是<strong>SearchWeb.P4pSearch.getData</strong>.
+                    <a href="http://china.alibaba.com/topic/nanzhuangwaitao.html" target="_blank">这个页面</a>中的每个楼层曝光时都要发送一个请求去拿offer数据。
+                </dd>
+            </dl>
+            <dl>
                 <dt><b>textarea</b></dt>
                 <dd>
                     <pre class="prettyprint language-html">
