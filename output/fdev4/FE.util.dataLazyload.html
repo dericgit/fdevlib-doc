@@ -13,10 +13,16 @@
             <p>
                 按需加载网页上的资源，提升网页加载性能。
             </p>
+            <p>
+                注:该组件的延迟加载容器必须可见，若不可见，则会立即执行懒加载逻辑，达不到效果。
+            </p>
             <h2>版本</h2>
             <ul>
                 <li>
                     @update yu.yuy 2011.09.28 v1.0
+                </li>
+                <li>
+                    @update jianping.shenjp 2013.01.25
                 </li>
             </ul>
             <h2>开始</h2>
@@ -89,6 +95,22 @@ $.use('web-datalazyload', function(){
             </dl>
             <dl>
                 <dt><b>函数</b></dt>
+                <dd>
+                    有两种方法设置函数懒加载。
+                </dd>
+                <dd>
+                    一：使用bind方法(推荐)
+                </dd>
+                <dd>
+                    <pre class="prettyprint language-js">
+FE.util.datalazyload.bind($("XX"),function(){
+    
+});
+                    </pre>
+                </dd>
+                <dd>
+                    二：在容器上设置data-lazyload-fn-body属性，并填写回调函数名。设置完毕，需要执行一下register。
+                </dd>
                 <dd>
                     <pre class="prettyprint language-html">
 &lt;div class="lazyload-fn" data-lazyload-fn-body="P4pSearch.getData">
