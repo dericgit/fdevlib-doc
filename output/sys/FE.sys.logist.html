@@ -23,51 +23,8 @@
                 </ul>
             </div>
             <div class="g-detail">
-                <h3>Fdev3版本使用说明</h3>
-                <p>提供统一登录和注册的功能，以浮层的方式展现。提供登录/注册成功的全自定义回调函数。</p>
-                <h3>css依赖</h3>
-                <pre class="brush:css">
-ImportJavscript.url("http://style.china.alibaba.com/sys/css/popsignin/loginreg.css");
-            </pre>
-                <h3>JS依赖</h3>
-                <pre class="brush:js">
-ImportJavscript.url("http://style.china.alibaba.com/js/common/aliclick.js");		
-ImportJavscript.url("http://style.china.alibaba.com/fdevlib/js/fdev-v3/core/yui/get-min.js");
-ImportJavscript.url("http://style.china.alibaba.com/fdevlib/js/fdev-v3/widget/valid/valid-min.js");		
-ImportJavscript.url("http://style.china.alibaba.com/fdevlib/js/fdev-v3/widget/block/block-min.js");
-ImportJavscript.url("http://style.china.alibaba.com/sys/js/popsignin/loginreg.js");
-            </pre>
-                <h3>调用方式</h3>
-                <pre class="brush:js">
-/**
- * @paran {Object} 配置参数
- * 默认配置
- *	source: '',	调用必选配置！2011.07.11更新，提供调用页面的信息（就是传递给后台的joinfrom参数）。ex: 'detail'
- *	showOverlay: true,	浮层是否有遮罩
- *	onShow: null,	浮层出现后触发的回调函数，scope为FD.Member.LR
- *	onLoginSuccess: function, 登录成功后的回调函数
- *  onRegistSuccess: function, 注册成功后的回调函数
- *  imgDomain: null, 验证码图片对应的域名，'http://checkcode.china.alibaba.com:8888'，非浮层登录底层改造，建议不传，使用测试机搭环境
- *  aliDomain: null, 接口对应的域名，'http://exodus2.china.alibaba.com:2100'，同上
- *  loginchinaDomain: null, 登录接口对应的域名，'https://loginchina-test.alibaba.com:3300'，同上
- *	loginchinahttpDomain: null, getLastLoginType接口对应的域名，'http://loginchina-test.alibaba.com:3100'，同上
- */				
-FD.Member.LR.show(options);
-//手动关闭浮层
-FD.Member.LR.hide();		
-			</pre>
-                <h3>Demo</h3>
-                <p>
-                    <button id="demo1">Fdev3</button>
-                </p>
-                <p>
-                    <pre class="brush:js">
-FD.Member.LR.show({
-    source: 'test'
-});
-				</pre>
-                </p>
-                <h3>Fdev4版本使用说明</h3>
+			
+			<h3>Fdev4版本使用说明</h3>
                 <h3>css依赖</h3>
                 <pre class="brush:css">
 ImportJavscript.url("http://style.china.alibaba.com/sys/css/logist/logist-min.css");
@@ -123,6 +80,53 @@ FE.sys.logist({
 });
 				</pre>
                 </p>
+				
+				
+                <h3>Fdev3版本使用说明(已不再更新维护)</h3>
+                <p>提供统一登录和注册的功能，以浮层的方式展现。提供登录/注册成功的全自定义回调函数。</p>
+                <h3>css依赖</h3>
+                <pre class="brush:css">
+ImportJavscript.url("http://style.china.alibaba.com/sys/css/popsignin/loginreg.css");
+            </pre>
+                <h3>JS依赖</h3>
+                <pre class="brush:js">
+ImportJavscript.url("http://style.china.alibaba.com/js/common/aliclick.js");		
+ImportJavscript.url("http://style.china.alibaba.com/fdevlib/js/fdev-v3/core/yui/get-min.js");
+ImportJavscript.url("http://style.china.alibaba.com/fdevlib/js/fdev-v3/widget/valid/valid-min.js");		
+ImportJavscript.url("http://style.china.alibaba.com/fdevlib/js/fdev-v3/widget/block/block-min.js");
+ImportJavscript.url("http://style.china.alibaba.com/sys/js/popsignin/loginreg.js");
+            </pre>
+                <h3>调用方式</h3>
+                <pre class="brush:js">
+/**
+ * @paran {Object} 配置参数
+ * 默认配置
+ *	source: '',	调用必选配置！2011.07.11更新，提供调用页面的信息（就是传递给后台的joinfrom参数）。ex: 'detail'
+ *	showOverlay: true,	浮层是否有遮罩
+ *	onShow: null,	浮层出现后触发的回调函数，scope为FD.Member.LR
+ *	onLoginSuccess: function, 登录成功后的回调函数
+ *  onRegistSuccess: function, 注册成功后的回调函数
+ *  imgDomain: null, 验证码图片对应的域名，'http://checkcode.china.alibaba.com:8888'，非浮层登录底层改造，建议不传，使用测试机搭环境
+ *  aliDomain: null, 接口对应的域名，'http://exodus2.china.alibaba.com:2100'，同上
+ *  loginchinaDomain: null, 登录接口对应的域名，'https://loginchina-test.alibaba.com:3300'，同上
+ *	loginchinahttpDomain: null, getLastLoginType接口对应的域名，'http://loginchina-test.alibaba.com:3100'，同上
+ */				
+FD.Member.LR.show(options);
+//手动关闭浮层
+FD.Member.LR.hide();		
+			</pre>
+                <h3>Demo</h3>
+                <p>
+                    <button id="demo1">Fdev3</button>
+                </p>
+                <p>
+                    <pre class="brush:js">
+FD.Member.LR.show({
+    source: 'test'
+});
+				</pre>
+                </p>
+                
                 <h3>提建议给开发者</h3>
                 作者：Denis
                 <br/>
