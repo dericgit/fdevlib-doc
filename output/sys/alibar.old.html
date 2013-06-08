@@ -32,33 +32,33 @@ VM: templates/external/common/alibar/alibar.vm （建议在layout或头部control中引用
             <p>demo请见 <a href="/fdevlib/examples/sys/alibar/v2.standard.shtml">http://fd.aliued.cn/fdevlib/examples/sys/alibar/v2.standard.shtml</a></p>
             <iframe src="/fdevlib/examples/sys/alibar/v2.standard.shtml" width="1000px" height="100px"></iframe>
             <h3>CSS/JS依赖：</h3>
-            <p><strong>默认使用style.china.alibaba.com，若使用static，请自行更换</strong></p>
+            <p><strong>默认使用style.c.aliimg.com，若使用static，请自行更换</strong></p>
             <p>fdev-v4版</p>
             <pre class="brush:css">
 /* CSS */
-@import url("http://style.china.alibaba.com/sys/css/universal/alibar/standard-v2.css");
+@import url("http://style.c.aliimg.com/sys/css/universal/alibar/standard-v2.css");
 /* 此CSS基于fdev-v4，优先使用 */
 
-@import url("http://style.china.alibaba.com/sys/css/universal/alibar/independent-v2.css");
+@import url("http://style.c.aliimg.com/sys/css/universal/alibar/independent-v2.css");
 /* 此CSS不依赖于任何css，独立使用 */
             </pre>
             <pre class="brush:js">
 /* JS */
-ImportJavscript.url("http://style.china.alibaba.com/sys/js/universal/alibar/standard-v2-min.js");
+ImportJavscript.url("http://style.c.aliimg.com/sys/js/universal/alibar/standard-v2-min.js");
 /* 此JS基于fdev-v4 */
             </pre>
             <p>fdev-v3版</p>
             <pre class="brush:css">
 /* CSS */
-@import url("http://style.china.alibaba.com/sys/css/head/alibar/v2/standard.css");
+@import url("http://style.c.aliimg.com/sys/css/head/alibar/v2/standard.css");
 /* 此CSS依赖于任何版本的reset.css及fdev-v3的type.css，优先使用 */
 
-@import url("http://style.china.alibaba.com/sys/css/head/alibar/v2/independent.css");
+@import url("http://style.c.aliimg.com/sys/css/head/alibar/v2/independent.css");
 /* 此CSS不依赖于任何css，独立使用 */
             </pre>
             <pre class="brush:js">
 /* JS */
-ImportJavscript.url("http://style.china.alibaba.com/sys/js/head/alibar/v2/standard.js");
+ImportJavscript.url("http://style.c.aliimg.com/sys/js/head/alibar/v2/standard.js");
 /* 此JS依赖于fdev.js、get.js，fdevlib/fdev-v3版本均可，但fdev、get须同版本 */
             </pre>
             <h3>alibar位置</h3>
@@ -85,11 +85,11 @@ ImportJavscript.url("http://style.china.alibaba.com/sys/js/head/alibar/v2/standa
       var urls = [], configs, alitalk;
       if ( typeof FD.widget.Alitalk === 'undefined' ){
           ( ( FD.version.charAt(0) - 0 ) === 3 ) ?
-              urls.push('http://style.china.alibaba.com/fdevlib/js/fdev-v3/widget/alitalk/alitalk-min.js') :
-              urls.push('http://style.china.alibaba.com/js/fdevlib/widget/alitalk/fdev-alitalk-v3.js');
+              urls.push('http://style.c.aliimg.com/fdevlib/js/fdev-v3/widget/alitalk/alitalk-min.js') :
+              urls.push('http://style.c.aliimg.com/js/fdevlib/widget/alitalk/fdev-alitalk-v3.js');
       }
       if ( typeof FD.widget.ShuntAlitalk === 'undefined' ){
-          urls.push('http://style.china.alibaba.com/fdevlib/js/fdev-v3/widget/alitalk/shuntalitalk-v2.js');
+          urls.push('http://style.c.aliimg.com/fdevlib/js/fdev-v3/widget/alitalk/shuntalitalk-v2.js');
       }
       if ( urls.length > 0 ){
           configs = {
@@ -121,27 +121,27 @@ SHTML:
             <p><strong>static下不能发布sys和首页，在style发布之后，更新static即可</strong></p>
             <pre>
 <strong>fdev-v4版：</strong>
-http://style.china.alibaba.com/sys/css/universal/alibar/standard-v2.css
-http://style.china.alibaba.com/sys/css/universal/alibar/independent-v2.css
+http://style.c.aliimg.com/sys/css/universal/alibar/standard-v2.css
+http://style.c.aliimg.com/sys/css/universal/alibar/independent-v2.css
 
-http://style.china.alibaba.com/sys/js/universal/alibar/standard-v2.js(source版，线上不允许直接使用)
-http://style.china.alibaba.com/sys/js/universal/alibar/standard-v2-min.js
+http://style.c.aliimg.com/sys/js/universal/alibar/standard-v2.js(source版，线上不允许直接使用)
+http://style.c.aliimg.com/sys/js/universal/alibar/standard-v2-min.js
 
 <strong>fdev-v3版：</strong>
-http://style.china.alibaba.com/sys/css/head/alibar/v2/standard.source.css(source版，线上不允许直接使用)
-http://style.china.alibaba.com/sys/css/head/alibar/v2/standard.css
-http://style.china.alibaba.com/sys/css/head/alibar/v2/independent.source.css(source版，线上不允许直接使用)
-http://style.china.alibaba.com/sys/css/head/alibar/v2/independent.css
+http://style.c.aliimg.com/sys/css/head/alibar/v2/standard.source.css(source版，线上不允许直接使用)
+http://style.c.aliimg.com/sys/css/head/alibar/v2/standard.css
+http://style.c.aliimg.com/sys/css/head/alibar/v2/independent.source.css(source版，线上不允许直接使用)
+http://style.c.aliimg.com/sys/css/head/alibar/v2/independent.css
 
-http://style.china.alibaba.com/sys/js/head/alibar/v2/standard.source.js(source版，线上不允许直接使用)
-http://style.china.alibaba.com/sys/js/head/alibar/v2/standard.js
+http://style.c.aliimg.com/sys/js/head/alibar/v2/standard.source.js(source版，线上不允许直接使用)
+http://style.c.aliimg.com/sys/js/head/alibar/v2/standard.js
 
 <strong>首页：</strong>
-http://style.china.alibaba.com/css/app/homepage/201009/source/alibar.v2.css(source版，线上不允许直接使用)
-http://style.china.alibaba.com/css/app/homepage/201009/alibar.v2-min.css
+http://style.c.aliimg.com/css/app/homepage/201009/source/alibar.v2.css(source版，线上不允许直接使用)
+http://style.c.aliimg.com/css/app/homepage/201009/alibar.v2-min.css
 
-http://style.china.alibaba.com/js/app/homepage/201009/source/alibar.v2.js(source版，线上不允许直接使用)
-http://style.china.alibaba.com/js/app/homepage/201009/alibar.v2-min.js</pre>
+http://style.c.aliimg.com/js/app/homepage/201009/source/alibar.v2.js(source版，线上不允许直接使用)
+http://style.c.aliimg.com/js/app/homepage/201009/alibar.v2-min.js</pre>
             <h3>alibar测试功能点</h3>
             <ol>
                 <li>

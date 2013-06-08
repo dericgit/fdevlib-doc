@@ -3,12 +3,12 @@
     <head>
         <meta charset="gbk" />
         <title>masthead.standard.v1.110127</title>
-        <link href="http://style.china.alibaba.com/css/lib/fdev-v4/core/fdev-float.css" rel="stylesheet"/>
-        <link href="http://style.china.alibaba.com/css/sys/universal/alibar/standard-v2.css" rel="stylesheet"/>
-        <link href="http://style.china.alibaba.com/css/sys/universal/masthead/standard-v1.3.css" rel="stylesheet"/>
-        <script src="http://style.china.alibaba.com/js/lib/fdev-v4/core/fdev-min.js"></script>
-        <script src="http://style.china.alibaba.com/js/sys/universal/alibar/standard-v2-min.js"></script>
-        <script src="http://style.china.alibaba.com/js/sys/universal/masthead/standard-v1.3-min.js"></script>
+        <link href="http://style.c.aliimg.com/css/lib/fdev-v4/core/fdev-float.css" rel="stylesheet"/>
+        <link href="http://style.c.aliimg.com/css/sys/universal/alibar/standard-v2.css" rel="stylesheet"/>
+        <link href="http://style.c.aliimg.com/css/sys/universal/masthead/standard-v1.3.css" rel="stylesheet"/>
+        <script src="http://style.c.aliimg.com/js/lib/fdev-v4/core/fdev-min.js"></script>
+        <script src="http://style.c.aliimg.com/js/sys/universal/alibar/standard-v2-min.js"></script>
+        <script src="http://style.c.aliimg.com/js/sys/universal/masthead/standard-v1.3-min.js"></script>
         <base target="_blank" />
     </head>
     <body>

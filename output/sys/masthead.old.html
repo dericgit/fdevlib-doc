@@ -26,15 +26,15 @@
             <p>ali-masthead根据LOGO类型分为standard、ultimate、common三个分支，又可根据搜索条当前搜索tab不同每个分支再细分十种，但每个分支的依赖样式相同</p>
             <p>LOGO的使用规则请详见 <a href="http://fd.aliued.cn/fdevlib/output/rules/logo.html">中文站LOGO前端使用规则</a></p>
             <h3>JS依赖</h3>
-            <p><strong>默认使用style.china.alibaba.com，若使用static，请自行更换，css同</strong></p>
+            <p><strong>默认使用style.c.aliimg.com，若使用static，请自行更换，css同</strong></p>
             <pre class="brush:js">
 //fdev-v4版js，基于fdev-v4，不分分支，全一份
-ImportJavscript.url("http://style.china.alibaba.com/sys/js/universal/masthead/standard-v1.3-min.js");
+ImportJavscript.url("http://style.c.aliimg.com/sys/js/universal/masthead/standard-v1.3-min.js");
 
 //fdev-v3版js，依赖于fdev-v3的fdev.js及get.js，不分分支，全一份
-ImportJavscript.url("http://style.china.alibaba.com/fdevlib/js/fdev-v3/core/fdev-min.js");
-ImportJavscript.url("http://style.china.alibaba.com/fdevlib/js/fdev-v3/core/yui/get-min.js");
-ImportJavscript.url("http://style.china.alibaba.com/sys/js/head/masthead/v1/standard-v1.3-min.js");
+ImportJavscript.url("http://style.c.aliimg.com/fdevlib/js/fdev-v3/core/fdev-min.js");
+ImportJavscript.url("http://style.c.aliimg.com/fdevlib/js/fdev-v3/core/yui/get-min.js");
+ImportJavscript.url("http://style.c.aliimg.com/sys/js/head/masthead/v1/standard-v1.3-min.js");
             </pre>
             <h3>standard分支</h3>
             <p>standard分支适用于中文站除资讯首页、社区首页、运营线、旺铺、工作平台之外的大部分页面</p>
@@ -43,11 +43,11 @@ ImportJavscript.url("http://style.china.alibaba.com/sys/js/head/masthead/v1/stan
             <p>CSS依赖：</p>
             <pre class="brush:css">
 /*fdev-v4版，基于fdev-v4*/
-@import url("http://style.china.alibaba.com/sys/css/universal/masthead/standard-v1.3.css");
+@import url("http://style.c.aliimg.com/sys/css/universal/masthead/standard-v1.3.css");
 
 /*fdev-v3版，基于fdev-v3*/
-@import url("http://style.china.alibaba.com/fdevlib/css/fdev-v3/fdev.css");
-@import url("http://style.china.alibaba.com/sys/css/head/masthead/v1/standard-v1.3.css");
+@import url("http://style.c.aliimg.com/fdevlib/css/fdev-v3/fdev.css");
+@import url("http://style.c.aliimg.com/sys/css/head/masthead/v1/standard-v1.3.css");
             </pre>
             <h3>ultimate分支</h3>
             <p>ultimate分支适用于运营线</p>
@@ -56,11 +56,11 @@ ImportJavscript.url("http://style.china.alibaba.com/sys/js/head/masthead/v1/stan
             <p>CSS依赖：</p>
             <pre class="brush:css">
 /*fdev-v4版，基于fdev-v4*/
-@import url("http://style.china.alibaba.com/sys/css/universal/masthead/ultimate-v1.3.css");
+@import url("http://style.c.aliimg.com/sys/css/universal/masthead/ultimate-v1.3.css");
 
 /*fdev-v3版，基于fdev-v3*/
-@import url("http://style.china.alibaba.com/fdevlib/css/fdev-v3/fdev.css");
-@import url("http://style.china.alibaba.com/sys/css/head/masthead/v1/ultimate-v1.3.css");
+@import url("http://style.c.aliimg.com/fdevlib/css/fdev-v3/fdev.css");
+@import url("http://style.c.aliimg.com/sys/css/head/masthead/v1/ultimate-v1.3.css");
             </pre>
             <h3>common分支</h3>
             <p>common分支适用于资讯首页、社区首页、推广页面</p>
@@ -69,11 +69,11 @@ ImportJavscript.url("http://style.china.alibaba.com/sys/js/head/masthead/v1/stan
             <p>CSS依赖：</p>
             <pre class="brush:css">
 /*fdev-v4版，基于fdev-v4*/
-@import url("http://style.china.alibaba.com/sys/css/universal/masthead/common-v1.3.css");
+@import url("http://style.c.aliimg.com/sys/css/universal/masthead/common-v1.3.css");
 
 /*fdev-v3版，基于fdev-v3*/
-@import url("http://style.china.alibaba.com/fdevlib/css/fdev-v3/fdev.css");
-@import url("http://style.china.alibaba.com/sys/css/head/masthead/v1/common-v1.3.css");
+@import url("http://style.c.aliimg.com/fdevlib/css/fdev-v3/fdev.css");
+@import url("http://style.c.aliimg.com/sys/css/head/masthead/v1/common-v1.3.css");
             </pre>
         </div>
         <div class="g-detail">
@@ -81,23 +81,23 @@ ImportJavscript.url("http://style.china.alibaba.com/sys/js/head/masthead/v1/stan
             <h3>ali-masthead所有js/css</h3>
             <pre>
 <strong>fdev-v4版：</strong>
-http://style.china.alibaba.com/sys/js/universal/masthead/standard-v1.3.js(source版，线上不允许直接使用)
-http://style.china.alibaba.com/sys/js/universal/masthead/standard-v1.3-min.js
-http://style.china.alibaba.com/sys/js/universal/masthead/suggestion-v1.3.js(source版，线上不允许直接使用)
-http://style.china.alibaba.com/sys/js/universal/masthead/suggestion-v1.3-min.js(由standard-v1.3.js调用，线上不允许直接使用)
+http://style.c.aliimg.com/sys/js/universal/masthead/standard-v1.3.js(source版，线上不允许直接使用)
+http://style.c.aliimg.com/sys/js/universal/masthead/standard-v1.3-min.js
+http://style.c.aliimg.com/sys/js/universal/masthead/suggestion-v1.3.js(source版，线上不允许直接使用)
+http://style.c.aliimg.com/sys/js/universal/masthead/suggestion-v1.3-min.js(由standard-v1.3.js调用，线上不允许直接使用)
 
-http://style.china.alibaba.com/sys/css/universal/masthead/standard-v1.3.css
-http://style.china.alibaba.com/sys/css/universal/masthead/ultimate-v1.3.css
-http://style.china.alibaba.com/sys/css/universal/masthead/common-v1.3.css
-http://style.china.alibaba.com/sys/css/universal/masthead/suggestion-v1.3.css(由standard-v1.3.js调用，线上不允许直接使用)
+http://style.c.aliimg.com/sys/css/universal/masthead/standard-v1.3.css
+http://style.c.aliimg.com/sys/css/universal/masthead/ultimate-v1.3.css
+http://style.c.aliimg.com/sys/css/universal/masthead/common-v1.3.css
+http://style.c.aliimg.com/sys/css/universal/masthead/suggestion-v1.3.css(由standard-v1.3.js调用，线上不允许直接使用)
 
 <strong>fdev-v3版：</strong>
-http://style.china.alibaba.com/sys/js/head/masthead/v1/standard-v1.3.js(source版，线上不允许直接使用)
-http://style.china.alibaba.com/sys/js/head/masthead/v1/standard-v1.3-min.js
+http://style.c.aliimg.com/sys/js/head/masthead/v1/standard-v1.3.js(source版，线上不允许直接使用)
+http://style.c.aliimg.com/sys/js/head/masthead/v1/standard-v1.3-min.js
 
-http://style.china.alibaba.com/sys/css/head/masthead/v1/standard-v1.3.css
-http://style.china.alibaba.com/sys/css/head/masthead/v1/ultimate-v1.3.css
-http://style.china.alibaba.com/sys/css/head/masthead/v1/common-v1.3.css
+http://style.c.aliimg.com/sys/css/head/masthead/v1/standard-v1.3.css
+http://style.c.aliimg.com/sys/css/head/masthead/v1/ultimate-v1.3.css
+http://style.c.aliimg.com/sys/css/head/masthead/v1/common-v1.3.css
             </pre>
             <!--
             <h3>ali-masthead测试功能点</h3>
