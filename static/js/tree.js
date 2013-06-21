@@ -90,54 +90,13 @@ Docs.contents=[
 			}
 	    ]
 	},
-    { "id": "fdev3", "text": "fdev3", "iconCls": "icon-cmp","cls": "package","singleClickExpand": true, children:
-        [
-	        {"id": "fdev3.home", "href": "output/fdev3/home.html","text": "fdev3 home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
-            {"id": "fdev3.css", "text": "css", "iconCls": "icon-cmp","cls": "package","singleClickExpand": true, children:
-                [
-                    {"id": "fdev3.css.reset", "href": "output/fdev3/css.reset.html","text": "reset","isClass": true,"iconCls": "icon-css","cls": "cls","leaf": true },
-                    {"id": "fdev3.css.type", "href": "output/fdev3/css.type.html","text": "type","isClass": true,"iconCls": "icon-css","cls": "cls","leaf": true },
-                    {"id": "fdev3.css.grid", "href": "output/fdev3/css.grid.html","text": "grid","isClass": true,"iconCls": "icon-css","cls": "cls","leaf": true },
-                    {"id": "fdev3.css.editor", "href": "output/fdev3/css.editor.html","text": "editor","isClass": true,"iconCls": "icon-css","cls": "cls","leaf": true }
-                ]
-            },
-            { "id": "fdev3.js","text": "javascript","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
-                [
-                    {"id": "fdev3.js.core", "href": "output/fdev3/js.core.html", "text": "core","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-                    {"id": "fdev3.js.subcookie", "href": "output/fdev3/js.subcookie.html", "text": "subcookie","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-                    {"id": "fdev3.js.ali", "href": "output/fdev3/js.ali.html", "text": "ali","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-                    {"id": "fdev3.js.bom", "href": "output/fdev3/js.bom.html", "text": "bom","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
-                ]
-            },
-            { "id": "fdev3.widget","text": "widget","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children: [
-                {"id": "fdev3.widget.Alitalk", "href": "output/fdev3/widget.Alitalk.html","text": "Alitalk: 阿里旺旺","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-                {"id": "fdev3.widget.block", "href": "output/fdev3/widget.block.html","text": "block: 遮罩","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-                {"id": "fdev3.widget.CountDowner", "href": "output/fdev3/widget.CountDowner.html","text": "CountDowner: (倒)计时","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-                {"id": "fdev3.widget.ColumStater", "href": "output/fdev3/widget.ColumStater.html","text": "ColumStater: 柱状图","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },	
-                {"id": "fdev3.widget.DataLazyload", "href": "output/fdev3/widget.DataLazyload.html","text": "DataLazyload: 数据延迟加载组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },	
-                {"id": "fdev3.widget.Marquee", "href": "output/fdev3/widget.Marquee.html","text": "Marquee: 走马灯","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-                {"id": "fdev3.widget.PCA", "href": "output/fdev3/widget.PCA.html","text": "PCA: 级联菜单","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true},
-                {"id": "fdev3.widget.Slider", "href": "output/fdev3/widget.Slider.html","text": "Slider: 焦点图轮播","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-                {"id": "fdev3.widget.SimpleTips", "href": "output/fdev3/widget.SimpleTips.html","text": "SimpleTips: tips提示框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true},
-                {"id": "fdev3.widget.FoldList", "href": "output/fdev3/widget.FoldList.html","text": "FoldList: 折叠菜单","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true},
-                {"id": "fdev3.widget.Flash", "href": "output/fdev3/widget.Flash.html","text": "Flash: Flash嵌入与通信","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true},
-                {"id": "fdev3.widget.Suggestion", "href": "output/fdev3/widget.Suggestion.html","text": "Suggestion: 提示补全","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true},
-                {"id": "fdev3.widget.Sweet", "href": "output/fdev3/widget.Sweet.html","text": "Sweet: Javascript模板语言","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true},
-                {"id": "fdev3.widget.SWFStore", "href": "output/fdev3/widget.SWFStore.html","text": "SWFStore: Flash本地存储","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true},
-                {"id": "fdev3.widget.SidePoper", "href": "output/fdev3/widget.SidePoper.html","text": "SidePoper: 浮出窗口","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true},
-                {"id": "fdev3.widget.Tab", "href": "output/fdev3/widget.Tab.html","text": "Tab: Tab切换","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true},
-                {"id": "fdev3.widget.Valid", "href": "output/fdev3/widget.Valid.html","text": "Valid: 表单验证","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true}]	
-            }
-        ]
-    
-    },
-	
+
 	{ "id": "fdui","text": "fdui","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[
 			{"id": "fdui.home", "href": "http://wd.alibaba-inc.com/ui/global/home.html","text": "fdui home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
 			{"id": "fdui.basicstyle", "href": "http://wd.alibaba-inc.com/ui/global/base.html","text": "基础样式","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
 			{"id": "fdui.startup", "href": "http://wd.alibaba-inc.com/ui/global/startup.html","text": "开始使用","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
-			{"id": "fdui.components","text": "UI组件","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+			{"id": "fdui.components","text": "UI 组件","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 				[
 			        {"id": "fdui.com.button", "href": "http://wd.alibaba-inc.com/ui/examples/button/button.html","text": "button 按钮","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 					{"id": "fdui.com.box", "href": "http://wd.alibaba-inc.com/ui/examples/box/box.html","text": "box 模块","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
@@ -160,9 +119,7 @@ Docs.contents=[
 	
 	{ "id": "tools","text": "tools","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[
-	        {"id": "tools.stylewoods", "href": "http://fd-sw.aliued.cn","text": "stylewoods: 样式森林","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
 	        {"id": "tools.yid-chart", "href": "http://fd.aliued.cn/yid-chart","text": "yid-chart: 图表组件","isClass": true,"iconCls": "icon-chart","cls": "cls","leaf": true },
-	        {"id": "tools.ie9.env", "href": "output/tools/ie9.env.html","text": "IE9测试环境","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
 	        {"id": "tools.dimg", "href": "output/tools/dimg.html","text": "动态大小图片","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true }
 	    ]
 	},
@@ -178,7 +135,6 @@ Docs.contents=[
 	},
 	{ "id": "sys","text": "通用接口/模块说明","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[
-	        {"id": "sys.opensearch", "href": "output/sys/opensearch.html","text": "opensearch","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 	        {"id": "sys.alibar", "href": "output/sys/alibar.html","text": "Alibar(页头通栏)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 	        {"id": "sys.masthead", "href": "output/sys/masthead.html","text": "Masthead(logo+搜索区)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 	        {"id": "sys.footer", "href": "output/sys/footer.html","text": "footer","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
