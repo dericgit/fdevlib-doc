@@ -131,30 +131,33 @@ Docs.contents=[
         ]
     
     },
-	{ "id": "snippets","text": "snippets","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children: [
-	    { "id": "snippets.region","text": "region","iconCls": "icon-pkg","cls": "package","singleClickExpand": true,children: [
-            {"id": "snippets.region.button", "href": "output/snippets/region.button.html","text": "button(按钮)","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
-            {"id": "snippets.region.crumbs", "href": "output/snippets/region.crumbs.html","text": "crumbs(面包屑)","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
-            {"id": "snippets.region.form", "href": "output/snippets/region.form.html","text": "form(表单)","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
-            {"id": "snippets.region.nav", "href": "output/snippets/region.nav.html","text": "nav(导航)","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
-            {"id": "snippets.region.paging", "href": "output/snippets/region.paging.html","text": "paging(分页)","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
-            {"id": "snippets.region.product", "href": "output/snippets/region.product.html","text": "product(产品展示)","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
-            {"id": "snippets.region.radius", "href": "output/snippets/region.radius.html","text": "radius(圆角)","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
-            {"id": "snippets.region.shadow", "href": "output/snippets/region.shadow.html","text": "shadow(阴影)","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
-            {"id": "snippets.region.tab", "href": "output/snippets/region.tab.html","text": "tab(标签)","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
-            {"id": "snippets.region.table", "href": "output/snippets/region.table.html","text": "table(表格)","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
-            {"id": "snippets.region.tags", "href": "output/snippets/region.tags.html","text": "tags(标签)","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
-            {"id": "snippets.region.tips", "href": "output/snippets/region.tips.html","text": "tips(提示)","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
-            {"id": "snippets.region.title", "href": "output/snippets/region.title.html","text": "title(标题)","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true}]
-	    },
-	    { "id": "snippets.function","text": "function","iconCls": "icon-pkg","cls": "package","singleClickExpand": true,children: [
-            {"id": "snippets.function.Javascript", "href": "output/snippets/function.Javascript.html","text": "Javascript(常用)","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true},
-            {"id": "snippets.function.iemorereq", "href": "output/snippets/function.iemorereq.html","text": "修复ie重复加载bug","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true},	
-            {"id": "snippets.function.resizeImage", "href": "output/snippets/function.resizeImage.html","text": "image(图片)","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true},
-			{"id": "snippets.function.OnetimeEvent", "href": "output/snippets/function.OnetimeEvent.html","text": "一次性事件处理","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true},
-            {"id": "snippets.function.regex", "href": "output/snippets/function.regex.html","text": "regex(正则)","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true}]
-        }]
-    },
+	
+	{ "id": "fdui","text": "fdui","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+		[
+			{"id": "fdui.home", "href": "http://wd.alibaba-inc.com/ui/global/home.html","text": "fdui home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
+			{"id": "fdui.basicstyle", "href": "http://wd.alibaba-inc.com/ui/global/base.html","text": "基础样式","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
+			{"id": "fdui.startup", "href": "http://wd.alibaba-inc.com/ui/global/startup.html","text": "开始使用","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
+			{"id": "fdui.components","text": "UI组件","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+				[
+			        {"id": "fdui.com.button", "href": "http://wd.alibaba-inc.com/ui/examples/button/button.html","text": "button 按钮","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fdui.com.box", "href": "http://wd.alibaba-inc.com/ui/examples/box/box.html","text": "box 模块","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fdui.com.paging", "href": "http://wd.alibaba-inc.com/ui/examples/paging/paging.html","text": "paging 分页","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fdui.com.tab", "href": "http://wd.alibaba-inc.com/ui/examples/tab/tab.html","text": "tab 标签","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fdui.com.process", "href": "http://wd.alibaba-inc.com/ui/examples/process/process.html","text": "process 进度条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fdui.com.crumbs", "href": "http://wd.alibaba-inc.com/ui/examples/crumbs/crumbs.html","text": "crumbs 面包屑","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fdui.com.dialog", "href": "http://wd.alibaba-inc.com/ui/examples/dialog/dialog.html","text": "dialog 对话框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fdui.com.tips", "href": "http://wd.alibaba-inc.com/ui/examples/tip/tip.html","text": "tips 提示","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fdui.com.datepicker", "href": "http://wd.alibaba-inc.com/ui/examples/datepicker/datepicker.html","text": "datepicker 日历","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fdui.com.combobox", "href": "http://wd.alibaba-inc.com/ui/examples/combobox/combobox.html","text": "combobox 组合下拉框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fdui.com.form", "href": "http://wd.alibaba-inc.com/ui/examples/form/form.html","text": "form 表单","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fdui.com.table", "href": "http://wd.alibaba-inc.com/ui/examples/table/table.html","text": "table 表格","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fdui.com.sidebar", "href": "http://wd.alibaba-inc.com/ui/examples/sidebar/sidebar.html","text": "sidebar 侧边工具条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fdui.com.loading", "href": "http://wd.alibaba-inc.com/ui/examples/loading/loading.html","text": "loading 加载","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+			    ]
+			}
+	    ]
+	},
+	
 	{ "id": "tools","text": "tools","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[
 	        {"id": "tools.stylewoods", "href": "http://fd-sw.aliued.cn","text": "stylewoods: 样式森林","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
