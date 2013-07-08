@@ -15,8 +15,29 @@
             </p>
             <h2>开始</h2>
             <pre class="prettyprint language-js">
-$.use('ui-tip',function(){
-	$("...").tip(options);
+
+$.use('fui-tip',function(){
+	$("...").tip({
+		graveId:""                      /* 预埋容器的ID */
+		isRoundedCorner:true,           /* 是否圆角 --*/
+		closeButton: false,             /* 是否有关闭按钮 */
+		onCloseButtonClick:$.noop,      /* 当有关闭按钮时,点击关闭按钮时回调的业务的方法*/
+		txt: 'Message',                 /* 提示文案 -- */
+		local: 1,                       /* tips 浮动的相对位置 1:top left 2:top right 3:bottom left 4:bottom right 5:left top 6:left bottom 7:right top 8:right bottom -- */
+		arrow: 9,                       /* tips的arrow相对位置 0:null 1:top left 2:top right 3:bottom left 4:bottom right 5:left top 6:left bottom 7:right top 8:right bottom 9:default -- */
+		width: 230,                     /* tips 宽度 -- */
+		dLeft: 0,                       /* 向左微调坐标 -- */
+		dTop: 0,                        /* 向上微调坐标 -- */
+		isAnim: true,                   /* 动画弹动效果是否开启 -- */
+		isHold: true,                   /* 鼠标经过时是否hold -- */
+		tipsHold: true,                 /* 鼠标经过tips固定tips */
+		keep: 200,                      /* 显示持续时间，单位毫秒 -- */
+		isOnloadShow: false,            /* 页面onload时是否显示 -- */
+		onloadHold: 5000,               /* onload时显示持续时间 -- */
+		overflowChange: true,           /* 超出边框是否反向处理 -- */
+		eListener: 'mouseenter',
+		classPrefix : ''
+	});
 });
 			</pre>
             <h2>Demo</h2>
@@ -31,15 +52,6 @@ $.use('ui-tip',function(){
                 </dd>
                 <dd>
                     动态生成预埋容器id
-                </dd>
-            </dl>
-			<dl>
-                <dt><b>boxId</b> : string</dt>
-                <dd>
-                    Default : "aissaSimpleTips"
-                </dd>
-                <dd>
-                    动态生成tips box容器id
                 </dd>
             </dl>
 			<dl>
