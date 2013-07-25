@@ -200,15 +200,25 @@ $.use('fui-tip',function(){
                 </dd>
             </dl>
 			<dl>
-                <dt><b>eListener</b> : string</dt>
+                <dt><b>showListener</b> : string</dt>
                 <dd>
-                    Default : "mouseover"
+                    Default : "mouseenter"
                 </dd>
                 <dd>
-                    i显示tip的触发方式 "mouseover" | "click" | ...
+                    显示tip的触发方式 "mouseover" | "click" | ...
+					当配置为空字符串或null时，由用户调用接口来显示tip
                 </dd>
             </dl>
-			
+			<dl>
+                <dt><b>hideListener</b> : string</dt>
+                <dd>
+                    Default : "mouseleave"
+                </dd>
+                <dd>
+                    隐藏tip的触发方式 "mouseleave" | "click" | ...
+					当配置为空字符串或null时，由用户调用接口来隐藏tip
+                </dd>
+            </dl>
         </div>
         <script src="../../static/js/app-merge.js">
         </script>
