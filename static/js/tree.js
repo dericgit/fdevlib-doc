@@ -91,27 +91,27 @@ Docs.contents=[
 	    ]
 	},
 
-	{ "id": "fdui","text": "fdui","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+	{ "id": "fui","text": "fui","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[
-			{"id": "fdui.home", "href": "http://wd.alibaba-inc.com/ui/global/home.html","text": "fdui home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
-			{"id": "fdui.basicstyle", "href": "http://wd.alibaba-inc.com/ui/global/base.html","text": "基础样式","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
-			{"id": "fdui.startup", "href": "http://wd.alibaba-inc.com/ui/global/startup.html","text": "开始使用","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
-			{"id": "fdui.components","text": "UI 组件","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+			{"id": "fui.home", "href": "http://wd.alibaba-inc.com/ui/global/home.html","text": "fui home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
+			{"id": "fui.basicstyle", "href": "http://wd.alibaba-inc.com/ui/global/base.html","text": "基础样式","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
+			{"id": "fui.startup", "href": "http://wd.alibaba-inc.com/ui/global/startup.html","text": "开始使用","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
+			{"id": "fui.components","text": "UI 组件","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 				[
-			        {"id": "fdui.com.button", "href": "http://wd.alibaba-inc.com/ui/examples/button/button.html","text": "button 按钮","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-					{"id": "fdui.com.box", "href": "http://wd.alibaba-inc.com/ui/examples/box/box.html","text": "box 模块","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-					{"id": "fdui.com.paging", "href": "http://wd.alibaba-inc.com/ui/examples/paging/paging.html","text": "paging 分页","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-					{"id": "fdui.com.tab", "href": "http://wd.alibaba-inc.com/ui/examples/tab/tab.html","text": "tab 标签","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-					{"id": "fdui.com.process", "href": "http://wd.alibaba-inc.com/ui/examples/process/process.html","text": "process 进度条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-					{"id": "fdui.com.crumbs", "href": "http://wd.alibaba-inc.com/ui/examples/crumbs/crumbs.html","text": "crumbs 面包屑","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-					{"id": "fdui.com.dialog", "href": "http://wd.alibaba-inc.com/ui/examples/dialog/dialog.html","text": "dialog 对话框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-					{"id": "fdui.com.tips", "href": "http://wd.alibaba-inc.com/ui/examples/tip/tip.html","text": "tips 提示","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-					{"id": "fdui.com.datepicker", "href": "http://wd.alibaba-inc.com/ui/examples/datepicker/datepicker.html","text": "datepicker 日历","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-					{"id": "fdui.com.combobox", "href": "http://wd.alibaba-inc.com/ui/examples/combobox/combobox.html","text": "combobox 组合下拉框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-					{"id": "fdui.com.form", "href": "http://wd.alibaba-inc.com/ui/examples/form/form.html","text": "form 表单","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-					{"id": "fdui.com.table", "href": "http://wd.alibaba-inc.com/ui/examples/table/table.html","text": "table 表格","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-					{"id": "fdui.com.sidebar", "href": "http://wd.alibaba-inc.com/ui/examples/sidebar/sidebar.html","text": "sidebar 侧边工具条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-					{"id": "fdui.com.loading", "href": "http://wd.alibaba-inc.com/ui/examples/loading/loading.html","text": "loading 加载","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+			        {"id": "fui.com.button", "href": "http://wd.alibaba-inc.com/ui/examples/button/button.html","text": "button 按钮","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fui.com.box", "href": "http://wd.alibaba-inc.com/ui/examples/box/box.html","text": "box 模块","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fui.com.paging", "href": "http://wd.alibaba-inc.com/ui/examples/paging/paging.html","text": "paging 分页","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fui.com.tab", "href": "http://wd.alibaba-inc.com/ui/examples/tab/tab.html","text": "tab 标签","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fui.com.process", "href": "http://wd.alibaba-inc.com/ui/examples/process/process.html","text": "process 进度条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fui.com.crumbs", "href": "http://wd.alibaba-inc.com/ui/examples/crumbs/crumbs.html","text": "crumbs 面包屑","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fui.com.dialog", "href": "http://wd.alibaba-inc.com/ui/examples/dialog/dialog.html","text": "dialog 对话框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fui.com.tips", "href": "http://wd.alibaba-inc.com/ui/examples/tip/tip.html","text": "tips 提示","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fui.com.datepicker", "href": "http://wd.alibaba-inc.com/ui/examples/datepicker/datepicker.html","text": "datepicker 日历","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fui.com.combobox", "href": "http://wd.alibaba-inc.com/ui/examples/combobox/combobox.html","text": "combobox 组合下拉框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fui.com.form", "href": "http://wd.alibaba-inc.com/ui/examples/form/form.html","text": "form 表单","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fui.com.table", "href": "http://wd.alibaba-inc.com/ui/examples/table/table.html","text": "table 表格","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fui.com.sidebar", "href": "http://wd.alibaba-inc.com/ui/examples/sidebar/sidebar.html","text": "sidebar 侧边工具条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+					{"id": "fui.com.loading", "href": "http://wd.alibaba-inc.com/ui/examples/loading/loading.html","text": "loading 加载","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			    ]
 			}
 	    ]
