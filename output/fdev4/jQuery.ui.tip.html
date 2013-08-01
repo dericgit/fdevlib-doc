@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="gbk" />
+        <title>jQuery.ui.simpletips</title>
+        <link href="../../static/css/app-merge.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="doc">
+            <h1>ui-tip: tip提示框</h1>
+            <h2>介绍</h2>
+            <p>
+				tip：简单提示帮助<br />
+				符合fui-tip的DOM结构和CSS。
+            </p>
+            <h2>开始</h2>
+            <pre class="prettyprint language-js">
+
+$.use('fui-tip',function(){
+	$("...").tip({
+		graveId:""                      /* 预埋容器的ID */
+		isRoundedCorner:true,           /* 是否圆角 --*/
+		closeButton: false,             /* 是否有关闭按钮 */
+		onCloseButtonClick:$.noop,      /* 当有关闭按钮时,点击关闭按钮时回调的业务的方法*/
+		txt: 'Message',                 /* 提示文案 -- */
+		local: 1,                       /* tips 浮动的相对位置 1:top left 2:top right 3:bottom left 4:bottom right 5:left top 6:left bottom 7:right top 8:right bottom -- */
+		arrow: 9,                       /* tips的arrow相对位置 0:null 1:top left 2:top right 3:bottom left 4:bottom right 5:left top 6:left bottom 7:right top 8:right bottom 9:default -- */
+		width: 230,                     /* tips 宽度 -- */
+		dLeft: 0,                       /* 向左微调坐标 -- */
+		dTop: 0,                        /* 向上微调坐标 -- */
+		isAnim: true,                   /* 动画弹动效果是否开启 -- */
+		isHold: true,                   /* 鼠标经过时是否hold -- */
+		tipsHold: true,                 /* 鼠标经过tips固定tips */
+		keep: 200,                      /* 显示持续时间，单位毫秒 -- */
+		isOnloadShow: false,            /* 页面onload时是否显示 -- */
+		onloadHold: 5000,               /* onload时显示持续时间 -- */
+		overflowChange: true,           /* 超出边框是否反向处理 -- */
+		eListener: 'mouseenter',
+		classPrefix : 'fui'             /* 若使用fui-tip,此选项必须配为 'fui' */
+	});
+});
+			</pre>
+            <h2>Demo</h2>
+            <p>
+                <a target="_blank" href="http://wd.alibaba-inc.com/ui/examples/tip/tip.html">Try it!</a>
+            </p>
+            <h2>Configs - 基础配置</h2>
+            <dl>
+                <dt><b>graveId</b> : string</dt>
+                <dd>
+                    Default : "aissaSimpleTipsBox"
+                </dd>
+                <dd>
+                    动态生成预埋容器id
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>isRoundedCorner</b> : boolean</dt>
+                <dd>
+                    Default : true
+                </dd>
+                <dd>
+                    是否有圆角
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>closeButton</b> : boolean</dt>
+                <dd>
+                    Default : false
+                </dd>
+                <dd>
+                    是否有关闭按钮
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>oncloseButtonClick</b> : function</dt>
+                <dd>
+                    Default : 空方法
+                </dd>
+                <dd>
+                    当点击关闭按钮时回调的方法
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>txt</b> : string</dt>
+                <dd>
+                    Default : "Message"
+                </dd>
+                <dd>
+                    提示时显示文案，也可是html结构
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>local</b> : int{1 ~ 8}</dt>
+                <dd>
+                    Default : 1
+                </dd>
+                <dd>
+                    tips 浮动的相对位置 1:top left 2:top right 3:bottom left 4:bottom right 5:left top 6:left bottom 7:right top 8:right bottom
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>arrow</b> : int{0 ~ 9}</dt>
+                <dd>
+                    Default : 9
+                </dd>
+                <dd>
+                    tips的arrow相对位置 0:null 1:top left 2:top right 3:bottom left 4:bottom right 5:left top 6:left bottom 7:right top 8:right bottom 9:default
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>width</b> : int</dt>
+                <dd>
+                    Default : 64
+                </dd>
+                <dd>
+                    tips 宽度数值
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>dLeft</b> : int</dt>
+                <dd>
+                    Default : 0
+                </dd>
+                <dd>
+                    向左微调坐标像素数值
+                </dd>
+            </dl>
+			
+			<dl>
+                <dt><b>dTop</b> : int</dt>
+                <dd>
+                    Default : 0
+                </dd>
+                <dd>
+                    向上微调坐标像素数值
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>isAnim</b> : boolean</dt>
+                <dd>
+                    Default : true
+                </dd>
+                <dd>
+                    动画弹动效果是否开启
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>isHold</b> : boolean</dt>
+                <dd>
+                    Default : true
+                </dd>
+                <dd>
+                    鼠标经过时是否hold
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>tipsHold</b> : boolean</dt>
+                <dd>
+                    Default : true
+                </dd>
+                <dd>
+                    鼠标移出tips后是否继续hold tips
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>keep</b> : int</dt>
+                <dd>
+                    Default : 200
+                </dd>
+                <dd>
+                    tipsHold后持续显示时间，单位毫秒
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>isOnloadShow</b> : boolean</dt>
+                <dd>
+                    Default : false
+                </dd>
+                <dd>
+                    页面onload成功后是否马上显示
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>onloadHold</b> : int</dt>
+                <dd>
+                    Default : 5000
+                </dd>
+                <dd>
+                    isOnloadShow后持续显示时间，单位毫秒
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>overflowChange</b> : boolean</dt>
+                <dd>
+                    Default : true
+                </dd>
+                <dd>
+                    超出边框是否反向处理
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>showListener</b> : string</dt>
+                <dd>
+                    Default : "mouseenter"
+                </dd>
+                <dd>
+                    显示tip的触发方式 "mouseover" | "click" | ...
+					当配置为空字符串或null时，由用户调用接口来显示tip
+                </dd>
+            </dl>
+			<dl>
+                <dt><b>hideListener</b> : string</dt>
+                <dd>
+                    Default : "mouseleave"
+                </dd>
+                <dd>
+                    隐藏tip的触发方式 "mouseleave" | "click" | ...
+					当配置为空字符串或null时，由用户调用接口来隐藏tip
+                </dd>
+            </dl>
+        </div>
+        <script src="../../static/js/app-merge.js">
+        </script>
+    </body>
+</html>

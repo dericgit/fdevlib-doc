@@ -44,7 +44,8 @@ Docs.contents=[
 							{"id": "fdev4.jQuery.ui.scrollto", "href": "output/fdev4/jQuery.ui.scrollto.html","text": "ui-scrollto（平滑滚动）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 							{"id": "fdev4.jQuery.ui.sortable", "href": "output/fdev4/jQuery.ui.sortable.html","text": "ui-sortable（排序）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 							{"id": "fdev4.jQuery.ui.tabs", "href": "output/fdev4/jQuery.ui.tabs.html","text": "ui-tabs（Tab切换）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-							{"id": "fdev4.jQuery.ui.timer", "href": "output/fdev4/jQuery.ui.timer.html","text": "ui-timer（计时器）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+							{"id": "fdev4.jQuery.ui.timer", "href": "output/fdev4/jQuery.ui.timer.html","text": "ui-timer（计时器）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fdev4.jQuery.ui.tip", "href": "output/fdev4/jQuery.ui.tip.html","text": "ui-tip（tip提示框）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 					    ]
 					},
 					{ "id": "fdev4.jQuery.util","text": "util（静态插件）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
