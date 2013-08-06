@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="gbk">
+	<title>FUI控件库</title>
+	<link rel="stylesheet" rev="stylesheet" href="http://wd.alibaba-inc.com/" />
+
+	<title>FUI控件库</title>
+
+	
+	<!-- 以下内容仅为demo页面使用，实际应用中无需引入 START--->
+	<link rel="stylesheet" rev="stylesheet" href="/ui/static/css/demo.css" />
+
+	<script src="/ui/static/js/demo.js" type="text/javascript"></script>
+	<!-- 以下内容仅为demo页面使用，实际应用中无需引入 END--->
+	
+	<style>
+		.demo-widget-dom div
+		{
+			margin:0;
+			padding:0;
+			overflow:hidden;
+		}
+	</style>
+</head>
+
+<body>
+<script type="text/javascript" src="http://style.c.aliimg.com/fdevlib/js/fdev-v4/core/fdev-min.js"></script>
+<!-- demo页面专用JS，实际应用中无需引入 START--->
+<script src="/ui/static/js/demo.skin.js" type="text/javascript"></script>
+<!-- demo页面专用JS，实际应用中无需引入 END --->
+	<div class="demo-content">
+		
+<div class="demo-widget">
+	<div class="demo-widget-dom" style="padding:80px 180px;">		
+<div id="div1" >
+ <div id="div2">
+   <div id="div3">
+	 <div id="div4">
+		<div id="div5">
+			<div id="div6">
+				<div id="div7">
+					<div id="div8" style="padding:50px 0;border:1px solid #000" align="center">
+						 目 标 对 象 
+					</div>
+				</div>
+			</div>
+		</div>
+	 </div>
+  </div>
+ </div>
+</div>	
+<script>
+(function($){
+$.use('fui-tip',function(){
+	$("#div1").tip({
+		graveId: 'div1Grave',
+		classPrefix:'fui',
+		txt: '全部默认'
+	});
+	$("#div2").tip({
+		graveId: 'div2Grave',
+		isOnloadShow: true,            /* 页面onload时是否显示 -- */
+		onloadHold: 10000000,               /* onload时显示持续时间 -- */
+		txt: '向左微调50像素',             /* 提示文案 -- */
+		closeButton:true,
+		isRoundedCorner:false,
+		classPrefix:'fui',
+		local: 2, 
+		width: 150,
+		dLeft: 50
+	});
+	$("#div3").tip({
+		graveId: 'div3Grave',
+		isOnloadShow: true,            /* 页面onload时是否显示 -- */
+		onloadHold: 10000000,               /* onload时显示持续时间 -- */
+		txt: '无关闭按钮/向右微调10像素',             /* 提示文案 -- */
+		classPrefix:'fui',
+		local: 3, 
+		width: 150,
+		dLeft: -10
+	});
+	$("#div4").tip({
+		graveId: 'div4Grave',
+		isOnloadShow: true,            /* 页面onload时是否显示 -- */
+		onloadHold: 10000000,               /* onload时显示持续时间 -- */
+		txt: '<i class="fui-ico-bulb"></i><span class="fui-txt">气泡 Tips<br>可以放dom结构的字符串</span>',             /* 提示文案 -- */
+		isRoundedCorner:false,
+		classPrefix:'fui',
+		local: 4
+		
+	});$("#div5").tip({
+		graveId: 'div5Grave',
+		isOnloadShow: true,            /* 页面onload时是否显示 -- */
+		onloadHold: 10000000,               /* onload时显示持续时间 -- */
+		txt: '关闭时回调方法',             /* 提示文案 -- */
+		closeButton:true,
+		classPrefix:'fui',
+		onCloseButtonClick:function(){alert(1);},
+		local: 5, 
+		width: 150
+		
+	});$("#div6").tip({
+		graveId: 'div6Grave',
+		isOnloadShow: true,            /* 页面onload时是否显示 -- */
+		onloadHold: 10000000,               /* onload时显示持续时间 -- */
+		txt: '向上微调50像素',             /* 提示文案 -- */
+		classPrefix:'fui',
+		local:6, 
+		width: 150,
+		dTop: 50
+	});$("#div7").tip({
+		graveId: 'div7Grave',
+		isOnloadShow: true,            /* 页面onload时是否显示 -- */
+		onloadHold: 10000000,               /* onload时显示持续时间 -- */
+		txt: '圆角',             /* 提示文案 -- */
+		classPrefix:'fui',
+		local: 7,
+		width: 150
+	});
+	var div8 = $("#div8").tip({
+		isOnloadShow: true,            /* 页面onload时是否显示 -- */
+		onloadHold: 10000000,               /* onload时显示持续时间 -- */
+		graveId: 'div8Grave',
+		txt: '点击目标元素时tip消失',             /* 提示文案 -- */
+		classPrefix:'fui',/* 显示持续时间，单位毫秒 -- */
+		local: 8, 
+		showListener:'',
+		hideListener:'',
+		width: 150
+	});
+	div8.tip("show",div8);
+	$("#div8").click(function(){
+		div8.tip("hide");
+	});	
+  });
+})(jQuery);
+</script>
+			
+	</div>		
+</div>	
+</div>
+
+</body>
+</html>
