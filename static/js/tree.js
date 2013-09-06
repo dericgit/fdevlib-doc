@@ -96,8 +96,13 @@ Docs.contents=[
 	{ "id": "fdev5","text": "fdev5 (lofty)","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[	
 			
-			{"id": "kernal.home","text": "core（框架核心）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
-				
+			{"id": "port.home","text": "port（核心服务文件）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+				{"id": "lofty/port/classic", "href": "http://lofty.fangdeng.org/api/port/classic.html","text": "lofty/port/classic","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+				{"id": "lofty/port/classic.css", "href": "http://lofty.fangdeng.org/api/port/classic.css.html","text": "lofty/port/classic.css","isClass": true,"iconCls": "icon-css","cls": "cls","leaf": true },
+				{"id": "lofty/port/wide.css", "href": "http://lofty.fangdeng.org/api/port/wide.css.html","text": "lofty/port/wide.css","isClass": true,"iconCls": "icon-css","cls": "cls","leaf": true },
+				{"id": "lofty/port/op.css", "href": "http://lofty.fangdeng.org/api/port/op.css.html","text": "lofty/port/op.css","isClass": true,"iconCls": "icon-css","cls": "cls","leaf": true },
+				{"id": "lofty/port/float.css", "href": "http://lofty.fangdeng.org/api/port/float.css.html","text": "lofty/port/float.css","isClass": true,"iconCls": "icon-css","cls": "cls","leaf": true },
+				{"id": "lofty/port/flying.css", "href": "http://lofty.fangdeng.org/api/port/flying.css.html","text": "lofty/port/flying.css","isClass": true,"iconCls": "icon-css","cls": "cls","leaf": true }
 
 			]},
 			
