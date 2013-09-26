@@ -142,6 +142,7 @@ Docs.contents=[
 						{"id": "fui.com.flashuploader", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/flashuploader/1.0/doc/index.html","text": "flashUploader flash上传组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.autocomplete", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/autocomplete/1.0/doc/index.html","text": "autocomplete 自动补全","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.position", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/position/1.0/doc/index.html","text": "position 定位组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.dragdrop", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/dragdrop/1.0/doc/index.html","text": "dragdrop 拖拽组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.sortable", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/sortable/1.0/doc/index.html","text": "sortable 排序组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 					]
 				},
