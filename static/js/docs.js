@@ -151,7 +151,14 @@
          */
         directLink: function(){
             var href = api.getSelectionModel().selNode.attributes.href;
-            window.open(location.protocol + '//' + location.host + location.pathname + href, '_blank');
+			var url;
+			if(/^((https|http)?:)/.test(href)){
+				url = href;
+			} else {
+				url = location.protocol + '//' + location.host + location.pathname + href;
+			}
+			
+            window.open(url, '_blank');
         }
     });
     
