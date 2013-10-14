@@ -74,10 +74,12 @@ Docs.contents=[
 				},
 				{"id": "fui.util","text": "util","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 					[
-						{"id": "fui.com.cookie", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/cookie/1.0/doc/index.html","text": "cookie Cookie管理","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },					
+						{"id": "fui.com.cookie", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/cookie/1.0/doc/index.html","text": "cookie Cookie管理","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },				
+						{"id": "fui.com.misc", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/misc/1.0/doc/index.html","text": "misc 工具方法","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },						
 						{"id": "fui.com.datalazyLoad", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/datalazyload/1.0/doc/index.html","text": "datalazyload 懒加载工具","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.history", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/history/1.0/doc/index.html","text": "history 浏览器历史管理","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.storage", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/storage/1.0/doc/index.html","text": "storage 本地存储","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.template", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/template/1.0/doc/index.html","text": "template 模板引擎","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.websocket", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/websocket/1.0/doc/index.html","text": "websocket","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 					]
 				},
