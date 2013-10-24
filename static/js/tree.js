@@ -2,34 +2,34 @@ Docs={};
 Docs.contents=[
 	{ "id": "home", "href": "output/home.html","text": "home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
 	
-	{ "id": "fdev5","text": "fdev5 (lofty)","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+	{ "id": "lofty","text": "lofty (fdev5)","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[	
-			{"id": "fdev5.homes", "href": "http://wd.alibaba-inc.com/ui/global/fdev5.home.html","text": "home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
-			{"id": "fdev5.base","text": "基础设施","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+			{"id": "lofty.homes", "href": "http://wd.alibaba-inc.com/ui/global/fdev5.home.html","text": "home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
+			{"id": "lofty.base","text": "基础设施","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 			
-				{ "id": "fdev5.base.css","text": "css","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+				{ "id": "lofty.base.css","text": "css","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 					[
-						{"id": "fdev5.css.reset", "href": "http://wd.alibaba-inc.com/ui/global/reset.html","text": "reset","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fdev5.css.type", "href": "http://wd.alibaba-inc.com/ui/global/type.html","text": "type","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fdev5.css.fdev5", "href": "http://wd.alibaba-inc.com/ui/global/fdev5.html","text": "fdev5.css","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{ "id": "fdev5.css.grid","text": "grid（布局）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+						{"id": "lofty.css.reset", "href": "http://wd.alibaba-inc.com/ui/global/reset.html","text": "reset","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "lofty.css.type", "href": "http://wd.alibaba-inc.com/ui/global/type.html","text": "type","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "lofty.css.lofty", "href": "http://wd.alibaba-inc.com/ui/global/fdev5.html","text": "lofty.css","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{ "id": "lofty.css.grid","text": "grid（布局）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 							[
-								{"id": "fdev5.grid.float", "href": "http://wd.alibaba-inc.com/ui/global/float.html","text": "float （浮动990px）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-								{"id": "fdev5.grid.flying", "href": "http://wd.alibaba-inc.com/ui/global/flying.html","text": "flying（双飞翼布局）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-								{"id": "fdev5.grid.op", "href": "http://wd.alibaba-inc.com/ui/global/op.html","text": "op （行业布局）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }								
+								{"id": "lofty.grid.float", "href": "http://wd.alibaba-inc.com/ui/global/float.html","text": "float （浮动990px）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+								{"id": "lofty.grid.flying", "href": "http://wd.alibaba-inc.com/ui/global/flying.html","text": "flying（双飞翼布局）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+								{"id": "lofty.grid.op", "href": "http://wd.alibaba-inc.com/ui/global/op.html","text": "op （行业布局）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }								
 							]
 						}
 					]
 				},
-				{ "id": "fdev5.base.lang","text": "js","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+				{ "id": "lofty.base.lang","text": "js","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 					[
-					{"id": "fdev5.base.jquery", "href": "http://wd.alibaba-inc.com/ui/global/jquery.html","text": "基础库","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },	
+					{"id": "lofty.base.jquery", "href": "http://wd.alibaba-inc.com/ui/global/jquery.html","text": "基础库","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },	
 					]
 				}	
 			]},
-			{"id": "fdev5.loader","text": "加载器（AMD）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
-				{"id": "fdev5.loader.home", "href": "http://wd.alibaba-inc.com/ui/global/quicks.html","text": "快速开始","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-				{"id": "fdev5.loader.grammar", "href": "http://lofty.fangdeng.org/docs/grammar.html","text": "基本语法","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+			{"id": "lofty.loader","text": "加载器（AMD）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+				{"id": "lofty.loader.home", "href": "http://wd.alibaba-inc.com/ui/global/quicks.html","text": "快速开始","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+				{"id": "lofty.loader.grammar", "href": "http://lofty.fangdeng.org/docs/grammar.html","text": "基本语法","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			]},
 			{"id": "fui.home","text": "组件框架（FUI）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 				
@@ -97,7 +97,7 @@ Docs.contents=[
 				]} */
 			
 			]},
-			{"id": "fdev5.update", "href": "http://wd.alibaba-inc.com/ui/global/update.html","text": "迁移指南","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+			{"id": "lofty.update", "href": "http://wd.alibaba-inc.com/ui/global/update.html","text": "迁移指南","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			
 			
 	    ]
