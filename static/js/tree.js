@@ -35,12 +35,17 @@ Docs.contents=[
 				
 				{"id": "fui.startup", "href": "http://wd.alibaba-inc.com/ui/global/startup.html","text": "快速开始","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
 
-				{ "id": "fui.basicjs","text": "组件基础类","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+				{ "id": "fui.basicjs","text": "基础类","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 					[
-						{"id": "fui.basicjs.base", "href": "http://wd.alibaba-inc.com/ui/base/index.html","text": "Base","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.basicjs.widget", "href": "http://wd.alibaba-inc.com/ui/base/widget.html","text": "Widget","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						//{"id": "fui.basicjs.plugin", "href": "http://wd.alibaba-inc.com/ui/examples/button/button.html","text": "Plugin","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.basicjs.relation", "href": "http://wd.alibaba-inc.com/ui/base/relation.html","text": "类继承关系","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+						
+						{"id": "fui.basicjs.class", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/class/index.html","text": "class","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.basicjs.base", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/base/doc/index.html","text": "base","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.basicjs.widget", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/widget/1.0/doc/widget.html","text": "widget","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.basicjs.plugin", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/plugin/doc/index.html","text": "plugin","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.basicjs.aop", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/aop/doc/index.html","text": "aop","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.basicjs.log", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/log/log.html","text": "log","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.basicjs.observer", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/observer/doc/index.html","text": "observer","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.basicjs.relation", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/class/relation.html","text": "类继承关系","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 					]
 				},
 			
