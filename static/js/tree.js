@@ -104,7 +104,7 @@ Docs.contents=[
 				[
 				{"id": "lofty.appconig", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/resolve/resolve.html","text": "全局配置文件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 				{"id": "lofty.simpleapp", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/context/simple/context-simple.html","text": "简单使用场景","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-				{"id": "lofty.complexapp", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/context/complex/context-complex.html","text": "复杂使用场景","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+				{"id": "lofty.complexapp", "href": "http://wd.alibaba-inc.com/ui/global/context-complex.html","text": "复杂使用场景","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 				{"id": "lofty.update", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/update/update.html","text": "Fdev4迁移指南","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			]} 
 			
