@@ -100,6 +100,11 @@ Docs.contents=[
 				}
 			
 			]},
+			{"id": "fui.start","text": "配套工具","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+				[
+				{"id": "lofty.appconig", "href": "http://wd.alibaba-inc.com/doc/page/tools/style-combine","text": "styleCombine配置说明","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+				{"id": "lofty.simpleapp", "href": "http://wd.alibaba-inc.com/doc/page/tools/style-combine-theory","text": "styleCombine 3.0原理","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+			]},
 			{"id": "fui.start","text": "开始使用","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 				[
 				{"id": "lofty.appconig", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/resolve/resolve.html","text": "全局配置文件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
