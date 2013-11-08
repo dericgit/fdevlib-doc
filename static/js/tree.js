@@ -104,7 +104,7 @@ Docs.contents=[
 				[
 				{"id": "lofty.stylecombine", "href": "http://wd.alibaba-inc.com/doc/page/tools/style-combine","text": "styleCombine配置说明","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 				{"id": "lofty.stylecombine3.0", "href": "http://wd.alibaba-inc.com/doc/page/tools/style-combine-theory","text": "styleCombine 3.0原理","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-				{"id": "lofty.fdserver", "href": "https://github.com/fangdeng/fdserver","text": "fdserver本地开发服务器","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+				{"id": "lofty.fdserver", "href": "http://wd.alibaba-inc.com/ui/global/fdserver.html","text": "fdserver本地开发服务器","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			]},
 			{"id": "fui.start","text": "开始使用","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 				[
