@@ -320,27 +320,15 @@
 
 	<script type="text/javascript">
 		lofty.config({
-			amd: true,
-			resolve: function( id ) {
-				var rStyle = /\.css(?:\?|$)/,
-					rSys = /^(universal)(\/\w+)+/;
-
-				var type = rStyle.test( id ) ? 'css/' : 'js/';
-
-				if ( rSys.test( id ) ){
-					id = 'sys/' + type + id;
-				}
-				return id;
-			},
+			amd: true
 		});
 		
 		
-			define(['universal/alibar/standardV5'], function(Alibar){
-				$(function(){
-					Alibar.hideTip();
-				})
-			});
-		
+		define(['sys/alibar/1.0','jquery'], function(Alibar,$){
+			$(function(){
+				Alibar.hideTip();
+			})
+		});
 	</script>
 
   </div>		
