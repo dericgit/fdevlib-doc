@@ -74,7 +74,8 @@ Docs.contents=[
 						{"id": "fui.com.suggestion", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/suggestion/1.0/doc/index.html","text": "suggestion 关键字搜索补全","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.tab", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/tabs/1.0/doc/index.html","text": "tab 标签","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.table", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/table/1.0/doc/index.html","text": "table 表格","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.tips", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/tip/1.0/doc/index.html","text": "tips 提示","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }	
+						{"id": "fui.com.tips", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/tip/1.0/doc/index.html","text": "tips 提示","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.timer", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/timer/1.0/doc/index.html","text": "timer 倒计时","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }	
 					]
 				},
 				{"id": "fui.util","text": "util","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
