@@ -31,7 +31,7 @@ Docs.contents=[
 			      ]
 			   },
 			   {"id": "lofty.Mbase","text": "Mobile°æ","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
-					{"id": "lofty.Mbase.jquery", "href": "wd.alibaba-inc.com/ui/global/appframework/afapi.html","text": "Appframework »ù´¡¿â","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+					{"id": "lofty.Mbase.jquery", "href": "http://wd.alibaba-inc.com/ui/global/appframework/afapi.html","text": "Appframework »ù´¡¿â","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			      ]
 			   }
 			   
