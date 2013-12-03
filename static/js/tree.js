@@ -7,25 +7,34 @@ Docs.contents=[
 			{"id": "lofty.homes", "href": "http://wd.alibaba-inc.com/ui/global/lofty.home.html","text": "home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
 			{"id": "lofty.base","text": "基础设施","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 			
-				{ "id": "lofty.base.css","text": "css","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
-					[
-						{"id": "lofty.css.reset", "href": "http://wd.alibaba-inc.com/ui/global/reset.html","text": "reset","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "lofty.css.type", "href": "http://wd.alibaba-inc.com/ui/global/type.html","text": "type","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "lofty.css.lofty", "href": "http://wd.alibaba-inc.com/ui/global/lofty.html","text": "lofty.css","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{ "id": "lofty.css.grid","text": "grid（布局）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
-							[
-								{"id": "lofty.grid.float", "href": "http://wd.alibaba-inc.com/ui/global/float.html","text": "float （浮动990px）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-								{"id": "lofty.grid.flying", "href": "http://wd.alibaba-inc.com/ui/global/flying.html","text": "flying（双飞翼布局）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-								{"id": "lofty.grid.op", "href": "http://wd.alibaba-inc.com/ui/global/op.html","text": "op （行业布局）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }								
-							]
-						}
-					]
-				},
-				{ "id": "lofty.base.lang","text": "js","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
-					[
-					{"id": "lofty.base.jquery", "href": "http://wd.alibaba-inc.com/ui/global/jquery.html","text": "基础库","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },	
-					]
-				}	
+			   {"id": "lofty.PCbase","text": "PC版","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+				
+					{ "id": "lofty.base.css","text": "css","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+						[
+							{"id": "lofty.css.reset", "href": "http://wd.alibaba-inc.com/ui/global/reset.html","text": "reset","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "lofty.css.type", "href": "http://wd.alibaba-inc.com/ui/global/type.html","text": "type","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "lofty.css.lofty", "href": "http://wd.alibaba-inc.com/ui/global/lofty.html","text": "lofty.css","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{ "id": "lofty.css.grid","text": "grid（布局）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+								[
+									{"id": "lofty.grid.float", "href": "http://wd.alibaba-inc.com/ui/global/float.html","text": "float （浮动990px）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+									{"id": "lofty.grid.flying", "href": "http://wd.alibaba-inc.com/ui/global/flying.html","text": "flying（双飞翼布局）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+									{"id": "lofty.grid.op", "href": "http://wd.alibaba-inc.com/ui/global/op.html","text": "op （行业布局）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }								
+								]
+							}
+						]
+					},
+					{ "id": "lofty.base.lang","text": "js","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+						[
+						{"id": "lofty.base.jquery", "href": "http://wd.alibaba-inc.com/ui/global/jquery.html","text": "jQuery 基础库","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },	
+						]
+					}
+			      ]
+			   },
+			   {"id": "lofty.Mbase","text": "Mobile版","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+					{"id": "lofty.Mbase.jquery", "href": "wd.alibaba-inc.com/ui/global/appframework/afapi.html","text": "Appframework 基础库","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+			      ]
+			   }
+			   
 			]},
 			{"id": "lofty.loader","text": "加载器（AMD）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 				{"id": "lofty.loader.home", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/loader/quicks.html","text": "快速开始","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
