@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="gbk" />
+	<title>Animate</title>
+	<link href="../../static/css/app-merge.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="doc">
+        <h1>Animate.css</h1>
+        <h2>介绍</h2>
+        <p>
+            Animate.css包含了一堆很酷、有趣、跨浏览器的动画，你可以方便在项目中使用。<br />
+        </p>
+        <h2>版本</h2>
+        <ul>
+            <li>
+                目前引的线上的animate.css库
+            </li>
+            <li>
+                后续会将animate.css按动画类型拆分，拆分成各个小文件。并结合其他库或者一些动画效果产出新的动画类型。
+            </li>
+        </ul>
+        <h2>开始</h2>
+        <h3>引入CSS</h3>
+        <pre class="prettyprint language-css">
+// 文件暂未上传
+@import url("animate.min.css");</pre>
+        <h3>addClass</h3>
+        <pre class="prettyprint language-js">
+$('#element').addClass('animated bounceOutLeft');</pre>
+        <h3>duration、delay、times</h3>
+        <pre class="prettyprint language-css">
+/* vendor为浏览器前缀 */
+#element {
+    -vendor-animation-duration: 3s;
+    -vendor-animation-delay: 2s;
+    -vendor-animation-iteration-count: infinite;
+}</pre>
+        <h2>效果预览</h2>
+        <p>
+            <a target="_blank" href="http://wd.alibaba-inc.com/lightweb/blog/animate.html">效果预览</a>
+        </p>
+    </div>
+    <script src="../../static/js/app-merge.js">
+    </script>
+</body>
+</html>
