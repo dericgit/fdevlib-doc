@@ -34,13 +34,13 @@
                     @create Denis 2012.02.04 4.0版
                 </li>
                 <li>
-                    @update jianping.shenjp
+                    @create terence.wangt 2013.10.10 Fdev5 版
                 </li>
             </ul>
             <h2>使用说明</h2>
             <ul>
                 <li>
-                    alibar目前暂时由前端架构组负责维护，且只有一套版本
+                    alibar目前由前端通用负责维护，且只有一套版本
                 </li>
                 <li>
                     目前全站alibar标准请移步 <a title="中国站公共导航应用规范" href="http://wiki.aliued.cn/index.php/中国站公共导航统一规范">中国站公共导航应用规范</a>
@@ -53,14 +53,24 @@
 </pre>
 
 <b>JS文件：</b><br/>
-<b>基于FDev4前端框架的页面：</b>                    
+
+<b>基于FDev5前端框架的页面：</b> <br/>
+需要在模块的 AMD 依赖列表中引入 alibar id 即可：                   
+<pre class="prettyprint">
+define(['sys/alibar/1.0'], function(Alibar){
+  $(function(){
+	...
+  })
+});
+</pre>
+
+
+<b>基于FDev4前端框架的页面：</b>   <br/>
+需要手工引入standard-v4-min.js文件                 
                     <pre class="prettyprint language-html">
 &lt;script src="http://style.c.aliimg.com/sys/js/universal/alibar/standard-v4-min.js">&lt;/script>
 </pre>
-<b>基于FDev3前端框架的页面：</b>                    
-                    <pre class="prettyprint language-html">
-&lt;script src="http://style.c.aliimg.com/sys/js/head/alibar/standard-v4-min.js">&lt;/script>
-</pre>
+
                 </li>
                 <li>
                     调用方式及合理位置如下：
@@ -80,9 +90,7 @@
 &lt;/body>
 </pre>
                 </li>
-                <li>
-                    老版Alibar文档，请移步 <a title="老版Alibar文档" href="alibar.old.html">老版Alibar文档</a>
-                </li>
+
             </ul>
             <h2>Methods</h2>
                 <ul>
@@ -95,7 +103,7 @@
                 </ul>
             <h2>Demo</h2>
             <ul>
-                <li><a title="Alibar+Masthead" href="http://page.china.alibaba.com/denis/test1.html" target="_blank">Alibar+Masthead</a></li>
+                <li><a title="Alibar+Masthead" href="../../examples/fdev4/alibar.html" target="_blank">Alibar</a></li>
             </ul>
             <h2>个性化</h2>
             <ul>
