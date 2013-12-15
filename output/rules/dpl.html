@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="gbk" />
+        <title>重点DPL checklist</title>
+		 <link href="http://style.c.aliimg.com/fdevlib/css/lofty/port/lofty.css" rel="stylesheet"></link> 
+        <link href="http://style.c.aliimg.com/fdevlib/css/lofty/ui/table/1.0/front/table-min.css" rel="stylesheet">
+		<style>
+			.fui-table .title {
+				font-weight:bold;
+				background-color:#f6f6f6;
+			}
+			.fui-table .finished {
+				display: inline-block;
+				width: 16px;
+				height: 16px;
+				background: url(http://gtms03.alicdn.com/tps/i3/T1Bk1PFodcXXaSQP_X-16-16.png) no-repeat;
+			}
+			.fui-table .wait {
+				display:block;
+				padding: 2px 0;
+				background: #F7EC20;
+			}
+			.fui-table .noneed {
+				display:block;
+			}
+			.fui-table a,
+			.fui-table a:visited {
+				color: #1e50a2;
+			}
+			.fui-table a:hover {
+				color: #ff7300;
+				text-decoration: none;
+			}
+			
+		</style>
+    </head>
+    <body>
+        <table class="fui-table fui-table-l">
+			<tbody>
+
+			<tr>
+				<td rowspan="2" class="title">分组</td>
+				<td rowspan="2" class="title">业务页面</td>
+				<td colspan="5" class="title">全站通用DPL</td>
+			</tr>
+
+			<tr>
+				<td class="title">Alibar</td>
+				<td class="title">Footer</td>
+				<td class="title">搜索头</td>
+				<td class="title">回到顶部</td>
+				<td class="title">响应式布局</td>
+			</tr>
+			
+			<tr>
+				<td rowspan="11" class="title">网站前台</td>
+				<td><a target="_blank" href="http://www.1688.com">1688首页</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="finished col-footer"></em></td>
+				<td><em class="finished col-masthead"></em></td>
+				<td><em class="wait col-top">非标准</em></td>
+				<td><em class="wait col-top">不支持</em></td>
+			</tr>
+			
+			<tr>
+				<td><a target="_blank" href="http://s.1688.com/selloffer/offer_search.htm?keywords=MP3&n=y">产品搜索</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="finished col-footer"></em></td>
+				<td><em class="wait col-masthead">2014/1/30</em></td>
+				<td><em class="finished col-top"></em></td>
+				<td><em class="finished col-responsive"></em></td>
+			</tr>
+			
+			<tr>
+				<td><a target="_blank" href="http://s.1688.com/company/company_search.htm?keywords=mp3&n=y">公司搜索</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="finished col-footer"></em></td>
+				<td><em class="wait col-masthead">2014/1/30</em></td>
+				<td><em class="finished col-top"></em></td>
+				<td><em class="finished col-responsive"></em></td>
+			</tr>
+			
+			<tr>
+				<td><a target="_blank" href="http://s.1688.com/newbuyoffer/buyoffer_search.htm?keywords=mp3&button_click=top&n=y">求购搜索</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="finished col-footer"></em></td>
+				<td><em class="wait col-masthead">2014/1/30</em></td>
+				<td><em class="finished col-top"></em></td>
+				<td><em class="wait col-responsive">2014/1/30</em></td>
+			</tr>
+			
+			<tr>
+				<td><a target="_blank" href="http://go.1688.com/buyoffer/22987790.htm">采购必应前台</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="finished col-footer"></em></td>
+				<td><em class="finished col-masthead"></em></td>
+				<td><em class="wait col-top">无</em></td>
+				<td><em class="wait col-responsive">不支持</em></td>
+			</tr>
+			
+			<tr>
+				<td><a target="_blank" href="http://detail.1688.com/offer/925964967.html">offerDetail</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="wait col-footer">非标准</em></td>
+				<td><em class="wait col-masthead">非标准</em></td>
+				<td><em class="wait col-top">非标准</em></td>
+				<td><em class="wait col-responsive">不支持</em></td>
+			</tr>
+			
+			<tr>
+				<td><a target="_blank" href="http://ncyongyi.1688.com/page/creditdetail.htm">旺铺首页</a></td>
+				<td><em class="wait col-alibar">非标准</em></td>
+				<td><em class="wait col-footer">非标准</em></td>
+				<td><em class="wait col-masthead">无</em></td>
+				<td><em class="wait col-top">非标准</em></td>
+				<td><em class="wait col-responsive">不支持</em></td>
+			</tr>
+			
+			<tr>
+				<td><a target="_blank" href="http://page.1688.com/cp/cp1.html">公司黄页首页</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="finished col-footer"></em></td>
+				<td><em class="wait col-masthead">非标准</em></td>
+				<td><em class="wait col-top">非标准</em></td>
+				<td><em class="wait col-responsive">不支持</em></td>
+			</tr>
+			
+			<tr>
+				<td><a target="_blank" href="http://me.1688.com/testfree.htm">个人主页</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="finished col-footer"></em></td>
+				<td><em class="noneed col-masthead">/</em></td>
+				<td><em class="wait col-top">非标准</em></td>
+				<td><em class="wait col-responsive">不支持</em></td>
+			</tr>
+			
+			<tr>
+				<td><a target="_blank" href="http://quan.1688.com/">商友圈</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="finished col-footer"></em></td>
+				<td><em class="wait col-masthead">非标准</em></td>
+				<td><em class="wait col-top">非标准</em></td>
+				<td><em class="wait col-responsive">不支持</em></td>
+			</tr>
+			
+			<tr>
+				<td><a target="_blank" href="http://club.1688.com/">以商会友</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="finished col-footer"></em></td>
+				<td><em class="wait col-masthead">非标准</em></td>
+				<td><em class="wait col-top">缺失</em></td>
+				<td><em class="wait col-responsive">不支持</em></td>
+			</tr>
+			
+			<tr>
+				<td rowspan="10" class="title">我的阿里</td>
+				<td><a target="_blank" href="http://work.1688.com/home/page/index.htm?#channel=home">我的阿里首页</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="noneed col-footer">/</em></td>
+				<td><em class="noneed col-masthead">/</em></td>
+				<td><em class="finished col-top"></em></td>
+				<td><em class="noneed col-responsive">/</em></td>
+			</tr>
+			
+			<tr>
+				<td><a target="_blank" href="http://work.1688.com/home/page/index.htm?#channel=purchase">采购首页</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="noneed col-footer">/</em></td>
+				<td><em class="noneed col-masthead">/</em></td>
+				<td><em class="finished col-top"></em></td>
+				<td><em class="noneed col-responsive">/</em></td>
+			</tr>
+			
+			<tr>
+				<td><a target="_blank" href="http://work.1688.com/home/page/index.htm?#channel=sale">供应首页</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="noneed col-footer">/</em></td>
+				<td><em class="noneed col-masthead">/</em></td>
+				<td><em class="finished col-top"></em></td>
+				<td><em class="noneed col-responsive">/</em></td>
+			</tr>
+			<tr>
+				<td><a target="_blank" href="http://work.1688.com/home/page/index.htm?#channel=sns">社区首页</a></td>
+				<td><em class="finished col-alibar"></em></td>
+				<td><em class="noneed col-footer">/</em></td>
+				<td><em class="noneed col-masthead">/</em></td>
+				<td><em class="finished col-top"></em></td>
+				<td><em class="noneed col-responsive">/</em></td>
+			</tr>
+		   </tbody>
+		</table>
+    </body>
+	
+	
+</html>
