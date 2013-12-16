@@ -218,7 +218,6 @@ Docs.contents=[
 			}
 	    ]
 	},
-<<<<<<< HEAD
 	
 	{ "id": "fdev5","text": "fdev5 (lofty)","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[	
@@ -312,11 +311,7 @@ Docs.contents=[
 	    ]
 	},
 	
-	{ "id": "tools","text": "tools","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
-=======
-
 	{ "id": "tools","text": "工具集","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
->>>>>>> 3eb7c178476ba89086d9fb91f92daf48cfc018f1
 		[
 	        {"id": "tools.ju", "href": "http://wd.alibaba-inc.com/ju","text": "方凳聚","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true }
 	    ]
