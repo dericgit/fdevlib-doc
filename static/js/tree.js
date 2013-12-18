@@ -4,7 +4,7 @@ Docs.contents=[
 	
 	{ "id": "lofty","text": "lofty (fdev5)","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[	
-			{"id": "lofty.homes", "href": "http://wd.alibaba-inc.com/ui/global/lofty.home.html","text": "home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
+			{"id": "lofty.homes", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/home/lofty.html","text": "home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
 			{"id": "lofty.base","text": "基础设施","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 			
 			   {"id": "lofty.PCbase","text": "PC版","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
@@ -33,7 +33,19 @@ Docs.contents=[
 			   {"id": "lofty.Mbase","text": "Mobile版","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 					{"id": "lofty.Mbase.jquery", "href": "http://wd.alibaba-inc.com/ui/global/appframework/afapi.html","text": "Appframework 基础库","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			      ]
-			   }
+			   },
+			   
+			   { "id": "fui.basicjs","text": "公共基础类","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+					[
+						{"id": "fui.basicjs.class", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/class/index.html","text": "class","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.basicjs.base", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/base/doc/index.html","text": "base","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.basicjs.plugin", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/plugin/doc/index.html","text": "plugin","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.basicjs.aop", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/aop/doc/index.html","text": "aop","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.basicjs.log", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/log/log.html","text": "log","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.basicjs.observer", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/observer/doc/index.html","text": "observer","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.basicjs.relation", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/class/relation.html","text": "类继承关系","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+					]
+				}
 			   
 			]},
 			{"id": "lofty.loader","text": "加载器（AMD）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
@@ -44,22 +56,9 @@ Docs.contents=[
 				
 				{"id": "fui.startup", "href": "http://wd.alibaba-inc.com/ui/global/startup.html","text": "快速开始","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
 
-				{ "id": "fui.basicjs","text": "基础类","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
-					[
-						
-						{"id": "fui.basicjs.class", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/class/index.html","text": "class","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.basicjs.base", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/base/doc/index.html","text": "base","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.basicjs.widget", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/widget/1.0/doc/widget.html","text": "widget","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.basicjs.plugin", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/plugin/doc/index.html","text": "plugin","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.basicjs.aop", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/aop/doc/index.html","text": "aop","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.basicjs.log", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/log/log.html","text": "log","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.basicjs.observer", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/observer/doc/index.html","text": "observer","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.basicjs.relation", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/class/relation.html","text": "类继承关系","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
-					]
-				},
-			
 				{"id": "fui.components","text": "ui","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 					[
+						{"id": "fui.basicjs.widget", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/widget/1.0/doc/widget.html","text": "widget 组件基类","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.autocomplete", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/autocomplete/1.0/doc/index.html","text": "autocomplete 自动补全","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.button", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/button/1.0/doc/index.html","text": "button 按钮","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.box", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/box/1.0/doc/index.html","text": "box 模块","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
