@@ -52,68 +52,77 @@ Docs.contents=[
 				{"id": "lofty.loader.home", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/loader/quicks.html","text": "快速开始","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 				{"id": "lofty.loader.grammar", "href": "http://lofty.fangdeng.org/docs/grammar.html","text": "基本语法","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			]},
-			{"id": "fui.home","text": "组件框架（PC）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+			
+			
+			{"id": "ui.home","text": "组件框架","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 				
-				{"id": "fui.startup", "href": "http://wd.alibaba-inc.com/ui/global/startup.html","text": "快速开始","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
+				{"id": "fui.home","text": "PC 版","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+				
+					{"id": "fui.startup", "href": "http://wd.alibaba-inc.com/ui/global/startup.html","text": "快速开始","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
 
-				{"id": "fui.components","text": "ui","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
-					[
-						{"id": "fui.basicjs.widget", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/widget/1.0/doc/widget.html","text": "widget 组件基类","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.autocomplete", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/autocomplete/1.0/doc/index.html","text": "autocomplete 自动补全","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.button", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/button/1.0/doc/index.html","text": "button 按钮","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.box", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/box/1.0/doc/index.html","text": "box 模块","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.combobox", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/combobox/1.0/doc/index.html","text": "combobox 组合下拉框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.crumbs", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/path/1.0/doc/index.html","text": "crumbs 面包屑","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.dialog", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/dialog/1.0/doc/index.html","text": "dialog 对话框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.datepicker", "href": "http://wd.alibaba-inc.com/ui/examples/datepicker/datepicker.html","text": "datepicker 日历","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.dragdrop", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/dragdrop/1.0/doc/index.html","text": "dragdrop 拖拽组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.flash", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/flash/1.0/doc/index.html","text": "flash Flash基础组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.flashclipboard", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/flashclipboard/1.0/doc/index.html","text": "flashClipboard flash剪切板","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.flashuploader", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/flashuploader/1.0/doc/index.html","text": "flashUploader flash上传组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.form", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/form/1.0/doc/index.html","text": "form 表单","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.loading", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/loading/1.0/doc/index.html","text": "loading 加载","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.paging", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/paging/1.0/doc/index.html","text": "paging 分页","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.placeholder", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/placeholder/1.0/doc/index.html","text": "placeholder 输入提示","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.position", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/position/1.0/doc/index.html","text": "position 定位组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.process", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/process/1.0/doc/index.html","text": "process 进度条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },						
-						{"id": "fui.com.progressbar", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/progressbar/1.0/doc/index.html","text": "progressbar 进度条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.sidebar", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/sidebar/1.0/doc/index.html","text": "sidebar 侧边工具条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.sortable", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/sortable/1.0/doc/index.html","text": "sortable 排序组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.suggestion", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/suggestion/1.0/doc/index.html","text": "suggestion 关键字搜索补全","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.tab", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/tabs/1.0/doc/index.html","text": "tab 标签","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.table", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/table/1.0/doc/index.html","text": "table 表格","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.tips", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/tip/1.0/doc/index.html","text": "tips 提示","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.timer", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/timer/1.0/doc/index.html","text": "timer 倒计时","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }	
-					]
-				},
-				{"id": "fui.util","text": "util","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
-					[
-						{"id": "fui.com.cookie", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/cookie/1.0/doc/index.html","text": "cookie Cookie管理","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },									
-						{"id": "fui.com.datalazyLoad", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/datalazyload/1.0/doc/index.html","text": "datalazyload 懒加载工具","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.history", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/history/1.0/doc/index.html","text": "history 浏览器历史管理","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.misc", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/misc/1.0/doc/index.html","text": "misc 工具方法","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },	
-						{"id": "fui.com.storage", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/storage/1.0/doc/index.html","text": "storage 本地存储","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.template", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/template/1.0/doc/index.html","text": "template 模板引擎","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.websocket", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/websocket/1.0/doc/index.html","text": "websocket通信","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
-					]
-				},
-				{"id": "fui.alicn","text": "alicn","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
-					[
-						{"id": "fui.com.alitalk", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/alicn/alitalk/1.0/doc/index.html","text": "alitalk 阿里旺旺","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.aliuser", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/alicn/aliuser/1.0/doc/index.html","text": "aliuser 阿里用户信息","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.icons", "href": "http://wd.alibaba-inc.com/ui/global/icons.html","text": "icons 全站图标","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.geoinfo", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/alicn/geoinfo/1.0/doc/index.html","text": "geoinfo 地区联动","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.now", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/alicn/now/1.0/doc/index.html","text": "now 时间同步器","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.subcookie", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/alicn/subcookie/1.0/doc/index.html","text": "subcookie 前端专用cookie字段","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
-					]
-				}
-			
-			]},
-			{"id": "mfui.home","text": "组件框架（Mobile）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+					{"id": "fui.components","text": "ui","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+						[
+							{"id": "fui.basicjs.widget", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/widget/1.0/doc/widget.html","text": "widget 组件基类","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.autocomplete", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/autocomplete/1.0/doc/index.html","text": "autocomplete 自动补全","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.button", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/button/1.0/doc/index.html","text": "button 按钮","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.box", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/box/1.0/doc/index.html","text": "box 模块","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.combobox", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/combobox/1.0/doc/index.html","text": "combobox 组合下拉框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.crumbs", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/path/1.0/doc/index.html","text": "crumbs 面包屑","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.dialog", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/dialog/1.0/doc/index.html","text": "dialog 对话框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.datepicker", "href": "http://wd.alibaba-inc.com/ui/examples/datepicker/datepicker.html","text": "datepicker 日历","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.dragdrop", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/dragdrop/1.0/doc/index.html","text": "dragdrop 拖拽组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.flash", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/flash/1.0/doc/index.html","text": "flash Flash基础组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.flashclipboard", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/flashclipboard/1.0/doc/index.html","text": "flashClipboard flash剪切板","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.flashuploader", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/flashuploader/1.0/doc/index.html","text": "flashUploader flash上传组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.form", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/form/1.0/doc/index.html","text": "form 表单","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.loading", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/loading/1.0/doc/index.html","text": "loading 加载","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.paging", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/paging/1.0/doc/index.html","text": "paging 分页","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.placeholder", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/placeholder/1.0/doc/index.html","text": "placeholder 输入提示","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.position", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/position/1.0/doc/index.html","text": "position 定位组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.process", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/process/1.0/doc/index.html","text": "process 进度条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },						
+							{"id": "fui.com.progressbar", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/progressbar/1.0/doc/index.html","text": "progressbar 进度条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.sidebar", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/sidebar/1.0/doc/index.html","text": "sidebar 侧边工具条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.sortable", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/sortable/1.0/doc/index.html","text": "sortable 排序组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.suggestion", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/suggestion/1.0/doc/index.html","text": "suggestion 关键字搜索补全","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.tab", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/tabs/1.0/doc/index.html","text": "tab 标签","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.table", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/table/1.0/doc/index.html","text": "table 表格","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.tips", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/tip/1.0/doc/index.html","text": "tips 提示","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.timer", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/timer/1.0/doc/index.html","text": "timer 倒计时","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }	
+						]
+					},
+					{"id": "fui.util","text": "util","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+						[
+							{"id": "fui.com.cookie", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/cookie/1.0/doc/index.html","text": "cookie Cookie管理","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },									
+							{"id": "fui.com.datalazyLoad", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/datalazyload/1.0/doc/index.html","text": "datalazyload 懒加载工具","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.history", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/history/1.0/doc/index.html","text": "history 浏览器历史管理","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.misc", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/misc/1.0/doc/index.html","text": "misc 工具方法","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },	
+							{"id": "fui.com.storage", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/storage/1.0/doc/index.html","text": "storage 本地存储","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.template", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/template/1.0/doc/index.html","text": "template 模板引擎","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.websocket", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/util/websocket/1.0/doc/index.html","text": "websocket通信","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+						]
+					},
+					{"id": "fui.alicn","text": "alicn","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+						[
+							{"id": "fui.com.alitalk", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/alicn/alitalk/1.0/doc/index.html","text": "alitalk 阿里旺旺","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.aliuser", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/alicn/aliuser/1.0/doc/index.html","text": "aliuser 阿里用户信息","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.icons", "href": "http://wd.alibaba-inc.com/ui/global/icons.html","text": "icons 全站图标","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.geoinfo", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/alicn/geoinfo/1.0/doc/index.html","text": "geoinfo 地区联动","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.now", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/alicn/now/1.0/doc/index.html","text": "now 时间同步器","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.subcookie", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/alicn/subcookie/1.0/doc/index.html","text": "subcookie 前端专用cookie字段","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+						]
+					}
+				
+				]},
 				
 				
-			
+				{"id": "mfui.home","text": "Mobile 版","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+					
+					
+				
+				]}
 			]},
+			
+			
 			{"id": "fui.tools","text": "配套工具","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 				[
 				{"id": "lofty.stylecombine", "href": "http://wd.alibaba-inc.com/doc/page/tools/style-combine","text": "styleCombine配置说明","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
