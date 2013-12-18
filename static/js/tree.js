@@ -7,7 +7,7 @@ Docs.contents=[
 			{"id": "lofty.homes", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/home/lofty.html","text": "home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
 			{"id": "lofty.base","text": "基础设施","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 			
-			   {"id": "lofty.PCbase","text": "PC版","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+			   {"id": "lofty.PCbase","text": "PC 版","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 				
 					{ "id": "lofty.base.css","text": "css","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 						[
@@ -30,7 +30,7 @@ Docs.contents=[
 					}
 			      ]
 			   },
-			   {"id": "lofty.Mbase","text": "Mobile版","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+			   {"id": "lofty.Mbase","text": "Mobile 版","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 					{"id": "lofty.Mbase.jquery", "href": "http://wd.alibaba-inc.com/ui/global/appframework/afapi.html","text": "Appframework 基础库","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			      ]
 			   },
@@ -48,11 +48,11 @@ Docs.contents=[
 				}
 			   
 			]},
-			{"id": "lofty.loader","text": "加载器（AMD）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+			{"id": "lofty.loader","text": "加载器","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 				{"id": "lofty.loader.home", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/loader/quicks.html","text": "快速开始","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 				{"id": "lofty.loader.grammar", "href": "http://lofty.fangdeng.org/docs/grammar.html","text": "基本语法","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			]},
-			{"id": "fui.home","text": "组件框架（FUI）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+			{"id": "fui.home","text": "组件框架（PC）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 				
 				{"id": "fui.startup", "href": "http://wd.alibaba-inc.com/ui/global/startup.html","text": "快速开始","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true },
 
@@ -107,6 +107,11 @@ Docs.contents=[
 						{"id": "fui.com.subcookie", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/alicn/subcookie/1.0/doc/index.html","text": "subcookie 前端专用cookie字段","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 					]
 				}
+			
+			]},
+			{"id": "mfui.home","text": "组件框架（Mobile）","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+				
+				
 			
 			]},
 			{"id": "fui.tools","text": "配套工具","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
