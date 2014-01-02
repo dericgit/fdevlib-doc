@@ -25,12 +25,13 @@ Docs.contents=[
 					},
 					{ "id": "lofty.base.lang","text": "js","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 						[
-						{"id": "lofty.base.jquery", "href": "http://wd.alibaba-inc.com/ui/global/jquery.html","text": "jQuery 基础库","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },	
+						{"id": "lofty.base.jquery", "href": "http://wd.alibaba-inc.com/ui/global/jquery.html","text": "jQuery 基础库","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 						]
 					}
 			      ]
 			   },
 			   {"id": "lofty.Mbase","text": "Mobile 版","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
+					{"id": "lofty.Mbase.rules", "href": "http://wd.alibaba-inc.com/fdevlib/output/rules/mobile.html","text": "H5 应用开发规范","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 					{"id": "lofty.Mbase.jquery", "href": "http://wd.alibaba-inc.com/ui/global/appframework/afapi.html","text": "Appframework 基础库","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			      ]
 			   },

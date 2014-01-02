@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="gbk"/>
+		<title>lofty 前端基础框架</title>
+        <link rel="shortcut icon" href="favicon.ico" />
+		<link href="http://wd.alibaba-inc.com/ui/static/css/item.min.css" rel="stylesheet" />
+		<style>
+			.doc .main h3 {
+				border-left: none;
+				padding-left: 10px;
+				color: #333;
+			}
+			
+			
+		</style>
+    </head>
+    <body>
+		<div class="doc" id="doc">
+			<div class="main">
+
+					
+				<h1>1688前端无线开发规范
+				</h1>
+
+				
+				<h2>前言</h2>
+				<p>阿里主客 APP 是我们绝大多数 H5 应用的载体，为保证主客 APP 及 H5 应用的性能和体验，我们约定了如下开发规范：</p>
+				
+				<h2>H5 插件分类</h2>
+				<p>主客上的 H5 插件分两种类型：一种是 <b>AppCache 插件</b>，属于长时间在主客上存在的应用，如 detail、交易等；另一种是 <b>WAP 插件</b>，属于短时间在主客上出现的页面，如活动运营页面。 这两种 H5 应用的开发模式是有区别的，故分开描述：</p>
+				
+				<h2>AppCache 插件开发规范：</h2>
+				
+				<h3>1、申请新Aone分支</h3>
+				
+				<p>AppCache 类型的 H5 插件，必须申请新的 Aone 分支来开发，分支的命名规则为 <b>style-m-xxx</b>， 其中xxx为应用自定义的名字，如 style-m-detail。 </p>
+				
+				<p>此 style 分支为该 H5 应用专属，分支的所有文件都将最终同步到阿里主客中，不允许存放任何与分支无关的代码。 </p>
+				
+				<p>分支中所有文件经过 style 编译脚本合并压缩后的<b>总大小不得超过 3M</b>，否则编译报错！。 </p>
+				
+				<h3>2、建议的分支目录结构</h3>
+				
+				<img src="./folder.png"/>
+				
+				
+				<br/>
+				<ul style="padding-left:15px;">
+					<li>index.htm 为应用的入口页面。</li>
+					<li>app.config.js 为应用的配置文件，格式参照：<a href="http://wd.alibaba-inc.com/fdevlib/#lofty.appconig" target="_blank">app.config.js</a>。</li>
+					<li>index.htm 为应用的入口文件。</li>
+					<li>modules 为应用的功能模块目录，各子模块创建目录，将所属的js、css、模板文件(tpl)、图片资源统一放置在该目录下（是否还需要子目录根据应用的设计需要）。</li>
+					<li>pages 目录放置的是应用的其它入口页面（非必须）。</li>
+				</ul>
+				<br/>
+				<h3>3、开发规范</h3>
+
+				<ul style="padding-left:15px;">
+					<li>必须使用 lofty 基础框架，因为 lofty loader 会调用主客的缓存 API，默认从缓存中加载资源文件，有利于性能提升。</li>
+					
+					<li>基础组件必须公用 lofty-mobile 中的组件库，如果组件不满足需求，可以提供更优版本的组件，但是<b>不允许在业务分支中建设单独的基础组件库</b>，需要尽可能减小主客的体积，并把基础组件库共建的更加强大。</li>
+					
+					<li>对于 html 页面上同步引入的 script、link、img 等<b>分支内部的 style 资源</b>，请使用<b>相对路径</b>引用，这样主客可以找到缓存文件，以更好的使用缓存机制。 </li>
+					
+					<li>对于 CSS 中引用的背景图片资源，也使用<b>相对路径</b>引用。 </li>
+					
+					<li>对于 JS 不允许再使用 merge 文件，CSS 尽量少用 merge 文件，因为无法最大化利用主客的缓存机制，尤其是破坏了对基础库、公共组件的缓存，造成主客app体积过大。（使用lofty框架异步加载解决）</li>
+					
+					<li>模板渲染引擎统一使用<a href="http://wd.alibaba-inc.com/fdevlib/#fui.com.template" target="_blank"> artTemplate </a>。</li>
+				</ul>
+				
+				
+				<h2>WAP 插件开发规范：</h2>
+				
+				<ul style="padding-left:15px;">
+					<li>必须启用 styleCombine。CSS、JS走CDN，AMD模块做动态合并。（由于不缓存数据，故需要减少请求数，利用好浏览器自身的缓存）</li>
+					
+					<li>不需要使用独立分支。</li>
+					
+					<li>需要长期在主客中存在的页面不适合做成wap插件形式。</li>
+
+				</ul>
+
+			
+			</div>
+		</div>
+		<script src="http://wd.alibaba-inc.com/ui/static/js/item.min.js"></script>
+		<script>
+			prettyPrint();
+		</script>
+</body>
+</html>
