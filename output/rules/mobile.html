@@ -65,7 +65,7 @@
 					
 					<li>对于 CSS 中引用的背景图片资源，也使用<b>相对路径</b>引用。 </li>
 					
-					<li>对于 JS 不允许再使用 merge 文件，CSS 尽量少用 merge 文件，因为无法最大化利用主客的缓存机制，尤其是破坏了对基础库、公共组件的缓存，造成主客app体积过大。（使用lofty框架异步加载解决）</li>
+					<li>对于 JS <b>不允许再使用 merge 文件</b>，CSS 尽量少用 merge 文件，因为无法最大化利用主客的缓存机制，尤其是破坏了对基础库、公共组件的缓存，造成主客app体积过大。（使用lofty框架异步加载解决）</li>
 					
 					<li>模板渲染引擎统一使用<a href="http://wd.alibaba-inc.com/fdevlib/#fui.com.template" target="_blank"> artTemplate </a>。</li>
 				</ul>
@@ -81,7 +81,11 @@
 					<li>需要长期在主客中存在的页面不适合做成wap插件形式。</li>
 
 				</ul>
-
+				
+				<h2>应用框架的使用</h2>
+				<p>
+					旺铺线正在建设 <a href="http://docs.alibaba-inc.com/display/ccbu/Butterfly+Mobile" target="_blank">butterfly mobile </a> 版本，属于单页面应用的解决方案。各位可以关注下。appframework UI 也属于应用框架的一种，但是耦合性比较强，仅推荐当下非常紧急的业务使用。同时鼓励各位在业务实际中积累产出更好的应用架构。
+				</p>
 			
 			</div>
 		</div>
