@@ -74,9 +74,11 @@
 				<h2>WAP 插件开发规范：</h2>
 				
 				<ul style="padding-left:15px;">
-					<li>必须启用 styleCombine。CSS、JS走CDN，AMD模块做动态合并。（由于不缓存数据，故需要减少请求数，利用好浏览器自身的缓存）</li>
+					<li>与目前普通 web 页面的开发模式基本相同，统一使用 lofty 基础框架。</li>
 					
-					<li>不需要使用独立分支。</li>
+					<li>不需要使用独立 style 分支。</li>
+					
+					<li>必须启用 styleCombine。CSS、JS 走 CDN，AMD 模块做动态合并。（由于不缓存数据，故需要减少请求数，利用好浏览器自身的缓存）</li>
 					
 					<li>需要长期在主客中存在的页面不适合做成wap插件形式。</li>
 
