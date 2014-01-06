@@ -49,9 +49,37 @@
 				<ul style="padding-left:15px;">
 					<li>index.htm 为应用的入口页面。</li>
 					<li>app.config.js 为应用的配置文件，格式参照：<a href="http://wd.alibaba-inc.com/fdevlib/#lofty.appconig" target="_blank">app.config.js</a>。</li>
+					<li>package.json:
+						<pre style="margin-left: 24px;" class="prettyprint language-html">
+						   <code>
+ { "name" : "产品名称",
+   "version" : "产品版本，遵循三位版本号：x.x.x", 每次发布都需要更新（便于回滚）
+   "description" : "产品描述",
+   "main" : "主文件，默认是index.html",
+   "dependencies":"依赖项，一个产品可以依赖多个一个产品，参数格式为： {'butterfly': '2.0','appframework': '1.0.0'}"
+ }
+						   </code>
+						</pre>
+					</li>
+					<li>config/route.json（<b>非必须</b>）:采用restful风格，提供自定义URL的能力，默认情况下，主客会自动将 http://productName.hostName/***.htm 这样的 url 路由到 pages 目录去查找对应的页面用户可以自行创建更优雅的 URL 或者只是简单匹配
+						<pre style="margin-left: 24px;" class="prettyprint language-html">
+						   <code>
+
+ http method    uri Pattetn                    real invoker
+ *              /clients/{id}                  Clients.js
+ get            /clients/{<[0-9]+>id}          Clients.htm
+ post           /client/{<[0-9]+>id}/{name}    Client.doSave
+						   </code>
+						</pre>
+					</li>
 					<li>index.htm 为应用的入口文件。</li>
 					<li>modules 为应用的功能模块目录，各子模块创建目录，将所属的js、css、模板文件(tpl)、图片资源统一放置在该目录下（是否还需要子目录根据应用的设计需要）。</li>
 					<li>pages 目录放置的是应用的其它入口页面（非必须）。</li>
+					
+
+					
+					<li>模板渲染引擎推荐使用<a href="http://wd.alibaba-inc.com/fdevlib/#fui.com.template" target="_blank"> artTemplate </a>，文件后缀统一为 *.tpl。</li>
+					
 				</ul>
 				<br/>
 				<h3>3、开发规范</h3>
