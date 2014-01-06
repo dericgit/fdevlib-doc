@@ -38,7 +38,7 @@
 				
 				<p>此 style 分支为该 H5 应用专属，分支的所有文件都将最终同步到阿里主客中，不允许存放任何与分支无关的代码。 </p>
 				
-				<p>分支中所有文件经过 style 编译脚本合并压缩后的<b>总大小不得超过 3M</b>，否则编译报错！。 </p>
+				<p>分支中所有文件经过 style 编译脚本合并压缩后的<b>总大小不得超过 3M</b>，否则编译报错！ </p>
 				
 				<h3>2、建议的分支目录结构</h3>
 				
@@ -57,19 +57,16 @@
    "description" : "产品描述",
    "main" : "主文件，默认是index.html",
    "dependencies":"依赖项，一个产品可以依赖多个一个产品，参数格式为： {'butterfly': '2.0','appframework': '1.0.0'}"
- }
-						   </code>
+ }</code>
 						</pre>
 					</li>
 					<li>config/route.json（<b>非必须</b>）:采用restful风格，提供自定义URL的能力，默认情况下，主客会自动将 http://productName.hostName/***.htm 这样的 url 路由到 pages 目录去查找对应的页面用户可以自行创建更优雅的 URL 或者只是简单匹配
 						<pre style="margin-left: 24px;" class="prettyprint language-html">
 						   <code>
-
  http method    uri Pattetn                    real invoker
  *              /clients/{id}                  Clients.js
  get            /clients/{<[0-9]+>id}          Clients.htm
- post           /client/{<[0-9]+>id}/{name}    Client.doSave
-						   </code>
+ post           /client/{<[0-9]+>id}/{name}    Client.doSave </code>
 						</pre>
 					</li>
 					<li>index.htm 为应用的入口文件。</li>
