@@ -18,7 +18,8 @@ Docs.contents=[
 								[
 									{"id": "lofty.grid.float", "href": "http://wd.alibaba-inc.com/ui/global/float.html","text": "float （浮动990px）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 									{"id": "lofty.grid.flying", "href": "http://wd.alibaba-inc.com/ui/global/flying.html","text": "flying（双飞翼布局）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-									{"id": "lofty.grid.op", "href": "http://wd.alibaba-inc.com/ui/global/op.html","text": "op （行业布局）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }								
+									{"id": "lofty.grid.op", "href": "http://wd.alibaba-inc.com/ui/global/op.html","text": "op （行业布局）","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+									{"id": "lofty.grid.rules", "href": "http://wd.alibaba-inc.com/output/rules/grid.html","text": "1688 栅格规范","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }								
 								]
 							}
 						]
