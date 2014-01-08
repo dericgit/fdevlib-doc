@@ -120,7 +120,8 @@ Docs.contents=[
 				{"id": "mfui.home","text": "Mobile 版","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 					{"id": "mfui.components","text": "ui","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 						[
-							{"id": "mfui.scroller", "href": "http://style.c.aliimg.com/fdevlib/js/lofty-mobile/ui/scroller/1.0/example/scroller.htm","text": "scroller组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "mfui.scroller", "href": "http://style.c.aliimg.com/fdevlib/js/lofty-mobile/ui/scroller/1.0/doc/scroller.htm","text": "scroller组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "mfui.css3animate", "href": "http://style.c.aliimg.com/fdevlib/js/lofty-mobile/ui/css3animate/1.0/doc/css3animate.html","text": "css3Animate","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 						]
 					},
 					{"id": "mfui.util","text": "util","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
