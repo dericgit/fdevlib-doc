@@ -118,9 +118,16 @@ Docs.contents=[
 				
 				
 				{"id": "mfui.home","text": "Mobile °æ","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
-					
-					
-				
+					{"id": "mfui.components","text": "ui","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+						[
+							{"id": "mfui.scroller", "href": "http://style.c.aliimg.com/fdevlib/js/lofty-mobile/ui/scroller/1.0/example/scroller.htm","text": "scroller×é¼þ","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						]
+					},
+					{"id": "mfui.util","text": "util","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+						[
+							
+						]
+					}
 				]}
 			]},
 			
