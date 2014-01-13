@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="gbk" />
+	<title>Animate</title>
+	<link href="../../static/css/app-merge.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="doc">
+        <h1>Animate.css</h1>
+        <h2>介绍</h2>
+        <p>
+            Animate.css包含了一堆很酷、有趣、跨浏览器的动画，你可以方便在项目中使用。其中包含弹入弹出、渐现渐隐、滑入滑出、翻转、旋转、光速效果等动画<br />
+        </p>
+        <p>
+            最好配合modernizr.js一起使用，实现渐进增强效果。
+        </p>
+        <h2>开始</h2>
+        <h3>引入CSS</h3>
+        <pre class="prettyprint language-css">
+// min文件
+@import url("http://style.c.aliimg.com/fdevlib/css/gallery/animate/animate-min.css");</pre>
+        <h3>源文件</h3>
+        <pre class="prettyprint language-css">
+@import url("http://style.c.aliimg.com/fdevlib/css/gallery/animate/core.css"); // 核心           
+@import url("http://style.c.aliimg.com/fdevlib/css/gallery/animate/attention.css"); // Attention Seekers 
+@import url("http://style.c.aliimg.com/fdevlib/css/gallery/animate/bouncein.css"); // BounceIn(弹入)
+@import url("http://style.c.aliimg.com/fdevlib/css/gallery/animate/bounceout.css"); // BounceOut(弹出)
+@import url("http://style.c.aliimg.com/fdevlib/css/gallery/animate/fadein.css"); // FadeIn(渐现)
+@import url("http://style.c.aliimg.com/fdevlib/css/gallery/animate/fadeout.css"); // FadeOut(渐隐) 
+@import url("http://style.c.aliimg.com/fdevlib/css/gallery/animate/slider.css"); // Slider(滑入滑出)
+@import url("http://style.c.aliimg.com/fdevlib/css/gallery/animate/flip.css"); // Flip(翻转)
+@import url("http://style.c.aliimg.com/fdevlib/css/gallery/animate/rotatein.css"); // RotateIn(旋转进入) 
+@import url("http://style.c.aliimg.com/fdevlib/css/gallery/animate/rotateout.css"); // RotateOut(旋转消失)
+@import url("http://style.c.aliimg.com/fdevlib/css/gallery/animate/lightspeed.css"); // LightSpeed(光速效果)
+@import url("http://style.c.aliimg.com/fdevlib/css/gallery/animate/special.css"); // Special(其他特殊动画)</pre> 
+        <h3>addClass</h3>
+        <pre class="prettyprint language-js">
+// animated是统一标识，bounceOutLeft是动画类型
+$('#element').addClass('animated bounceOutLeft');</pre>
+        <h3>duration、delay、times</h3>
+        <pre class="prettyprint language-css">
+/* 默认动画持续时间为1s，无delay，执行1次 */
+/* vendor为浏览器前缀 */
+#element {
+    -vendor-animation-duration: 3s;
+    -vendor-animation-delay: 2s;
+    -vendor-animation-iteration-count: infinite;
+}</pre>
+        <h2>效果预览</h2>
+        <p>
+            <a target="_blank" href="http://wd.alibaba-inc.com/lightweb/public/blog/animate.html">效果预览</a>
+        </p>
+    </div>
+    <script src="../../static/js/app-merge.js">
+    </script>
+</body>
+</html>
