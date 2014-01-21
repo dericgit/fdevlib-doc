@@ -83,7 +83,7 @@ Docs.contents=[
 							{"id": "fui.com.position", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/position/1.0/doc/index.html","text": "position 定位组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 							{"id": "fui.com.process", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/process/1.0/doc/index.html","text": "process 进度条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },						
 							{"id": "fui.com.progressbar", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/progressbar/1.0/doc/index.html","text": "progressbar 进度条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-							{"id": "fui.com.sidebar", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/sidebar/1.0/doc/index.html","text": "sidebar 侧边工具条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+							{"id": "fui.com.sidebar", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/sidebar/2.0/doc/index.html","text": "sidebar 侧边工具条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 							{"id": "fui.com.sortable", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/sortable/1.0/doc/index.html","text": "sortable 排序组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 							{"id": "fui.com.suggestion", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/suggestion/1.0/doc/index.html","text": "suggestion 关键字搜索补全","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 							{"id": "fui.com.tab", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/tabs/1.0/doc/index.html","text": "tab 标签","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
