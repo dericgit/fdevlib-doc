@@ -36,6 +36,9 @@
                 <li>
                     @create terence.wangt 2013.10.10 Fdev5 版
                 </li>
+				<li>
+                    @create terence.wangt 2014.01.21 增加黑色背景版
+                </li>
             </ul>
             <h2>使用说明</h2>
             <ul>
@@ -43,15 +46,21 @@
                     alibar目前由前端通用负责维护，且只有一套版本
                 </li>
                 <li>
-                    目前全站alibar标准请移步 <a title="中国站公共导航应用规范" href="http://wiki.aliued.cn/index.php/中国站公共导航统一规范">中国站公共导航应用规范</a>
+                    目前全站alibar标准请移步 <a title="全站alibar规范" href="http://demo.alibaba-inc.com/categories/92/projects/6590">全站alibar规范</a>
                 </li>
                 <li>
                     alibar对应的CSS及JS文件需要产品自己引入：<br/>
-<b>CSS文件：</b>                          
+<b>灰色背景CSS文件：</b>                          
                     <pre class="prettyprint language-html">
 &lt;link href="http://style.c.aliimg.com/sys/css/universal/alibar/standard-v4-min.css" rel="stylesheet"/>                        
 </pre>
 
+<b>黑色背景CSS文件：</b>  
+<pre class="prettyprint language-html">
+&lt;link href="http://style.c.aliimg.com/sys/css/universal/alibar/standard-v4-black.css" rel="stylesheet"/>                        
+</pre>
+
+<br/>
 <b>JS文件：</b><br/>
 
 <b>基于FDev5前端框架的页面：</b> <br/>
@@ -64,7 +73,7 @@ define(['sys/alibar/1.0'], function(Alibar){
 });
 </pre>
 
-
+<br/>
 <b>基于FDev4前端框架的页面：</b>   <br/>
 需要手工引入standard-v4-min.js文件                 
                     <pre class="prettyprint language-html">
@@ -104,6 +113,8 @@ define(['sys/alibar/1.0'], function(Alibar){
             <h2>Demo</h2>
             <ul>
                 <li><a title="Alibar+Masthead" href="../../examples/fdev4/alibar.html" target="_blank">Alibar</a></li>
+				
+				 <li><a title="Alibar+Masthead" href="../../examples/fdev4/alibar-black.html" target="_blank">Alibar-黑色</a></li>
             </ul>
             <h2>个性化</h2>
             <ul>
