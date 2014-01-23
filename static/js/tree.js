@@ -327,9 +327,9 @@ Docs.contents=[
 			{"id": "tools.yid-chart", "href": "http://fd.aliued.cn/yid-chart","text": "yid-chart: 图表组件","isClass": true,"iconCls": "icon-chart","cls": "cls","leaf": true }
 	    ]
 	},
-    { "id": "css3","text": "css3","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+    { "id": "css3","text": "CSS3效果动画","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[
-			{"id": "css3.animate", "href": "output/css3/animate.html", "text": "animate", "isClass": true, "iconCls": "icon-css", "cls": "cls", "leaf": true},
+			{"id": "css3.animate", "href": "output/css3/animate.html", "text": "animate(CSS动画)", "isClass": true, "iconCls": "icon-css", "cls": "cls", "leaf": true},
 	        {"id": "css3.bg.clip", "href": "output/css3/bg-clip.html","text": "background-clip","isClass": true,"iconCls": "icon-css","cls": "cls","leaf": true },
 	        {"id": "css3.bg.origin", "href": "output/css3/bg-origin.html","text": "background-origin","isClass": true,"iconCls": "icon-css","cls": "cls","leaf": true },
             {"id": "css3.bg.repeat", "href": "output/css3/bg-repeat.html","text": "background-repeat","isClass": true,"iconCls": "icon-css","cls": "cls","leaf": true },
