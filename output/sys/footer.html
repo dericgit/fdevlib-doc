@@ -1,36 +1,34 @@
-<!DOCTYPE html>  
-<html>  
-    <head>  
-        <meta charset="gbk"/>  
-        <title>Footer Todo</title>  
-        <link href="/fdevlib/static/css/merge.css" rel="stylesheet"/>
-        <script src="/fdevlib/static/js/merge-fdev3.js"></script>
-        <style>
-        .g-detail h2{font-size:20px;font-weight:700;margin-top:15px;}
-        </style>
-    </head>  
-    <body>  
-        <div class="g-memo">
-            <h2>Footer相关说明</h2>
-            <h3>
-                更新日志</h3>
-            <ul class="update-histroy">
-                <li>2011.03.10 发布0.1 beta版</li>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="gbk" />
+        <title>Alibar</title>
+        <link href="http://wd.alibaba-inc.com/ui/static/css/item.min.css" rel="stylesheet" />
+
+    </head>
+    <body>
+        <div class="doc" id="doc">
+		  <div class="main">
+            <h1>Footer</h1>
+            <h2>介绍</h2>
+            <ul>
+                <li>
+                    全站统一的页脚组件
+                </li>
             </ul>
-        </div>
-        <div class="g-detail">
-            <h2>使用者须知</h2>
+
+			<h2 style="color:#333">使用者须知：</h2>
             <h3>Footer模板位置：</h3>
-            <pre>CMS: 请在页面属性中选择“全站统一尾部V0（不带css）”(前端制作页面)或“全站统一尾部（带css）”（运营自建页面）
-VM: templates/external/common/footer/footer.vm</pre>
+            <p>CMS: 请在页面属性中选择“全站统一尾部V0（不带css）”(前端制作页面)或“全站统一尾部（带css）”（运营自建页面）<p/>
+			<p>VM: templates/external/common/footer/footer.vm<p/>
+
             <h3>Footer CSS依赖：</h3>
-            <pre class="brush:css">
-@import url("http://style.c.aliimg.com/sys/css/universal/footer/standard-v0.css");
-/*此CSS不依赖于任何css*/
+            <pre class="prettyprint language-css">
+  @import url("http://style.c.aliimg.com/sys/css/universal/footer/standard-v0.css");
+  /*此CSS不依赖于任何css*/
             </pre>
-        </div>
-        <div class="g-detail">
-            <h2>开发者须知</h2>
+			
+			<h2 style="color:#333">开发者须知：</h2>
             <h3>footer所有分身</h3>
             <pre>CMS：
     global_footer_v0（不带css）
@@ -41,12 +39,15 @@ SHTML:
     shtml/sites/footer.html</pre>
             <h3>footer css</h3>
             <p>同Footer CSS依赖</p>
-        </div>
-        <div class="g-detail">
-            <h3>提建议给开发者</h3>
+			
+			<h3>提建议给开发者</h3>
             作者：Edgar<br />
             邮件：<a href="mailto:mail@edgarhoo.net">mail@edgarhoo.net</a><br />
             旺旺：edgarhoo（中文站）
+
+		 </div>
         </div>
-    </body>  
+        <script src="../../static/js/app-merge.js">
+        </script>
+    </body>
 </html>

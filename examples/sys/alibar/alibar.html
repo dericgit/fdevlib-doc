@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="gbk">
+	<title>FUI控件库</title>
+	
+	<!-- Demo页面自身所需的基本样式，全局Reset文件在demo.min.css中引入 --->
+	<link rel="stylesheet" rev="stylesheet" href="http://wd.alibaba-inc.com/ui/static/css/demo.min.css" />
+	
+	<link rel="stylesheet" rev="stylesheet" href="http://style.c.aliimg.com/sys/css/universal/alibar/standard-v4.css" />
+	
+
+</head>
+
+<body>
+
+ <div id="alibar" class="fd-clr">
+    <div id="alibar-v4">
+        <div class="alibar-container">
+          	<div class="mobile">
+                <a href="http://3g.1688.com/?tracelog=wireless_alibar">手机版</a>
+            </div>
+            <div class="account-sign-status">
+                <ul>
+                    <li class="account-welcome vipInfoBox">
+                        <span class="sayHello">您好，</span>
+                        <div class="nav-title">
+							<span class="account-id"><a href="http://me.1688.com/" target="_blank" title="wtxidian2012">wtxidian2012</a></span>
+              			</div>
+                      	<div class="nav-content"></div>
+                    </li>
+                    <li class="account-msg fd-hide">
+                        <a rel="nofollow" href="http://work.1688.com/app/messageCenter.htm" title="查看你的消息" target="_blank">消息</a>
+                    </li>
+                    <li class="account-signin">
+                        <a rel="nofollow" href="https://login.1688.com/member/signin.htm?Done=http%3A%2F%2Fs.1688.com%2Fselloffer%2Foffer_search.htm%3Fspm%3Da260k.635.794253813.17%26_input_charset%3Dutf-8%26n%3Dy%26keywords%3D%25E6%25BB%2591%25E5%258A%25A8%25E8%25BD%25B4%25E6%2589%25BF" title="请登录" data-trace="cn_alibar_login" target="_self">请登录</a>
+                    </li>
+                    <li class="account-signup">
+                        <a rel="nofollow" href="http://member.1688.com/member/join/enterprise_join.htm" title="免费注册" data-trace="cn_alibar_reg" target="_blank">免费注册</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="topnav">
+                <ul>
+                    <li class="list-first">
+                        <div class="nav-title">
+                            <a href="http://www.1688.com/" title="阿里巴巴首页" data-trace="cn_alibar_home" target="_blank">阿里巴巴首页</a>
+                        </div>
+                    </li>
+                    <li class="topnav-myali extra">
+                        <div class="nav-title">
+                            <a rel="nofollow" class="nav-arrow" href="http://my.1688.com/member/myalibaba.htm" title="我的阿里" data-trace="cn_alibar_myali" target="_blank">我的阿里</a>
+                        </div>
+                        <div class="nav-content">
+                            <dl>
+                                <dt>
+                                    采购
+                                </dt>
+                                <dd>
+                                    <a rel="nofollow" href="http://work.1688.com/app/buyList.htm" title="已买到货品" data-trace="cn_alibar_myali_bought" target="_blank">已买到货品</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://go.1688.com/buyoffer/post_offer.htm?tracelog=bing_post_visit_alibar&amp;source_type=alibar&amp;formtype=full" title="发布询价单" data-trace="cn_alibar_myali_rfq_post" target="_blank">发布询价单</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://work.1688.com/app/RFQManage.htm" title="管理询价单" data-trace="cn_alibar_myali_rfq_manage" target="_blank">管理询价单</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    销售
+                                </dt>
+                                <dd>
+                                    <a rel="nofollow" href="http://work.1688.com/app/saleList.htm" title="已卖出货品" data-trace="cn_alibar_myali_sold" target="_blank">已卖出货品</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://work.1688.com/app/orderPost.htm" title="发布供应产品" data-trace="cn_alibar_myali_offer_post" target="_blank">发布供应产品</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://work.1688.com/app/orderManage.htm" title="管理供应产品" data-trace="cn_alibar_myali_offer_manage" target="_blank">管理供应产品</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    工具
+                                </dt>
+                                <dd>
+                                    <a rel="nofollow" href="http://apps.1688.com/page/alibabawinportinfo.htm" title="管理旺铺" data-trace="cn_alibar_myali_winport" target="_blank">管理旺铺</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://view.1688.com/cms/itbu/app/index.html" title="应用市场" data-trace="cn_alibar_myali_pc" target="_blank">应用市场</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://56.1688.com/" title="物流服务" data-trace="cn_alibar_myali_56" target="_blank">物流服务</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="topnav-purchaselist extra topnav-purchaselist-empty">
+                        <div class="nav-title">
+                            <a rel="nofollow" class="nav-arrow" href="http://order.1688.com/order/purchase/purchase_list.htm" title="进货单" data-trace="cn_alibar_cart" target="_blank"><span>&nbsp;</span>进货单(<em>0</em>)</a>
+                        </div>
+                        <div class="nav-content">
+                            <div class="product-list fd-clr" style="height: auto;">
+                                <p class="">
+                                    进货单中暂未添加任何货品
+                                </p>
+                            </div>
+                            <div class="purchase-info fd-clr">
+                                <a class="btn-y" title="查看进货单" href="http://order.1688.com/order/purchase/purchase_list.htm" target="_blank" data-trace="cn_alibar_purchaselist_list">查看进货单</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="">
+                        <div class="nav-title">
+                            <a rel="nofollow" href="http://work.1688.com/app/myFavorites.htm" title="收藏夹" data-trace="cn_alibar_myali_fav" target="_blank">收藏夹</a>
+                        </div>
+                    </li>
+                    <li class="topnav-tp extra">
+                        <div class="nav-title">
+                            <a rel="nofollow" class="nav-arrow" href="http://cxt.1688.com/" title="诚信通服务" data-trace="cn_alibar_cxt" target="_blank">诚信通服务</a>
+                        </div>
+                        <div class="nav-content">
+                            <dl>
+                                <dd>
+                                    <a rel="nofollow" class="contact-us-new" href="http://view.1688.com/cms/promotion/ppcall6188.html" title="免费联系我们" data-trace="top_alibar_cxt_contact" target="_blank">免费联系我们</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" class="privilege-experience" href="http://cxt.1688.com/vip.html" title="特权体验馆" data-trace="top_alibar_cxt_vipexe" target="_blank">特权体验馆</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" class="newmember-application" href="http://cxt.1688.com/register.html" title="新会员申请" data-trace="top_alibar_cxt_newmeber" target="_blank">新会员申请</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" class="oldmember-xufei" href="http://cxt.1688.com/xufei.html" title="老会员续费" data-trace="top_alibar_cxt_oldmember" target="_blank">老会员续费</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" class="special-offer" href="http://cxt.1688.com/pro.html" title="优惠活动" data-trace="top_alibar_cxt_coupon" target="_blank">优惠活动</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="">
+                        <div class="nav-title">
+                            <a href="http://gys.1688.com" title="供应商专区" data-trace="cn_alibar_supplier" target="_blank">供应商专区</a>
+                        </div>
+                    </li>
+                    <li class="topnav-kf extra">
+                        <div class="nav-title">
+                            <a class="nav-arrow" rel="nofollow" href="http://114.1688.com/kf/index.html?tracelog=kf_2012_budian_shouyetongyi" title="客服中心" target="_blank">客服中心</a>
+                        </div>
+                        <div class="nav-content">
+                            <dl>
+                                <dd>
+                                    <a rel="nofollow" href="http://page.1688.com/html/service/aliguide/seller_user_guide.html?tracelog=kf_2012_budian_shouyetongyi1" title="新手上路" target="_blank">新手上路</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://114.1688.com/kf/question/mjbz.html?tracelog=kf_2012_budian_shouyetongyi3" title="买家帮助" target="_blank">买家帮助</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://114.1688.com/kf/question/sellerbz.html?tracelog=kf_2012_budian_shouyetongyi2" title="卖家帮助" target="_blank">卖家帮助</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://my.1688.com/member/sso/sso.do?to_url=http%3A%2F%2Fportal.manjushri.alibaba.com%2Fportal%2Fportal%2Finit.jspa%3FinstanceCode%3DALIR00000161%26scenceCode%3DSCEN00002864%26digest%3D224839255030dd74f7c6c08c54dd78e2&amp;unlogin_url=http%3A%2F%2Fportal.manjushri.alibaba.com%2Fportal%2Fportal%2Finit.jspa%3FinstanceCode%3DALIR00000161%26scenceCode%3DSCEN00002864%26digest%3D224839255030dd74f7c6c08c54dd78e2" title="在线咨询" target="_blank">在线咨询</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="topnav-sitemap extra">
+                        <div class="nav-title">
+                            <a class="nav-arrow" href="http://page.1688.com/system/sitemap.html" title="网站导航" data-trace="cn_alibar_allservice" target="_blank">网站导航</a>
+                        </div>
+                        <div class="nav-content">
+                            <dl>
+                                <dt>
+                                    安全交易
+                                </dt>
+                                <dd>
+                                    <a rel="nofollow" href="http://page.1688.com/buyerprotection/buyer.html" title="买家保障" data-trace="cn_alibar_allservice_ buyerprotection" target="_blank">买家保障</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://page.1688.com/trust/rztx.html" title="商家认证" data-trace="cn_alibar_allservice_rztx" target="_blank">商家认证</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://view.1688.com/cms/safe/xyzf/zwz/alipay/zfbyxy.html" title="支付宝" data-trace="cn_alibar_allservice_alipay" target="_blank">支付宝</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://levit.1688.com/complain/cmtPost/selectPage.htm" title="投诉举报" data-trace="cn_alibar_allservice_flag" target="_blank">投诉举报</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    常用工具
+                                </dt>
+                                <dd>
+                                    <a rel="nofollow" href="http://view.1688.com/cms/shangji/sjzl.html" title="商机助理" data-trace="cn_alibar_allservice_assistant" target="_blank">商机助理</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://view.1688.com/cms/promotion/shangjikuaidi/200904/index.html" title="商机快递" data-trace="cn_alibar_allservice_subscribe" target="_blank">商机快递</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://wangwang.1688.com/" title="阿里旺旺" data-trace="cn_alibar_allservice_alitalk" target="_blank">阿里旺旺</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://3g.1688.com/" title="手机阿里" data-trace="cn_alibar_allservice_mobile" target="_blank">手机阿里</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    资讯社区
+                                </dt>
+                                <dd>
+                                    <a rel="nofollow" href="http://info.1688.com/ " title="商业资讯" data-trace="cn_alibar_allservice_info" target="_blank">商业资讯</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://club.1688.com/forum/index.html" title="论坛" data-trace="cn_alibar_allservice_forum" target="_blank">论坛</a>&nbsp;&nbsp;<a rel="nofollow" href="http://blog.1688.com/" title="博客" data-trace="cn_alibar_allservice_blog" target="_blank">博客</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://quan.1688.com/" title="商友圈" data-trace="cn_alibar_allservice_quan" target="_blank">商友圈</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://baike.1688.com/" title="生意经" data-trace="cn_alibar_allservice_baike" target="_blank">生意经</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    商机市场
+                                </dt>
+                                <dd>
+                                    <a rel="nofollow" href="http://yl.1688.com/" title="原材料" data-trace="cn_alibar_allservice_yl" target="_blank">原材料</a>&nbsp;&nbsp;<a rel="nofollow" href="http://industry.1688.com/" title="工业品" data-trace="cn_alibar_allservice_industry" target="_blank">工业品</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://fuzhuang.1688.com/" title="服装" data-trace="cn_alibar_allservice_fz" target="_blank">服装</a>&nbsp;&nbsp;<a rel="nofollow" href="http://fushi.1688.com/" title="箱包" data-trace="cn_alibar_allservice_fs" target="_blank">鞋包</a>&nbsp;&nbsp;<a rel="nofollow" href="http://home.1688.com/" title="家居" data-trace="cn_alibar_allservice_jiaju" target="_blank">家居</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://smart.1688.com/" title="小商品" data-trace="cn_alibar_allservice_xsp" target="_blank">小商品</a>&nbsp;&nbsp;<a rel="nofollow" href="http://food.1688.com/" title="农食" data-trace="cn_alibar_allservice_food" target="_blank">农食</a>&nbsp;&nbsp;<a rel="nofollow" href="http://daili.1688.com/" title="代理加盟" data-trace="cn_alibar_allservice_daili" target="_blank">代理</a>
+                                </dd>
+                                <dd>
+                                    <a rel="nofollow" href="http://yang.1688.com/" title="样品中心" data-trace="cn_alibar_allservice_samplecenter" target="_blank">样品中心</a>
+                                  <a rel="nofollow" href="http://tao.1688.com/?tracelog=hipage_home_alibar_enavigation" title="淘宝货源" target="_blank">淘宝货源</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="alibar-tips fd-hide">
+            <div class="tips-content">
+              <div class="tip-logo"></div>
+              <div class="tip-text">阿里巴巴中国站和淘宝网会员帐号体系、《阿里巴巴服务条款》升级，完成登录后两边同时登录成功。<a href="http://page.1688.com/2012/notice.html" target="_blank" class="fd-right detail-link">查看详情&gt;&gt;</a></div>
+              <div class="tips-close"></div>
+            </div>
+            <div class="tips-top"></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="demo-content">
+	
+<div class="demo-widget">
+ <div class="demo-widget-dom">	
+   
+    <script src="http://style.c.aliimg.com/fdevlib/js/lofty/port/lofty.js"></script>
+    <script src="http://style.c.aliimg.com/fdevlib/js/gallery/jquery/jquery-latest.js"></script>
+
+	<script type="text/javascript">
+		lofty.config({
+			amd: true
+		});
+		
+		
+		define(['sys/alibar/1.0','jquery'], function(Alibar,$){
+			$(function(){
+				Alibar.hideTip();
+			})
+		});
+	</script>
+
+  </div>		
+ </div>	
+</div>
+
+<!-- Demo页面自身所需的JS，实际项目中无需引入 --->
+<script src="http://wd.alibaba-inc.com/ui/static/js/demo.min.js" type="text/javascript"></script>	
+</body>
+
+</html>

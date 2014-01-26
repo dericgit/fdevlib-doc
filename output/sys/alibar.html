@@ -3,7 +3,7 @@
     <head>
         <meta charset="gbk" />
         <title>Alibar</title>
-        <link href="../../static/css/app-merge.css" rel="stylesheet"/>
+        <link href="http://wd.alibaba-inc.com/ui/static/css/item.min.css" rel="stylesheet" />
         <style type="text/css">
             #alibar-editor{
                 font-size: 20px;
@@ -11,7 +11,8 @@
         </style>
     </head>
     <body>
-        <div id="doc">
+        <div class="doc" id="doc">
+		  <div class="main">
             <h1>Alibar</h1>
             <h2>介绍</h2>
             <ul>
@@ -22,22 +23,10 @@
             <h2>版本</h2>
             <ul>
                 <li>
-                    @create Edgar 2010.12.23 2.2版
-                </li>
-                <li>
-                    @author Edgar 2011.03.09 2.3版
-                </li>
-                <li>
-                    @author Edgar 2011.05.31 2.5版
-                </li>
-                <li>
-                    @create Denis 2012.02.04 4.0版
-                </li>
-                <li>
                     @create terence.wangt 2013.10.10 Fdev5 版
                 </li>
 				<li>
-                    @create terence.wangt 2014.01.21 增加黑色背景版
+                    @update terence.wangt 2014.01.21 增加黑色背景版
                 </li>
             </ul>
             <h2>使用说明</h2>
@@ -112,15 +101,16 @@ define(['sys/alibar/1.0'], function(Alibar){
                 </ul>
             <h2>Demo</h2>
             <ul>
-                <li><a title="Alibar+Masthead" href="../../examples/fdev4/alibar.html" target="_blank">Alibar</a></li>
-				
-				 <li><a title="Alibar+Masthead" href="../../examples/fdev4/alibar-black.html" target="_blank">Alibar-黑色</a></li>
+                <li><a title="Alibar+Masthead" href="../../examples/sys/alibar/alibar.html" target="_blank">Alibar</a></li>
+				<li><a title="Alibar+Masthead" href="../../examples/sys/alibar/alibar-black.html" target="_blank">Alibar-黑色</a></li>
             </ul>
             <h2>个性化</h2>
             <ul>
                 <li>目前alibar允许个性化，但只限于:底色、文字颜色、下拉菜单隐藏\显示图标、菜单间隔符的修改</li>
-                <li><b>绝不允许擅自修改交互，菜单项图标，添加/删除菜单项，如有相关需求，必须先知会李龙</b></li>
-                <li>
+                <li><b>绝不允许擅自修改交互，菜单项图标，添加/删除菜单项!</b></li>
+				
+				
+               <!--  <li>
                     个性化样式示例：
                     必须以standard-v4.css为基础，重写相关样式。即先引入standard-v4.css，然后新建css，重写之。
                     <p>引入示例：</p>
@@ -204,8 +194,11 @@ define(['sys/alibar/1.0'], function(Alibar){
     background-position:right -140px;
 }
                     </pre>
-                </li>
+                </li> -->
+				
+				
             </ul>
+		 </div>
         </div>
         <script src="../../static/js/app-merge.js">
         </script>

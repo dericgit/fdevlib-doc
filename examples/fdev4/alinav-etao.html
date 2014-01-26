@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="gbk">
+	<title>lofty 前端基础框架</title>
+	
+	<!-- Demo页面自身所需的基本样式，全局Reset文件在demo.min.css中引入 --->
+	<link rel="stylesheet" rev="stylesheet" href="http://wd.alibaba-inc.com/ui/static/css/demo.min.css" />
+	
+</head>
+
+<style>
+	dt,
+	dd {
+	  margin: 0;
+	  padding: 0;
+	}
+	.dib{display:inline-block;*display:inline;*zoom:1}
+	.dib-wrap{font-size:0;*word-spacing:-1px}
+	.dib-wrap .dib{font-size:12px;letter-spacing:normal;word-spacing:normal;vertical-align:top}
+	
+	@media(-webkit-min-device-pixel-ratio:0){.dib-wrap{letter-spacing:-5px}}
+	
+	#etao-footer .justify{
+		text-align:justify;
+		text-justify:inter-ideograph;
+		#zoom:1;
+		-moz-text-align-last:justify;
+		text-align-last:justify
+	}
+	
+	#etao-footer .wo-justify{
+		display:-webkit-box;
+		-webkit-box-pack:justify;
+		-webkit-box-align:center;
+		-webkit-box-lines:multiple;
+		display:-webkit-flex;
+		-webkit-justify-content:space-between;
+		-webkit-align-items:center;display:
+		-ms-flexbox;-ms-flex-pack:justify;
+		-ms-flex-align:center;display:flex;
+		justify-content:space-between;
+		align-items:center
+	}
+	
+	#etao-footer .wo-justify .dib{
+		min-width:0;min-height:0
+	}
+	@media(-webkit-min-device-pixel-ratio:0){
+		#etao-footer .wo-justify .dib{display:block}
+	}
+	#etao-footer{
+		background-color:#444;
+		border-top:1px solid #525252;
+		color:#FFF;
+		*zoom:1;
+		min-width:990px
+	}
+	#etao-footer-bd{
+		width:730px;
+		margin-left:auto;
+		margin-right:auto;
+		padding:0 10px
+	}
+	
+	#etao-footer-bd .etao-footer-item a{
+		color:#FFF
+	}
+	
+	#etao-footer-bd .etao-footer-item{
+		-moz-text-align-last:left;
+		text-align-last:left;
+		height:110px;
+	}
+	
+	#etao-footer-bd .etao-footer-item dt{
+		font-size:16px;
+		margin-bottom:10px;
+		text-align:left
+	}
+	
+	#etao-footer-bd .etao-footer-item dd{
+		margin-bottom:5px;text-align:left
+	}
+	
+	#etao-footer-bd .logo-footer{
+		margin-top:20px;
+		text-decoration:none;color:#FFF
+	}
+	
+	#etao-footer-bd .logo-footer:hover{
+		text-decoration:none
+	}
+	
+	#etao-footer-bd .logo-footer .iconfont{
+		font-size:34px;
+		display:block;
+		height:60px;
+		width:90px;
+		cursor:pointer
+	}
+	
+	#etao-footer-bd .logo-footer .logo-footer-e{
+		margin-top:-45px;
+		margin-left:-2px;
+		position:relative
+	}
+	
+	#etao-footer-bd .etao-footer-list{
+		margin-top:30px
+	}
+
+	
+
+</style>
+
+<body>
+
+<div id="etao-footer">
+   <div id="etao-footer-bd">
+       <div class="etao-footer-list dib-wrap justify wo-justify">
+           <dl class="etao-footer-item dib">
+               <dt>关于我们</dt>
+
+               <dd>
+                   <a href="http://www.etao.com/law.html" target="_blank" title="免责声明">免责声明</a>
+               </dd>
+               <dd>
+                   <a href="http://job.alibaba.com/zhaopin/index" target="_blank" title="诚聘英才">诚聘英才</a>
+               </dd>
+           </dl>
+
+           <dl class="etao-footer-item dib">
+               <dt>商家合作</dt>
+               <dd>
+                   <a href="http://open.etao.com/" target="_blank" title="商家入驻">商家入驻</a>
+               </dd>
+               <dd>
+                   <a href="http://open.etao.com/my/seller_list.htm" target="_blank" title="工作平台">工作平台</a>
+               </dd>
+               <dd>
+                   <a href="http://s.etao.com/help.php?forhelp=apply" target="_blank" title="活动报名">活动报名</a>
+               </dd>
+           </dl>
+ 
+		   <dl class="etao-footer-item dib">
+                <dt>手机一淘</dt>
+                <dd>
+                    <a class="etao-scan" href="http://www.etao.com/go/act/etao/android.php" target="_blank" title="">
+                        <img src="http://gtms01.alicdn.com/tps/i1/T1BJFzFAJXXXaAKfZG-116-116.png_60x60.jpg" alt="手机一淘" />
+                    </a>
+                </dd>
+           </dl>
+
+           <dl class="etao-footer-item dib">
+               <dt>帮助中心</dt>
+               <dd>
+                   <a href="http://s.etao.com/help.php" target="_blank" title="新手指南">新手指南</a>
+               </dd>
+               <dd>
+                   <a href="http://buy.etao.com/roboter/redirect.htm" target="_blank" title="智能客服">智能客服</a>
+               </dd>
+               <dd>
+                   <a href="http://8.etao.com/yitao/bar-658273-0-0-1-list.htm" target="_blank" title="我要提问">我要提问</a>
+               </dd>
+           </dl>
+
+           <dl class="etao-footer-item dib">
+               <dt>网站地图</dt>
+               <dd>
+                   <a href="http://www.etao.com/list.html" target="_blank" title="优惠推荐">优惠推荐</a>
+               </dd>
+               <dd>
+                   <a href="http://s.etao.com/charlist.html" target="_blank" title="热门商品">热门商品</a>
+               </dd>
+               <dd>
+                   <a href="http://wanke.etao.com/linksAgg.html" target="_blank" title="玩客精选">玩客精选</a>
+               </dd>
+           </dl>
+       </div>
+
+   </div>
+ </div>
+
+</body>
+
+</html>
