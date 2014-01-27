@@ -321,6 +321,7 @@ Docs.contents=[
 	        {"id": "sys.masthead", "href": "output/sys/masthead.html","text": "Masthead(logo+搜索区)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 	        {"id": "sys.footer", "href": "output/sys/footer.html","text": "footer","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 			{"id": "sys.alinav", "href": "output/sys/alinav.html","text": "alinav(页尾站内导航)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
+			{"id": "sys.sidebar", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/sidebar/2.0/doc/index.html","text": "sidebar(统一侧边栏)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 			{"id": "sys.FE.sys.iBank", "href": "output/sys/FE.sys.iBank.html","text": "图片银行(iBank)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 			{"id": "sys.FE.sys.logist", "href": "output/sys/FE.sys.logist.html","text": "统一登录注册","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 			{"id": "sys.FE.sys.purchaselist", "href": "output/sys/FE.sys.purchaselist.html","text": "加入进货单组件","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
