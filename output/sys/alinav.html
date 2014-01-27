@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="gbk" />
+        <title>lofty 前端基础框架</title>
+        <link href="http://wd.alibaba-inc.com/ui/static/css/item.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="doc" id="doc">
+		  <div class="main">
+            <h1>Alinav 1688 页尾站内导航</h1>
+            <h2>介绍</h2>
+            
+			<p>在页面 footer 的上方，通常会有一个站内的导航区块，这个区块叫做 alinav。该区块的设计样式全站风格统一，分灰色、黑色背景两种，不允许重新设计。</p>
+             
+			<p>alinav 的设计风格是统一的，但是内部的链接内容、右侧的图片URL 是允许业务方自定义的，故从组件的层面只提供统一的 CSS 文件引用，及可供拷贝的 Demo HTML。</p>
+
+			<p style="color:red">CSS 文件不允许本地拷贝，或者覆盖样式，只允许使用统一的这份引用。</p>
+			
+
+            <h2>使用说明</h2>
+            <ul>
+                <li>
+                    alinav目前由前端通用负责维护
+                </li>
+                <li>
+                    目前全站尾部导航规范请移步 <a title="全站尾部规范" href="http://demo.alibaba-inc.com/categories/92/projects/6209/vds/41149">全站尾部导航规范</a>
+                </li>
+                <li>
+                    alinav对应的CSS文件需要产品自己引入：<br/>
+                        
+<pre class="prettyprint language-html">
+ &lt;link href="http://style.c.aliimg.com/sys/css/universal/alinav/standard.css" rel="stylesheet"/>                        
+</pre>
+
+
+<br/>
+
+			</ul>
+			
+			
+			<h2>灰色背景Demo</h2>
+			
+			<p><a style="color:#333" href="http://wd.alibaba-inc.com/fdevlib/examples/sys/alinav/alinav.html" target="_blank">灰色Demo</a></p>
+			<h2>黑色背景Demo</h2>
+			
+			<p><a style="color:#333" href="http://wd.alibaba-inc.com/fdevlib/examples/sys/alinav/alinav-black.html" target="_blank">黑色Demo</a></p>
+			
+			<h2>注意：</h2>
+			
+			<ul>
+				<li> alinav 组件 CSS 采用的是<a href="http://www.atatech.org/activity/apply/48/466" target="_blank">自适应间距布局</a>的实现，所以站内导航可以定义3列、4列或是5列，样式上能够做到<b style="color:red">自动均匀分配</b>，使用者只需关注具体链接内容即可。 </li>
+				<li>灰色背景与黑色背景的 HTML 结构是<b style="color:red">完全一致</b>的，唯一的不同是黑色背景Demo中需要在 alinav 的外层 DIV nav-container 上再添加一个 class<b style="color:red"> “nav-black”</b>  </li>
+				
+			</ul>
+			<h2>版本</h2>
+            
+            <p>@create terence.wangt 2014.01.25 创建</p>
+
+		 </div>
+        </div>
+        <script src="../../static/js/app-merge.js">
+        </script>
+    </body>
+</html>
