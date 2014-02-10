@@ -74,7 +74,7 @@ Docs.contents=[
 						{"id": "fui.com.sidebar", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/sidebar/2.0/doc/index.html","text": "sidebar 侧边工具条","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.sortable", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/sortable/1.0/doc/index.html","text": "sortable 排序组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.suggestion", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/suggestion/1.0/doc/index.html","text": "suggestion 关键字搜索补全","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.tab", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/tabs/1.0/doc/index.html","text": "tab 标签","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.tab", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/tabs/1.0/doc/index.html","text": "switch 切换组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.table", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/table/1.0/doc/index.html","text": "table 表格","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.tips", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/tip/1.0/doc/index.html","text": "tips 提示","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.timer", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/timer/1.0/doc/index.html","text": "timer 倒计时","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }	
@@ -324,7 +324,7 @@ Docs.contents=[
 			{"id": "sys.sidebar", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/sidebar/2.0/doc/index.html","text": "sidebar(统一侧边栏)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 			{"id": "sys.FE.sys.iBank", "href": "output/sys/FE.sys.iBank.html","text": "图片银行(iBank)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 			{"id": "sys.FE.sys.logist", "href": "output/sys/FE.sys.logist.html","text": "统一登录注册","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
-			{"id": "sys.FE.sys.purchaselist", "href": "output/sys/FE.sys.purchaselist.html","text": "加入进货单组件","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
+			{"id": "sys.FE.sys.purchaselist", "href": "output/sys/FE.sys.purchaselist.html","text": "加入进货单组件","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 			{"id": "sys.irecom", "href": "output/sys/FE.sys.irecom.html","text": "个性化推荐","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true},
 			{"id": "tools.yid-chart", "href": "http://fd.aliued.cn/yid-chart","text": "yid-chart: 图表组件","isClass": true,"iconCls": "icon-chart","cls": "cls","leaf": true }
 	    ]
