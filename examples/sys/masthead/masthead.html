@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="gbk">
+	<title>lofty 前端基础框架</title>
+	
+	<!-- Demo页面自身所需的基本样式，全局Reset文件在demo.min.css中引入 --->
+	<link rel="stylesheet" rev="stylesheet" href="http://wd.alibaba-inc.com/ui/static/css/demo.min.css" />
+	<link href="http://style.c.aliimg.com/fdevlib/css/lofty/ui/combobox/1.0/front/combobox-min.css" rel="stylesheet"/>
+	<link href="http://style.c.aliimg.com/fdevlib/css/lofty/ui/button/1.0/front/button-min.css" rel="stylesheet"/>
+	<link href="http://style.c.aliimg.com/fdevlib/css/lofty/ui/form/1.0/front/form-min.css" rel="stylesheet"/>
+	
+	<!-- 组件自身需要的样式 --->
+	<link rel="stylesheet" rev="stylesheet" href="http://style.c.aliimg.com/sys/css/universal/masthead/v6/standard.css" />
+</head>
+
+<body>
+
+<div id="ali-masthead-5i">
+ <div class="ali-masthead-container fd-clr">
+	<div class="ali-logo">
+		<a title="阿里巴巴" href="http://www.1688.com" class="main-logo">
+			<!-- <img alt="阿里巴巴" src="http://img.china.alibaba.com/cms/upload/2014/590/888/1888095_523143985.png"> -->
+			<img alt="阿里巴巴" src="http://img.china.alibaba.com/cms/upload/2014/621/888/1888126_523143985.png">
+		</a>
+		<div class="sub-logo">
+			<div class="sub-logo-market">
+				<a class="sub-logo-txt" href="http://industry.1688.com">工业品</a>
+				<div class="ali-market fd-lump">
+					<div class="ali-market-list">
+						<div class="ali-market-more"><a href="#">更多市场</a></div>
+						<ul class="ali-market-wide fd-clr">
+							<li>
+								<dl class="fd-clr">
+									<dt><a href="http://plas.1688.com/" target="_blank">橡塑市场</a></dt>
+									<dd><a href="http://s.1688.com/selloffer/--1031639.html" target="_blank">通用料</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/--1031642.html" target="_blank">工程料</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/--1031640.html" target="_blank">再生料</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/--10390.html" target="_blank">管材</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/-B9E8BDBA-10272.html" target="_blank">硅胶制品</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://chem.1688.com" target="_blank">化工市场</a></dt>
+									<dd><a href="http://s.1688.com/selloffer/--1031624.html" target="_blank">涂料油漆</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/--1032190.html" target="_blank">润滑油</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/--1031620.html" target="_blank">胶粘剂</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/--10371.html" target="_blank">助剂</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/--10239.html" target="_blank">化工废料</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://bz.1688.com" target="_blank">包装市场</a></dt>
+									<dd><a href="http://s.1688.com/selloffer/offer_search.htm?keywords=%D6%BD%CF%E4&amp;categoryId=1033007&amp;descendOrder=true&amp;from=marketSearch&amp;sortType=booked&amp;n=y&amp;filt=y" target="_blank">物流包装</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/offer_search.htm?keywords=%B7%FE%D7%B0%CA%D6%CC%E1%B4%FC&amp;earseDirect=false&amp;descendOrder=true&amp;from=marketSearch&amp;sortType=booked&amp;n=y&amp;filt=y" target="_blank">服装包装</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/offer_search.htm?keywords=%C0%F1%C6%B7%BA%D0&amp;categoryId=0&amp;descendOrder=true&amp;from=industrySearch&amp;industryFlag=bz&amp;sortType=booked&amp;n=y&amp;filt=y" target="_blank">礼品包装</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href=" http://dgdz.1688.com" target="_blank">电子电工市场</a></dt>
+									<dd><a href="http://www.1688.com/topic/kaiguancha.html" target="_blank">插座</a></dd>
+									<dd><a href="http://www.1688.com/topic/dianxiandianlan.html" target="_blank">电线</a></dd>
+									<dd><a href="http://www.1688.com/topic/dianchi.html" target="_blank">电池</a></dd>
+									<dd><a href="http://www.1688.com/topic/diyadianqi.html" target="_blank">低压</a></dd>
+									<dd><a href="http://www.1688.com/topic/ledxiliechanpin.html" target="_blank">LED灯珠</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://af.1688.com" target="_blank">安全防护市场</a></dt>
+									<dd><a href="http://www.1688.com/topic/jiankongshexiangji.html" target="_blank">监控</a></dd>
+									<dd><a href="http://www.1688.com/topic/yefanghu.html" target="_blank">劳保</a></dd>
+									<dd><a href="http://www.1688.com/topic/xiaofangshebei.html" target="_blank">消防</a></dd>
+									<dd><a href="http://www.1688.com/topic/fangdaobaojingshebei.html" target="_blank">防盗</a></dd>
+									<dd><a href="http://www.1688.com/topic/fangjingdianchanpin.html" target="_blank">防静电</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://fushi.1688.com" target="_blank">鞋包配饰市场</a></dt>
+									<dd><a href="http://fuzhuang.1688.com/xie" target="_blank">鞋靴</a></dd>
+									<dd><a href="http://page.1688.com/clothing/danxie.html" target="_blank">女鞋</a></dd>
+									<dd><a href="http://fuzhuang.1688.com/xiangbao" target="_blank">箱包</a></dd>
+									<dd><a href="http://view.1688.com/cms/promotion/nvbaopindao.html" target="_blank">女包</a></dd>
+									<dd><a href="http://fuzhuang.1688.com/peijian" target="_blank">配饰</a></dd>
+									<dd><a href="http://smart.1688.com/shipin" target="_blank">饰品</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://mei.1688.com" target="_blank">美妆日化市场</a></dt>
+									<dd><a href="http://s.1688.com/selloffer/--10311.html" target="_blank">护肤</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/--82101.html" target="_blank">彩妆</a></dd>
+									<dd><a href="http://www.1688.com/topic/rihuayongpin.html" target="_blank">日化</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/-C3C0B7A2-1041133.html?industryFlag=beauty&amp;n=y&amp;from=industrySearch" target="_blank">美发</a></dd>
+									<dd><a href="http://www.1688.com/topic/xingbaojianyongpin.html" target="_blank">成人保健</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://jia.1688.com" target="_blank">家纺家装市场</a></dt>
+									<dd><a href="http://jia.1688.com/buyijiafang" target="_blank">布艺家纺</a></dd>
+									<dd><a href="http://jia.1688.com/jiajujiasi" target="_blank">家具家私</a></dd>
+									<dd><a href="http://jia.1688.com/jiazhuangjiancai" target="_blank">家装建材</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://home.1688.com" target="_blank">日用百货市场</a></dt>
+									<dd><a href="http://home.1688.com/chufangyongpin" target="_blank">厨房用品</a></dd>
+									<dd><a href="http://home.1688.com/shounaqingjie" target="_blank">收纳清洁</a></dd>
+									<dd><a href="http://home.1688.com/riyongbaihuo" target="_blank">居家日用</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://fuwu.1688.com" target="_blank">商务服务市场</a></dt>
+									<dd><a href="http://56.1688.com/" target="_blank">阿里物流</a></dd>
+									<dd><a href="http://yy.1688.com/" target="_blank">运营</a></dd>
+									<dd><a href="http://fuwu.1688.com/sheji" target="_blank">广告</a></dd>
+									<dd><a href="http://fuwu.1688.com/gongshang" target="_blank">工商</a></dd>
+									<dd><a href="http://fuwu.1688.com/zhaopin" target="_blank">招聘</a></dd>
+								</dl>
+							</li>
+							<li class="last">
+								<dl class="fd-clr">
+									<dt><a href="http://steel.1688.com" target="_blank">钢材市场</a></dt>
+									<dd><a href="http://yl.1688.com/yejin" target="_blank">冶金</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/--10518.html" target="_blank">不锈钢</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/--927.html" target="_blank">特钢</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/--929.html" target="_blank">管材</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/offer_search.htm?keywords=%B0%E5%BE%ED&amp;n=y" target="_blank">板卷</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/--10507.html" target="_blank">有色</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://fangzhi.1688.com" target="_blank">纺织市场</a></dt>
+									<dd><a href="http://view.1688.com/cms/promotion/fabric.html" target="_blank">面料</a></dd>
+									<dd><a href="http://view.1688.com/cms/promotion/fzfl.html" target="_blank">辅料</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/offer_search.htm?keywords=%C9%B4%CF%DF&amp;n=y&amp;from=industrySearch&amp;industryFlag=fangzhi" target="_blank">纱线</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/offer_search.htm?keywords=%C5%F7%B2%BC&amp;n=y&amp;from=industrySearch&amp;industryFlag=fangzhi" target="_blank">坯布</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/-C6A4B8EF-1031715.html?industryFlag=fangzhi&amp;n=y&amp;from=industrySearch" target="_blank">皮革</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/offer_search.htm?categoryId=63&amp;from=industrySearch&amp;industryFlag=fangzhi&amp;tags=7682&amp;n=y&amp;filt=y" target="_blank">现货小批</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://jd.1688.com" target="_blank">机械五金市场</a></dt>
+									<dd><a href="http://industry.1688.com/jixie" target="_blank">通用机械</a></dd>
+									<dd><a href="http://industry.1688.com/shebei" target="_blank">设备</a></dd>
+									<dd><a href="http://page.1688.com/channel/industry/wujinshichang.html" target="_blank">五金</a></dd>
+									<dd><a href="http://industry.1688.com/wujin" target="_blank">工具</a></dd>
+									<dd><a href="http://industry.1688.com/jichuang" target="_blank">机床</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://zmyb.1688.com" target="_blank">照明仪表市场</a></dt>
+									<dd><a href="http://industry.1688.com/zhaoming" target="_blank">照明</a></dd>
+									<dd><a href="http://www.1688.com/topic/leddengju.html" target="_blank">LED照明</a></dd>
+									<dd><a href="http://www.1688.com/topic/liangju.html" target="_blank">量具</a></dd>
+									<dd><a href="http://www.1688.com/topic/cewenyi.html" target="_blank">测温仪</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://fuzhuang.1688.com" target="_blank">服装市场</a></dt>
+									<dd><a href="http://fuzhuang.1688.com/nvzhuang " target="_blank">女装</a></dd>
+									<dd><a href="http://fuzhuang.1688.com/nanzhuang" target="_blank">男装</a></dd>
+									<dd><a href="http://fuzhuang.1688.com/neiyi" target="_blank">内衣</a></dd>
+									<dd><a href="http://fuzhuang.1688.com/yundong" target="_blank">运动户外</a></dd>
+									<dd><a href="http://wholesale.1688.com/xshow/ushow_1_3.htm" target="_blank">特色</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://3c.1688.com" target="_blank">数码家电市场</a></dt>
+									<dd><a href="http://3c.1688.com/3c" target="_blank">数码</a></dd>
+									<dd><a href="http://3c.1688.com/jiayongdianqi" target="_blank">家电</a></dd>
+									<dd><a href="http://3c.1688.com/dqc" target="_blank">电器城</a></dd>
+									<dd><a href="http://bmall.1688.com/spubrand/dqc/brandList.htm" target="_blank">品牌库</a></dd>
+								</dl>
+								<dl class="fd-clr">
+                                  <dt><a href="http://muying.1688.com" target="_blank">童装母婴市场</a></dt>
+									<dd><a href="http://fuzhuang.1688.com/tongzhuang" target="_blank">童装</a></dd>
+									<dd><a href="http://page.1688.com/channel/muying/wanju.html" target="_blank">玩具</a></dd>
+									<dd><a href="http://page.1688.com/channel/muying/muyingyongpin.html" target="_blank">母婴用品</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://food.1688.com" target="_blank">食品农业市场</a></dt>
+									<dd><a href="http://food.1688.com/xiuxianshipin.html" target="_blank">休闲食品</a></dd>
+									<dd><a href="http://food.1688.com/jiushuiyinliao.html" target="_blank">茶酒饮料</a></dd>
+									<dd><a href="http://food.1688.com/brandcity.html" target="_blank">品牌城</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://smart.1688.com" target="_blank">小商品市场</a></dt>
+									<dd><a href="http://smart.1688.com/gongyilipin" target="_blank">工艺礼品</a></dd>
+									<dd><a href="http://smart.1688.com/bangongwenjiao" target="_blank">办公文教</a></dd>
+									<dd><a href="http://smart.1688.com/qicheyongpin" target="_blank">汽车用品</a></dd>
+								</dl>
+								<dl class="fd-clr">
+									<dt><a href="http://sport.1688.com" target="_blank">运动户外市场</a></dt>
+									<dd><a href="http://s.1688.com/selloffer/-D4CBB6AFD0DDCFD0CCD7D7B0.html?from=industrySearch&amp;industryFlag=sport" target="_blank">运动服</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/-BBA7CDE2B7FE.html?from=industrySearch&amp;industryFlag=sport" target="_blank">户外用品</a></dd>
+									<dd><a href="http://s.1688.com/selloffer/-D3F0C3ABC7F2.html?from=industrySearch&amp;industryFlag=sport" target="_blank">体育运动</a></dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div>
+				<a class="sub-logo-url" href="http://industry.1688.com">industry.1688.com</a>
+			</div>
+		</div>
+	</div>
+	<div class="ali-search">
+		<form action="http://s.1688.com/selloffer/offer_search.htm" onsubmit="return false" autocomplete="off">
+			<fieldset>
+				<legend>
+					阿里巴巴搜索
+				</legend>
+				<div class="alisearch-container">
+					<div class="alisearch-box">
+						<div class="alisearch-type">
+							<ul class=""><li class="current" data-type="alisearch-product" data-config="{action:'http://s.1688.com/selloffer/offer_search.htm',placeholder:'输入产品名称',suggest:true,type:'offer'}">
+									<a title="产品" href="http://exodus.1688.com/" hidefocus="true">产品</a>
+								</li>
+								
+								<li data-type="alisearch-company" data-config="{action:'http://s.1688.com/company/company_search.htm',placeholder:'输入公司名称或关键词',suggest:true,type:'company'}">
+									<a title="公司" href="http://page.1688.com/cp/cp1.html" hidefocus="true">公司</a>
+								</li>
+								<li data-type="alisearch-buy" data-config="{action:'http://s.1688.com/newbuyoffer/buyoffer_search.htm',placeholder:'输入产品名称',suggest:true,type:'offer'}">
+									<a title="找买家" href="http://page.1688.com/cp/cp8.html" hidefocus="true">求购</a>
+								</li>
+							</ul>
+						</div>
+						<div class="alisearch-keywords">
+														<input class="empty ui-autocomplete-input" accesskey="s" autocomplete="off" maxlength="50" name="keywords" x-webkit-speech="" x-webkit-grammar="builtin:translate" placeholder="输入产品名称" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+														<input name="n" type="hidden" value="y">
+							<input name="from" type="hidden" value="industrySearch">
+							<input name="industryFlag" type="hidden" value="industrial">
+						<ul class="ui-autocomplete ui-menu web-suggestion" role="listbox" style="z-index: 995; top: 0px; left: 0px; display: none;"></ul></div>
+					</div>
+					<div class="alisearch-action">
+						<button class="market" type="submit" data-industry-flag="industrial" data-header-trace="sale_top_industrial_b">搜本市场</button>
+                        <button class="global" type="button" data-header-trace="sale_top_all_b">搜全站</button>
+					</div>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+  </div>
+</div>
+
+
+<div class="demo-content">
+	
+<div class="demo-widget">
+ <div class="demo-widget-dom">	
+   
+    <script src="http://style.c.aliimg.com/fdevlib/js/lofty/port/lofty.js"></script>
+
+
+    <script src="http://style.c.aliimg.com/fdevlib/js/gallery/jquery/jquery-latest.js"></script>
+	<script src="http://style.c.aliimg.com/sys/js/universal/masthead/v6/standard.js"></script>
+	
+	<script>
+		lofty.config({
+			amd: true
+		});
+		
+		define(['sys/universal/masthead/standard'], function(Masthead){
+			
+		})
+	</script>
+	
+  </div>		
+ </div>	
+</div>
+
+
+
+
+<style>
+	.fui-form-item{
+		margin-bottom:15px;
+	}
+	.fui-ajust{
+		float:left;
+	}
+	.fui-d .pixel{
+		float:left;
+		margin-left: 3px;
+	}
+	.fui-text{
+		width:60px;
+	}
+	.fui-form .fui-t{
+		width:100px;
+	}
+</style>
+
+
+<div class="fui-form">
+	<div class="fui-form-item fd-clr">
+		<div class="fui-t fui-t-l">
+			<span>整体背景色：</span>
+		</div>
+		<div class="fui-d">
+			<input class="fui-text" name="headBackGroundColor" value="#FFF">
+		</div>
+	</div>
+	
+	<div class="fui-form-item fd-clr">
+		<div class="fui-t fui-t-l">
+			<span>整体宽度：</span>
+		</div>
+		<div class="fui-d">
+			<input class="fui-text" name="headWidth" value="1190"> px
+		</div>
+	</div>
+	
+	<div class="fui-form-item fd-clr">
+		<div class="fui-t fui-t-l">
+			<span>搜索框背景色：</span>
+		</div>
+		<div class="fui-d">
+			<input class="fui-text" name="headSearchBgColor" value="#3E698B">
+		</div>
+	</div>
+	
+	
+	<div class="fui-form-item fd-clr">
+		<div class="fui-t">
+			<span>搜索框下拉菜单：</span>
+		</div>
+		<div class="fui-d">
+			<div class="combobox fui-combobox-l" id="comboboxMenu">
+				<select name="aaa" id="comboboxId">
+					<option value="1" selected="selected">显示</option>
+					<option value="2">不显示</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="fui-t">
+			<span>下拉菜单宽度：</span>
+		</div>
+		<div class="fui-d">
+			<div class="fui-ajust">
+				<div class="fui-operation">
+					<a href="#" class="fui-up"></a>
+					<a href="#" class="fui-down fui-down-disable"></a>
+				</div>
+				<input class="fui-result" type="text" autocomplete="off" maxlength="50"> 
+				
+			</div>
+			<div class="pixel"> px </div>
+		</div>
+	</div>
+		
+	
+	<div class="fui-form-item fd-clr">
+		<div class="fui-t">
+			<span>搜索框宽度：</span>
+		</div>
+		<div class="fui-d">
+			<div class="fui-ajust">
+				<div class="fui-operation">
+					<a href="#" class="fui-up"></a>
+					<a href="#" class="fui-down fui-down-disable"></a>
+				</div>
+				<input class="fui-result" type="text" autocomplete="off" maxlength="50"> 
+				
+			</div>
+			<div class="pixel"> px </div>
+		 </div>
+	</div>
+	
+	
+	<div class="fui-form-item fd-clr">
+		<div class="fui-t">
+			<span>市场文案标识：</span>
+		</div>
+		<div class="fui-d">
+			<div class="combobox fui-combobox-l" id="comboboxMarket">
+				<select name="aaa" id="comboboxId2">
+					<option value="1" selected="selected">显示</option>
+					<option value="2">不显示</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="fui-t fui-t-l">
+			<span>显示文案：</span>
+		</div>
+		<div class="fui-d">
+			<input class="fui-text" name="headTitleText" value="工业品">
+		</div>
+		
+		<div class="fui-t fui-t-l">
+			<span>底部文案：</span>
+		</div>
+		<div class="fui-d">
+			<input style="width:120px;" class="fui-text" name="headTitleTextEnglish" value="industry.1688.com">
+		</div>
+		
+		<div class="fui-t fui-t-l">
+			<span>URL链接：</span>
+		</div>
+		<div class="fui-d">
+			<input style="width:120px;" class="fui-text" name="headTitleUrl" value="http://industry.1688.com/">
+		</div>
+		
+		<div class="fui-t fui-t-l">
+			<span>文案色：</span>
+		</div>
+		<div class="fui-d">
+			<input class="fui-text" name="headMarketTitleColor" value="#FFF">
+		</div>
+		
+		<div class="fui-t fui-t-l">
+			<span>文案Hover色：</span>
+		</div>
+		<div class="fui-d">
+			<input class="fui-text" name="headMarketTitleColor" value="#FF7300">
+		</div>
+	</div>
+	
+</div>
+
+<script type="text/javascript">
+	define(['fui/combobox/1.0'], function(Combobox){
+		var combobox = new Combobox({
+			container:"#comboboxMenu",
+			itemList:"#comboboxId"
+		});
+		var combobox2 = new Combobox({
+			container:"#comboboxMarket",
+			itemList:"#comboboxId2"
+		});
+		
+	});
+</script>
+
+	
+<!-- Demo页面自身所需的JS，实际项目中无需引入 --->
+<script src="http://wd.alibaba-inc.com/ui/static/js/demo.min.js" type="text/javascript"></script>	
+</body>
+
+</html>
