@@ -11,7 +11,7 @@
 	<link href="http://style.c.aliimg.com/fdevlib/css/lofty/ui/form/1.0/front/form-min.css" rel="stylesheet"/>
 	
 	<!-- 组件自身需要的样式 --->
-	<link rel="stylesheet" rev="stylesheet" href="http://style.c.aliimg.com/sys/css/universal/masthead/v6/standard.css" />
+	<link rel="stylesheet" href="http://style.c.aliimg.com/sys/css/universal/masthead/v6/standard.css" />
 </head>
 
 <body>
@@ -21,7 +21,7 @@
 	<div class="ali-logo">
 		<a title="阿里巴巴" href="http://www.1688.com" class="main-logo">
 			<!-- <img alt="阿里巴巴" src="http://img.china.alibaba.com/cms/upload/2014/590/888/1888095_523143985.png"> -->
-			<img alt="阿里巴巴" src="http://img.china.alibaba.com/cms/upload/2014/621/888/1888126_523143985.png">
+			<img alt="阿里巴巴" src="http://img.china.alibaba.com/cms/upload/2014/317/888/1888713_523143985.png">
 		</a>
 		<div class="sub-logo">
 			<div class="sub-logo-market">
@@ -199,24 +199,19 @@
 				<div class="alisearch-container">
 					<div class="alisearch-box">
 						<div class="alisearch-type">
-							<ul class=""><li class="current" data-type="alisearch-product" data-config="{action:'http://s.1688.com/selloffer/offer_search.htm',placeholder:'输入产品名称',suggest:true,type:'offer'}">
-									<a title="产品" href="http://exodus.1688.com/" hidefocus="true">产品</a>
-								</li>
+							<ul class="">
+								<li class="current" data-type="alisearch-product" data-config="{action:'http://s.1688.com/selloffer/offer_search.htm',placeholder:'输入产品名称',suggest:true,type:'offer'}">产品</li>
 								
-								<li data-type="alisearch-company" data-config="{action:'http://s.1688.com/company/company_search.htm',placeholder:'输入公司名称或关键词',suggest:true,type:'company'}">
-									<a title="公司" href="http://page.1688.com/cp/cp1.html" hidefocus="true">公司</a>
-								</li>
-								<li data-type="alisearch-buy" data-config="{action:'http://s.1688.com/newbuyoffer/buyoffer_search.htm',placeholder:'输入产品名称',suggest:true,type:'offer'}">
-									<a title="找买家" href="http://page.1688.com/cp/cp8.html" hidefocus="true">求购</a>
-								</li>
+								<li data-type="alisearch-company" data-config="{action:'http://s.1688.com/company/company_search.htm',placeholder:'输入公司名称或关键词',suggest:true,type:'company'}">公司</li>
+								<li data-type="alisearch-buy" data-config="{action:'http://s.1688.com/newbuyoffer/buyoffer_search.htm',placeholder:'输入产品名称',suggest:true,type:'offer'}">求购</li>
 							</ul>
 						</div>
 						<div class="alisearch-keywords">
-														<input class="empty ui-autocomplete-input" accesskey="s" autocomplete="off" maxlength="50" name="keywords" x-webkit-speech="" x-webkit-grammar="builtin:translate" placeholder="输入产品名称" role="textbox" aria-autocomplete="list" aria-haspopup="true">
-														<input name="n" type="hidden" value="y">
+							<input class="empty ui-autocomplete-input" accesskey="s" autocomplete="off" maxlength="50" name="keywords" x-webkit-speech="" x-webkit-grammar="builtin:translate" placeholder="输入产品名称" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+							<input name="n" type="hidden" value="y">
 							<input name="from" type="hidden" value="industrySearch">
 							<input name="industryFlag" type="hidden" value="industrial">
-						<ul class="ui-autocomplete ui-menu web-suggestion" role="listbox" style="z-index: 995; top: 0px; left: 0px; display: none;"></ul></div>
+						</div>
 					</div>
 					<div class="alisearch-action">
 						<button class="market" type="submit" data-industry-flag="industrial" data-header-trace="sale_top_industrial_b">搜本市场</button>
@@ -312,8 +307,8 @@
 			<span>搜索框下拉菜单：</span>
 		</div>
 		<div class="fui-d">
-			<div class="combobox fui-combobox-l" id="comboboxMenu">
-				<select name="aaa" id="comboboxId">
+			<div class="combobox fui-combobox-l">
+				<select name="comboItem">
 					<option value="1" selected="selected">显示</option>
 					<option value="2">不显示</option>
 				</select>
@@ -360,8 +355,8 @@
 			<span>市场文案标识：</span>
 		</div>
 		<div class="fui-d">
-			<div class="combobox fui-combobox-l" id="comboboxMarket">
-				<select name="aaa" id="comboboxId2">
+			<div class="combobox fui-combobox-l">
+				<select name="comboItem">
 					<option value="1" selected="selected">显示</option>
 					<option value="2">不显示</option>
 				</select>
@@ -383,7 +378,7 @@
 		</div>
 		
 		<div class="fui-t fui-t-l">
-			<span>URL链接：</span>
+			<span>点击链接：</span>
 		</div>
 		<div class="fui-d">
 			<input style="width:120px;" class="fui-text" name="headTitleUrl" value="http://industry.1688.com/">
@@ -404,17 +399,60 @@
 		</div>
 	</div>
 	
+	<div class="fui-form-item fd-clr">
+		<div class="fui-t">
+			<span>更多市场：</span>
+		</div>
+		<div class="fui-d">
+			<div class="combobox fui-combobox-l">
+				<select name="comboItem">
+					<option value="1" selected="selected">显示</option>
+					<option value="2">不显示</option>
+				</select>
+			</div>
+		</div>
+	</div>
+	
+	<div class="fui-form-item fd-clr">
+		<div class="fui-t">
+			<span>市场Logo：</span>
+		</div>
+		<div class="fui-d">
+			<div class="combobox fui-combobox-l">
+				<select name="comboItem">
+					<option value="1" selected="selected">阿里Logo橙色</option>
+					<option value="2">阿里Logo白色</option>
+					<option value="2">自定义Logo</option>
+				</select>
+			</div>
+		</div>
+		
+		<div class="fui-t fui-t-l">
+			<span>Logo 图片URL：</span>
+		</div>
+		<div class="fui-d">
+			<input style="width:200px;" class="fui-text" name="headTitleText" value="" placeholder="输入logo 图片的URL地址">
+		</div>
+		
+		<div class="fui-t fui-t-l">
+			<span>Logo 点击链接：</span>
+		</div>
+		<div class="fui-d">
+			<input style="width:200px;" class="fui-text" name="headTitleText" value="" placeholder="输入logo 点击链接地址">
+		</div>
+	</div>
+	
 </div>
 
 <script type="text/javascript">
-	define(['fui/combobox/1.0'], function(Combobox){
-		var combobox = new Combobox({
-			container:"#comboboxMenu",
-			itemList:"#comboboxId"
-		});
-		var combobox2 = new Combobox({
-			container:"#comboboxMarket",
-			itemList:"#comboboxId2"
+	define(['fui/combobox/1.0', 'jquery'], function(Combobox, $){
+		
+		$(".combobox").each(function(){
+			
+			var combobox = new Combobox({
+				container: $(this),
+				itemList: $(this).find('select')
+			});
 		});
 		
 	});
