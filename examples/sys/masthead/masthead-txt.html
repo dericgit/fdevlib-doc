@@ -6,21 +6,22 @@
 	
 	<!-- Demo页面自身所需的基本样式，全局Reset文件在demo.min.css中引入 --->
 	<link rel="stylesheet" rev="stylesheet" href="http://wd.alibaba-inc.com/ui/static/css/demo.min.css" />
-
-	<link rel="stylesheet" rev="stylesheet" href="http://style.c.aliimg.com/sys/css/universal/masthead/v6/standard.css" />
 	
-
+	<!-- 组件自身需要的样式 --->
+	<link href="http://style.c.aliimg.com/sys/css/universal/masthead/v6/standard.css" rel="stylesheet" />
 </head>
 
 <body>
 
-<div id="ali-masthead-5i">
+<div id="ali-masthead-v6">
  <div class="ali-masthead-container fd-clr">
 	<div class="ali-logo">
-		<a title="阿里巴巴" href="http://www.1688.com" class="main-logo">
-			<!-- <img alt="阿里巴巴" src="http://img.china.alibaba.com/cms/upload/2014/590/888/1888095_523143985.png"> -->
-			<img alt="阿里巴巴" src="http://img.china.alibaba.com/cms/upload/2014/990/888/1888099_523143985.png">
-		</a>
+		<div class="main-logo">
+			<a title="阿里巴巴" href="http://www.1688.com" class="main-logo-img">
+				<img alt="阿里巴巴" src="http://img.china.alibaba.com/cms/upload/2014/990/888/1888099_523143985.png">
+			</a>
+
+		</div>
 		<div class="sub-logo">
 			<div class="sub-logo-market">
 				<a class="sub-logo-txt" href="http://industry.1688.com">工业品</a>
@@ -183,7 +184,7 @@
 					</div>
 				</div>
 			</div>
-			<div>
+			<div class="sub-logo-english">
 				<a class="sub-logo-url" href="http://industry.1688.com">industry.1688.com</a>
 			</div>
 		</div>
@@ -191,23 +192,23 @@
 	<div class="ali-market-txt"><img src="http://img.china.alibaba.com/cms/upload/2014/379/788/1887973_523143985.png"/></div>
 
 	<div class="ali-search">
-		<form action="http://s.1688.com/selloffer/offer_search.htm" onsubmit="return false" autocomplete="off">
+		<form action="http://s.1688.com/selloffer/offer_search.htm" autocomplete="off">
 			<fieldset>
 				<legend>
 					阿里巴巴搜索
 				</legend>
 				<div class="alisearch-container">
 					<div class="alisearch-box">
-						<div class="alisearch-type">
-							<ul class=""><li class="current" data-type="alisearch-product" data-config="{action:'http://s.1688.com/selloffer/offer_search.htm',placeholder:'输入产品名称',suggest:true,type:'offer'}">
-									<a title="产品" href="http://exodus.1688.com/" hidefocus="true">产品</a>
+						  <div class="alisearch-type">
+							<ul>
+								<li class="current" data-action="http://s.1688.com/selloffer/offer_search.htm" data-placeholder="输入产品名称" data-type="offer">
+									产品
 								</li>
-								
-								<li data-type="alisearch-company" data-config="{action:'http://s.1688.com/company/company_search.htm',placeholder:'输入公司名称或关键词',suggest:true,type:'company'}">
-									<a title="公司" href="http://page.1688.com/cp/cp1.html" hidefocus="true">公司</a>
+								<li data-action="http://s.1688.com/company/company_search.htm" data-placeholder="输入公司名称或关键词" data-type="company">
+									公司
 								</li>
-								<li data-type="alisearch-buy" data-config="{action:'http://s.1688.com/newbuyoffer/buyoffer_search.htm',placeholder:'输入产品名称',suggest:true,type:'offer'}">
-									<a title="找买家" href="http://page.1688.com/cp/cp8.html" hidefocus="true">求购</a>
+								<li data-action="http://s.1688.com/newbuyoffer/buyoffer_search.htm" data-placeholder="输入产品名称" data-type="offer">
+									求购
 								</li>
 							</ul>
 						</div>
@@ -223,6 +224,7 @@
                         <button class="global" type="button" data-header-trace="sale_top_all_b">搜全站</button> -->
 						<button class="single" type="button" data-header-trace="sale_top_all_b">&#337</button>
 					</div>
+
 				</div>
 			</fieldset>
 		</form>
@@ -238,19 +240,8 @@
    
     <script src="http://style.c.aliimg.com/fdevlib/js/lofty/port/lofty.js"></script>
 
-
     <script src="http://style.c.aliimg.com/fdevlib/js/gallery/jquery/jquery-latest.js"></script>
 	<script src="http://style.c.aliimg.com/sys/js/universal/masthead/v6/standard.js"></script>
-	
-	<script>
-		lofty.config({
-			amd: true
-		});
-		
-		define(['sys/universal/masthead/standard'], function(Masthead){
-			
-		})
-	</script>
 	
   </div>		
  </div>	

@@ -6,9 +6,6 @@
 	
 	<!-- Demo页面自身所需的基本样式，全局Reset文件在demo.min.css中引入 --->
 	<link rel="stylesheet" rev="stylesheet" href="http://wd.alibaba-inc.com/ui/static/css/demo.min.css" />
-	<link href="http://style.c.aliimg.com/fdevlib/css/lofty/ui/combobox/1.0/front/combobox-min.css" rel="stylesheet"/>
-	<link href="http://style.c.aliimg.com/fdevlib/css/lofty/ui/button/1.0/front/button-min.css" rel="stylesheet"/>
-	<link href="http://style.c.aliimg.com/fdevlib/css/lofty/ui/form/1.0/front/form-min.css" rel="stylesheet"/>
 	
 	<!-- 组件自身需要的样式 --->
 	<link href="http://style.c.aliimg.com/sys/css/universal/masthead/v6/standard.css" rel="stylesheet" />
@@ -18,16 +15,18 @@
 
 <div id="ali-masthead-v6">
  <div class="ali-masthead-container fd-clr">
-	<div class="ali-logo">
+	<div class="ali-logo logo-custom">
 		<div class="main-logo">
 			<a title="阿里巴巴" href="http://www.1688.com" class="main-logo-img">
-				<!-- <img alt="阿里巴巴" src="http://img.china.alibaba.com/cms/upload/2014/590/888/1888095_523143985.png"> -->
-				<img alt="阿里巴巴" src="http://img.china.alibaba.com/cms/upload/2014/590/888/1888095_523143985.png">
+				<img alt="阿里巴巴" src="http://img.china.alibaba.com/cms/upload/2014/955/198/1891559_523143985.png">
 			</a>
+			<div class="main-logo-txt">
+				<a class="main-logo-url" href="http://www.1688.com">— 阿里巴巴旗下产品 —</a>
+			</div>
 		</div>
 		<div class="sub-logo">
 			<div class="sub-logo-market">
-				<a class="sub-logo-txt" href="http://industry.1688.com">工业品</a>
+				<a class="sub-logo-txt" href="http://industry.1688.com">生意经</a>
 				<div class="ali-market fd-lump">
 					<div class="ali-market-list">
 						<div class="ali-market-more"><a href="#">更多市场</a></div>
@@ -242,228 +241,10 @@
 
     <script src="http://style.c.aliimg.com/fdevlib/js/gallery/jquery/jquery-latest.js"></script>
 	<script src="http://style.c.aliimg.com/sys/js/universal/masthead/v6/standard.js"></script>
-	
-	<script>
-		lofty.config({
-			amd: true
-		});
 		
-		define(['sys/universal/masthead/standard'], function(Masthead){
-			
-		})
-	</script>
-	
   </div>		
  </div>	
 </div>
-
-
-
-
-<style>
-	.fui-form-item{
-		margin-bottom:15px;
-	}
-	.fui-ajust{
-		float:left;
-	}
-	.fui-d .pixel{
-		float:left;
-		margin-left: 3px;
-	}
-	.fui-text{
-		width:60px;
-	}
-	.fui-form .fui-t{
-		width:100px;
-	}
-</style>
-
-
-<div class="fui-form">
-	<div class="fui-form-item fd-clr">
-		<div class="fui-t fui-t-l">
-			<span>整体背景色：</span>
-		</div>
-		<div class="fui-d">
-			<input class="fui-text" name="headBackGroundColor" value="#FFF">
-		</div>
-	</div>
-	
-	<div class="fui-form-item fd-clr">
-		<div class="fui-t fui-t-l">
-			<span>整体宽度：</span>
-		</div>
-		<div class="fui-d">
-			<input class="fui-text" name="headWidth" value="1190"> px
-		</div>
-	</div>
-	
-	<div class="fui-form-item fd-clr">
-		<div class="fui-t fui-t-l">
-			<span>搜索框背景色：</span>
-		</div>
-		<div class="fui-d">
-			<input class="fui-text" name="headSearchBgColor" value="#3E698B">
-		</div>
-	</div>
-	
-	
-	<div class="fui-form-item fd-clr">
-		<div class="fui-t">
-			<span>搜索框下拉菜单：</span>
-		</div>
-		<div class="fui-d">
-			<div class="combobox fui-combobox-l">
-				<select name="comboItem">
-					<option value="1" selected="selected">显示</option>
-					<option value="2">不显示</option>
-				</select>
-			</div>
-		</div>
-
-		<div class="fui-t">
-			<span>下拉菜单宽度：</span>
-		</div>
-		<div class="fui-d">
-			<div class="fui-ajust">
-				<div class="fui-operation">
-					<a href="#" class="fui-up"></a>
-					<a href="#" class="fui-down fui-down-disable"></a>
-				</div>
-				<input class="fui-result" type="text" autocomplete="off" maxlength="50"> 
-				
-			</div>
-			<div class="pixel"> px </div>
-		</div>
-	</div>
-		
-	
-	<div class="fui-form-item fd-clr">
-		<div class="fui-t">
-			<span>搜索框宽度：</span>
-		</div>
-		<div class="fui-d">
-			<div class="fui-ajust">
-				<div class="fui-operation">
-					<a href="#" class="fui-up"></a>
-					<a href="#" class="fui-down fui-down-disable"></a>
-				</div>
-				<input class="fui-result" type="text" autocomplete="off" maxlength="50"> 
-				
-			</div>
-			<div class="pixel"> px </div>
-		 </div>
-	</div>
-	
-	
-	<div class="fui-form-item fd-clr">
-		<div class="fui-t">
-			<span>市场文案标识：</span>
-		</div>
-		<div class="fui-d">
-			<div class="combobox fui-combobox-l">
-				<select name="comboItem">
-					<option value="1" selected="selected">显示</option>
-					<option value="2">不显示</option>
-				</select>
-			</div>
-		</div>
-
-		<div class="fui-t fui-t-l">
-			<span>显示文案：</span>
-		</div>
-		<div class="fui-d">
-			<input class="fui-text" name="headTitleText" value="工业品">
-		</div>
-		
-		<div class="fui-t fui-t-l">
-			<span>底部文案：</span>
-		</div>
-		<div class="fui-d">
-			<input style="width:120px;" class="fui-text" name="headTitleTextEnglish" value="industry.1688.com">
-		</div>
-		
-		<div class="fui-t fui-t-l">
-			<span>点击链接：</span>
-		</div>
-		<div class="fui-d">
-			<input style="width:120px;" class="fui-text" name="headTitleUrl" value="http://industry.1688.com/">
-		</div>
-		
-		<div class="fui-t fui-t-l">
-			<span>文案色：</span>
-		</div>
-		<div class="fui-d">
-			<input class="fui-text" name="headMarketTitleColor" value="#FFF">
-		</div>
-		
-		<div class="fui-t fui-t-l">
-			<span>文案Hover色：</span>
-		</div>
-		<div class="fui-d">
-			<input class="fui-text" name="headMarketTitleColor" value="#FF7300">
-		</div>
-	</div>
-	
-	<div class="fui-form-item fd-clr">
-		<div class="fui-t">
-			<span>更多市场：</span>
-		</div>
-		<div class="fui-d">
-			<div class="combobox fui-combobox-l">
-				<select name="comboItem">
-					<option value="1" selected="selected">显示</option>
-					<option value="2">不显示</option>
-				</select>
-			</div>
-		</div>
-	</div>
-	
-	<div class="fui-form-item fd-clr">
-		<div class="fui-t">
-			<span>市场Logo：</span>
-		</div>
-		<div class="fui-d">
-			<div class="combobox fui-combobox-l">
-				<select name="comboItem">
-					<option value="1" selected="selected">阿里Logo橙色</option>
-					<option value="2">阿里Logo白色</option>
-					<option value="2">自定义Logo</option>
-				</select>
-			</div>
-		</div>
-		
-		<div class="fui-t fui-t-l">
-			<span>Logo 图片URL：</span>
-		</div>
-		<div class="fui-d">
-			<input style="width:200px;" class="fui-text" name="headTitleText" value="" placeholder="输入logo 图片的URL地址">
-		</div>
-		
-		<div class="fui-t fui-t-l">
-			<span>Logo 点击链接：</span>
-		</div>
-		<div class="fui-d">
-			<input style="width:200px;" class="fui-text" name="headTitleText" value="" placeholder="输入logo 点击链接地址">
-		</div>
-	</div>
-	
-</div>
-
-<script type="text/javascript">
-	define(['fui/combobox/1.0', 'jquery'], function(Combobox, $){
-		
-		$(".combobox").each(function(){
-			
-			var combobox = new Combobox({
-				container: $(this),
-				itemList: $(this).find('select')
-			});
-		});
-		
-	});
-</script>
 
 	
 <!-- Demo页面自身所需的JS，实际项目中无需引入 --->
