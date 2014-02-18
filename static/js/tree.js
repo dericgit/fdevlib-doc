@@ -318,7 +318,7 @@ Docs.contents=[
 	{ "id": "sys","text": "通用接口/模块说明","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[
 	        {"id": "sys.alibar", "href": "output/sys/alibar.html","text": "Alibar(页头通栏)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
-	        {"id": "sys.masthead", "href": "output/sys/masthead.html","text": "Masthead(logo+搜索区)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
+	        {"id": "sys.masthead", "href": "output/sys/masthead/masthead-v6.html","text": "Masthead(logo+搜索区)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 	        {"id": "sys.footer", "href": "output/sys/footer.html","text": "footer","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 			{"id": "sys.alinav", "href": "output/sys/alinav.html","text": "alinav(页尾站内导航)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 			{"id": "sys.sidebar", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/sidebar/2.0/doc/index.html","text": "sidebar(统一侧边栏)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },

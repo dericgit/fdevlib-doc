@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="gbk" />
+        <title>Masthead</title>
+        <link href="../../static/css/app-merge.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="doc">
+            <h1>Masthead</h1>
+            <h2>介绍</h2>
+            <ul>
+                <li>
+                    logo和logo右侧搜索区域所在那一行容器，称为masthead
+                </li>
+                <li>
+                    搜索区可以个性化，尽量使用统一标准的搜索区功能。
+                </li>
+            </ul>
+            <h2>版本</h2>
+            <ul>
+                <li>
+                    @create Edgar 2011.01.27 1.3版
+                </li>
+                <li>
+                    @author Edgar 2011.06.13 1.4版
+                </li>
+                <li>
+                    @create Denis 2012.02.04 4.0版
+                </li>
+				 <li>
+                    @update quchuangpeng 2013.12.01
+                </li>
+            </ul>
+            <h2>使用说明</h2>
+            <ul>
+                <li>
+                    masthead目前暂时前端通用组负责维护，需要新建或使用现有masthead，需要向通用组申请模版参数(CMS页面)和外部模版地址(External)。接口人：屈传鹏 旺旺：qcp屈传鹏（淘宝网）
+                </li>
+                <li>
+                    目前全站masthead标准请移步 <a title="中国站公共导航应用规范" href="http://wiki.aliued.cn/index.php/中国站公共导航统一规范">中国站公共导航应用规范</a>
+                </li>
+                <li>
+                    masthead对应的CSS及JS文件需要产品自己引入：<br/>
+<b>CSS文件：</b>                          
+                    <pre class="prettyprint language-html">
+&lt;link href="http://style.c.aliimg.com/sys/css/universal/masthead/standard-v4-min.css" rel="stylesheet"/>                        
+</pre>
+
+<b>JS文件：</b><br/>
+<b>基于FDev4前端框架的页面：</b>                    
+                    <pre class="prettyprint language-html">
+&lt;script src="http://style.c.aliimg.com/sys/js/universal/masthead/standard-v4-min.js">&lt;/script>
+</pre>
+
+                </li>
+                <li>
+                    调用方式及合理位置如下：
+                    <pre class="prettyprint language-html">
+&lt;head>
+    ...
+    &lt;link href="http://style.c.aliimg.com/sys/css/universal/masthead/standard-v4-min.css" rel="stylesheet"/>
+    ...
+&lt;/head>
+&lt;body>
+    &lt;div id="doc">
+        &lt;div id="header">
+            &lt;!--本行为CMS调用代码-->$!sandBoxRender.bandingTemplate("模版参数key")
+            &lt;!--本行为外部应用调用代码(应用接入CMS相关操作及问题请联系：颜清国 旺旺:isylinx)-->$cmsTemplate.setTemplate("模版路径")
+        &lt;/div>
+        ...
+        &lt;script src="对应FDev框架版本的JS地址">&lt;/script>
+    &lt;/div>
+&lt;/body>
+</pre>
+                </li>
+            </ul>
+
+        </div>
+        <script src="../../static/js/app-merge.js">
+        </script>
+    </body>
+</html>

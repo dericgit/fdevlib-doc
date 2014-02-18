@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="gbk" />
+        <title>全站搜索头</title>
+        <link href="http://wd.alibaba-inc.com/ui/static/css/item.min.css" rel="stylesheet" />
+
+    </head>
+    <body>
+        <div class="doc" id="doc">
+		  <div class="main">
+            <h1>公共搜索头配置指南 -- 单搜索按钮</h1>
+
+            <h2>1、配置样式</h2>
+			<p>搜索头的样式是不允许通过重写 CSS class 的方式来进行覆盖，而<b style="color:red">只能通过</b>对外暴露的 less 变量来完成个性化配置：</p>
+            <ul>
+				<li>
+                    首先新建一个空白 less 文件，命名为 masthead.less，并首先引入 masthead 基础样式 less 文件：
+<pre class="prettyprint language-css">
+
+  @import url("http://style.c.aliimg.com/sys/css/universal/masthead/v6/standard.less");
+  /*
+   要重新定义的 less 变量定义在下面
+   ...
+   ..
+  */
+</pre>
+                </li>
+				<br/>
+				<li>
+                    搜索头所有可配置的 less 变量统一定义在 http://style.c.aliimg.com/sys/css/universal/masthead/v6/variables.less 之中，其值是搜索头目前的默认配置，允许各业务自定义，该文件的内容如下：
+<pre class="prettyprint language-css">
+
+/*搜索头是否有背景色*/
+@headHasBgColor:false;
+
+/*搜索头背景色的颜色*/
+@headBackGroundColor:#FFF;
+
+/*搜索输入框的背景色（白色背景的搜索头才需要关注此变量）*/
+@headSearchBgColor:#3E698B;
+
+/*搜索头的总体宽度 */
+@headWidth:1190px;
+
+/*市场logo与市场文案中的分割线配置，若无则忽略 */
+@headSpiltColor:1px solid #CCC;
+
+/*搜索市场的文案颜色配置，若无则忽略*/
+@headMarketTitleColor:#FFF;
+@headMarketTitleColorHover:#FF7300;
+
+/*搜索左侧下拉框的宽度，若无则忽略*/
+@headMenuWidth:40px;
+/*搜索输入框的宽度 */
+@headInputWidth:300px;
+
+/*第一个按钮的颜色配置 */
+@firstBtnColor: #3E698B;
+@firstBtnColorHover: #23607f;
+
+/*第二个搜索按钮的颜色配置（若只有一个搜索按钮，无需关注该配置）*/
+@secondBtnColor: #FF7200;
+@secondBtnColorHover: #FF4E00;
+
+</pre>	
+                </li><br/>
+				
+				<li>
+                    业务根据页面的整体色调及文案需要，通过重新定义 less 变量的方式来覆盖已有的配置。比如默认配置的搜索头无背景，若希望配置成有背景色搜索头，则可以在刚才新建的 masthead.less 文件中重写配置：
+
+<pre class="prettyprint language-css">
+
+  @import url("http://style.c.aliimg.com/sys/css/universal/masthead/v6/standard.less");
+  /*
+   *需要要重新定义的 less 变量定义在下面
+    @headHasBgColor:true;
+    @headBackGroundColor:#C5120B;
+  */
+</pre>
+
+                </li>
+		<h2>2、配置模板</h2>
+		<ul>
+			<li>
+				在<a href="http://cms.cn.alibaba-inc.com/" target="_blank"> CMS </a>中新建 external 页面（页面路径、名称及所属 APP 请依据自己的产品的需要<b style="color:red">自定义</b>）：<br/>
+				<img src="http://img.china.alibaba.com/cms/upload/2014/944/298/1892449_523143985.png"/>
+			</li>
+			<br/>
+			
+			<li>
+				对于单搜索按钮的搜索头，目前需要在 external 页面中个性化设置的模板变量如下：
+<pre class="prettyprint language-js">
+
+/*是否在应用中使用头部，比如seachweb应用使用就设置为true，cms页面就设置为false */
+#set($bUsedInApp=false)
+
+/* 样式个性化配置后的 CSS 文件路径，放在业务自己的分支里面 */
+#set($mastheadCssUrl="http://style.c.aliimg.com/sys/css/universal/masthead/v6/standard.css")
+
+/*******************************以下为左侧搜索市场信息配置**************************/
+/*白色底阿里logo
+#set($marketLogo="http://img.china.alibaba.com/cms/upload/2014/990/888/1888099_523143985.png")*/
+
+/*黄色底阿里logo*/
+#set($marketLogo="http://img.china.alibaba.com/cms/upload/2014/590/888/1888095_523143985.png")
+
+#set($bShowMarketTxt=true)   			/*是否显示市场名称*/
+#set($marketType="clothing")			/*市场名称对应的应用名（行业搜索使用）*/
+#set($marketName="服装市场")		   	/*市场名称*/
+#set($marketUrl="Fuzhuang.1688.com")		/*市场英文名称*/
+#set($marketHref="http://fuzhuang.1688.com")   /*市场名称点击的链接*/
+
+/*是否显示市场副标题/图片，若不显示，则设置 $PrivatePicUrl=false*/
+#set($PrivatePicUrl="http://img.china.alibaba.com/cms/upload/2014/354/298/1892453_523143985.png")
+
+
+/*******************************以下为右侧搜索框配置**************************/
+#set($firstBtnClickTrace="sale_top_clothing_b")		/*点击第一个按钮的打点字符串*/
+#set($secondBtnClickTrace="sale_top_all_b")		/*点击第二个按钮的打点字符串*/
+
+
+/*搜索框默认的form action URL*/
+#set($defaultFormAction="http://s.1688.com/selloffer/offer_search.htm")
+
+/*搜索框中的下拉菜单配置，若无下拉菜单，则配置为空字符*/
+#set($dropDownMenu='&lt;div class="alisearch-type">
+			&lt;ul>
+				&lt;li class="current" data-action="http://s.1688.com/selloffer/offer_search.htm" data-placeholder="输入产品名称" data-type="offer">
+					产品
+				&lt;/li>
+				&lt;li data-action="http://s.1688.com/company/company_search.htm" data-placeholder="输入公司名称或关键词" data-type="company">
+					公司
+				&lt;/li>
+				&lt;li data-action="http://s.1688.com/newbuyoffer/buyoffer_search.htm" data-placeholder="输入产品名称" data-type="offer">
+					求购
+				&lt;/li>
+			&lt;/ul>
+		&lt;/div>')
+
+			
+/*styleCombine 对 CSS、JS位置的配置属性，比如 data-sc-pos="footer"，也可以同时添加多个属性，默认为空值*/
+#set($scConfigCss='')			
+#set($scConfigJS='')
+
+#parse('universal_masthead_v6_single')
+</pre>	
+			</li>
+			<br/>
+			<li>
+				个性化的模板变量设置结束后，请在模板内容区块的底部请引入：#parse('universal_masthead_v6_single')
+			</li>
+			<br/>
+			<li>
+				配置完成的 masthead-clothing.vm 搜索头模板，即可在应用的VM，或是cms页面中直接引入使用。
+			</li>
+			<br/>
+			<li>
+				模板配置的 <a target="_blank" href="http://cms.cn.alibaba-inc.com/page/build_visual_page.html?page_id=1056840">Demo.vm</a>。<b style="color:red">可以修改并预览页面查看效果</b>
+			</li>
+			
+		</ul>
+              
+		<h2>3、注意</h2>
+		<p>若上述的配置项不满足业务需求，可以直接基于页面区块 universal_masthead_v6 直接配置模板变量，模板变量相对较多，请同时参考 universal_masthead_v6_single 的内容设置。</p>
+        </div>
+        <script src="http://wd.alibaba-inc.com/ui/static/js/item.min.js"></script>
+		<script>
+			prettyPrint();
+		</script>
+
+    </body>
+</html>
