@@ -94,6 +94,12 @@
 
 #set($bUsedInApp=false)  /*是否在应用中使用头部，比如seachweb应用使用就设置为true，cms页面就设置为false*/
 
+/* 样式个性化配置后的 CSS 文件路径(通常不会是下面的v6/standard.css路径)。可以在此处定义，也可以在自己的 css merge文件中引入。同时可以在标签上定义styleCombine的一些属性。若在CSS merge文件中引入，则删除该变量的定义。*/
+#set($mastheadCssUrl='&lt;link href="http://style.c.aliimg.com/sys/css/universal/masthead/v6/standard.css" rel="stylesheet"/>')
+
+/* JS文件路径。可以在此处定义，也可以在自己的 JS merge文件中引入。同时可以在标签上定义styleCombine的一些属性。 若在JS merge文件中引入，则删除该变量的定义。*/
+#set($mastheadJsUrl='&lt;script src="http://style.c.aliimg.com/sys/js/universal/masthead/v6/standard.js"></script>')
+
 /*******************************以下为左侧搜索市场信息配置**************************/
 #set($marketLogo="http://img.china.alibaba.com/cms/upload/2014/990/888/1888099_523143985.png")  /*市场Logo/阿里Logo*/
 
@@ -106,10 +112,6 @@
 /*******************************以下为右侧搜索框配置**************************/
 #set($firstBtnClickTrace="sale_top_clothing_b")		/*点击第一个按钮的打点字符串*/
 #set($secondBtnClickTrace="sale_top_all_b")		/*点击第二个按钮的打点字符串*/
-
-/*styleCombine 对 CSS、JS位置的配置属性，比如 data-sc-pos="footer"，也可以同时添加多个属性，默认为空值*/
-#set($scConfigCss='')			
-#set($scConfigJS='')
 
 #parse('universal_masthead_v6_indust')
 </pre>	
@@ -130,7 +132,7 @@
 		</ul>
               
 		<h2>3、注意</h2>
-		<p>若上述的配置项不满足业务需求，可以直接基于页面区块 universal_masthead_v6 直接配置模板变量，模板变量相对较多，请同时参考 universal_masthead_v6_indust 的内容设置。</p>
+		<p>若上述的配置项不满足业务需求，可以直接基于页面区块 <a href="http://cms.cn.alibaba-inc.com/page/edit_template.html?template_id=238591" target="_blank">universal_masthead_v6</a> 直接配置模板变量，模板变量相对较多，请同时参考 <a href="http://cms.cn.alibaba-inc.com/page/edit_template.html?template_id=238618" target="_blank">universal_masthead_v6_indust</a> 的内容设置。</p>
         </div>
         <script src="http://wd.alibaba-inc.com/ui/static/js/item.min.js"></script>
 		<script>
