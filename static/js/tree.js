@@ -43,7 +43,7 @@ Docs.contents=[
 			]},
 			{"id": "lofty.loader","text": "加载器","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 				{"id": "lofty.loader.home", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/lang/doc/loader/quicks.html","text": "快速开始","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-				{"id": "lofty.loader.grammar", "href": "http://lofty.fangdeng.org/docs/grammar.html","text": "基本语法","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+				{"id": "lofty.loader.grammar", "href": "http://fmdjs.org/docs/api/define.html","text": "基本语法","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			]},
 			
 			
@@ -151,7 +151,7 @@ Docs.contents=[
 			]},
 			{"id": "lofty.loader.mb","text": "加载器","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 				{"id": "lofty.loader.home.mb", "href": "http://style.c.aliimg.com/m/lofty/lang/doc/loader/quicks.html","text": "快速开始","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-				{"id": "lofty.loader.grammar.mb", "href": "http://lofty.fangdeng.org/docs/grammar.html","text": "基本语法","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+				{"id": "lofty.loader.grammar.mb", "href": "http://fmdjs.org/docs/api/define.html","text": "基本语法","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			]},
 			{"id": "ui.home.mb","text": "组件框架","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 				
