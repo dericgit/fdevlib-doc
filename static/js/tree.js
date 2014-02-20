@@ -123,7 +123,7 @@ Docs.contents=[
 	},
 	{ "id": "lofty.mb","text": "lofty-mobile","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[	
-			{"id": "lofty.homes.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/lang/doc/home/lofty.html","text": "home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
+			{"id": "lofty.homes.mb", "href": "http://style.c.aliimg.com/m/lofty/lang/doc/home/lofty.html","text": "home","isClass": true,"iconCls": "icon-home","cls": "cls","leaf": true },
 			{"id": "lofty.base.mb","text": "基础设施","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
 			   { "id": "lofty.base.css.mb","text": "css","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 					[
@@ -150,7 +150,7 @@ Docs.contents=[
 			   
 			]},
 			{"id": "lofty.loader.mb","text": "加载器","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
-				{"id": "lofty.loader.home.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/lang/doc/loader/quicks.html","text": "快速开始","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+				{"id": "lofty.loader.home.mb", "href": "http://style.c.aliimg.com/m/lofty/lang/doc/loader/quicks.html","text": "快速开始","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 				{"id": "lofty.loader.grammar.mb", "href": "http://lofty.fangdeng.org/docs/grammar.html","text": "基本语法","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 			]},
 			{"id": "ui.home.mb","text": "组件框架","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:[
@@ -159,33 +159,33 @@ Docs.contents=[
 
 				{"id": "fui.components.mb","text": "ui","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 					[
-						{"id": "fui.com.widget.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/ui/widget/1.0/doc/widget.html","text": "widget 组件基类","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.actionsheet.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/ui/actionsheet/1.0/doc/index.html","text": "actionSheet  底部弹出框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.autocomplete.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/ui/autocomplete/1.0/doc/index.html","text": "autocomplete 自动补全","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.button.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/ui/button/1.0/doc/index.html","text": "button 按钮","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.crazyimg.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/ui/crazyimg/1.0/doc/index.html","text": "crazyimg 图片响应式","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.css3animate.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/ui/css3animate/1.0/doc/css3animate.html","text": "css3animate css3Api","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.popup.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/ui/popup/1.0/doc/index.html","text": "popup 弹出框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.scroller.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/ui/scroller/1.0/doc/scroller.html","text": "scroller 滚动","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.searchtext.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/ui/searchtext/1.0/doc/index.html","text": "searchtext 搜索框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.suggestion.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/ui/suggestion/1.0/doc/index.html","text": "suggestion 自动推荐","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.swipe.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/ui/swipe/1.0/doc/index.html","text": "swipe 图片轮播","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.timer.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/ui/timer/1.0/doc/index.html","text": "timer 倒计时","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }	
+						{"id": "fui.com.widget.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/widget/1.0/doc/widget.html","text": "widget 组件基类","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.actionsheet.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/actionsheet/1.0/doc/index.html","text": "actionSheet  底部弹出框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.autocomplete.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/autocomplete/1.0/doc/index.html","text": "autocomplete 自动补全","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.button.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/button/1.0/doc/index.html","text": "button 按钮","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.crazyimg.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/crazyimg/1.0/doc/index.html","text": "crazyimg 图片响应式","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.css3animate.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/css3animate/1.0/doc/css3animate.html","text": "css3animate css3Api","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.popup.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/popup/1.0/doc/index.html","text": "popup 弹出框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.scroller.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/scroller/1.0/doc/scroller.html","text": "scroller 滚动","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.searchtext.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/searchtext/1.0/doc/index.html","text": "searchtext 搜索框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.suggestion.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/suggestion/1.0/doc/index.html","text": "suggestion 自动推荐","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.swipe.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/swipe/1.0/doc/index.html","text": "swipe 图片轮播","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.timer.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/timer/1.0/doc/index.html","text": "timer 倒计时","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }	
 					]
 				},
 				{"id": "fui.util.mb","text": "util","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 					[
-						{"id": "fui.com.cookie.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/util/cookie/1.0/doc/index.html","text": "cookie Cookie管理","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },								
-						{"id": "fui.com.history.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/util/history/1.0/doc/index.html","text": "history","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.lazyload.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/util/lazyload/1.0/doc/index.html","text": "lazyload 懒加载","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.router.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/util/router/1.0/doc/index.html","text": "router 路由","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.storage.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/util/storage/1.0/doc/index.html","text": "storage 跨域的localstorage","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.touchevents.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/util/touchevents/1.0/doc/index.html","text": "touchevents 触摸事件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
+						{"id": "fui.com.cookie.mb", "href": "http://style.c.aliimg.com/m/lofty/util/cookie/1.0/doc/index.html","text": "cookie Cookie管理","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },								
+						{"id": "fui.com.history.mb", "href": "http://style.c.aliimg.com/m/lofty/util/history/1.0/doc/index.html","text": "history","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.lazyload.mb", "href": "http://style.c.aliimg.com/m/lofty/util/lazyload/1.0/doc/index.html","text": "lazyload 懒加载","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.router.mb", "href": "http://style.c.aliimg.com/m/lofty/util/router/1.0/doc/index.html","text": "router 路由","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.storage.mb", "href": "http://style.c.aliimg.com/m/lofty/util/storage/1.0/doc/index.html","text": "storage 跨域的localstorage","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.touchevents.mb", "href": "http://style.c.aliimg.com/m/lofty/util/touchevents/1.0/doc/index.html","text": "touchevents 触摸事件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }
 					]
 				},
 				{"id": "fui.alicn.mb","text": "alicn","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 					[
-						{"id": "fui.com.now.mb", "href": "http://wd.alibaba-inc.com/ui/lofty/alicn/now/1.0/doc/index.html","text": "now 服务器当前时间","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.now.mb", "href": "http://style.c.aliimg.com/m/lofty/alicn/now/1.0/doc/index.html","text": "now 服务器当前时间","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						
 					]
 				}
