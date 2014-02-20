@@ -157,8 +157,8 @@
 			} else {
 				url = location.protocol + '//' + location.host + location.pathname + href;
 			}
-			
-            window.open(url, '_blank');
+			var paramFlag = url.indexOf("?") === -1?"?":"&";
+            window.open(url + paramFlag + "t=" + new Date().valueOf(), '_blank');
         }
     });
     
