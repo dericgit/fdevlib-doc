@@ -58,7 +58,7 @@ Docs.contents=[
 						{"id": "fui.com.box", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/box/1.0/doc/index.html","text": "box 模块","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.combobox", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/combobox/1.0/doc/index.html","text": "combobox 组合下拉框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.crumbs", "href": "http://style.c.aliimg.com/fdevlib/css/lofty/ui/path/1.0/doc/index.html","text": "crumbs 面包屑","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.dialog", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/dialog/1.0/doc/index.html","text": "dialog 对话框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.dialog", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/dialog/1.0/doc/index.html","text": "dialog 弹出框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.datepicker", "href": "http://wd.alibaba-inc.com/ui/examples/datepicker/datepicker.html","text": "datepicker 日历","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.dragdrop", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/dragdrop/1.0/doc/index.html","text": "dragdrop 拖拽组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.flash", "href": "http://style.c.aliimg.com/fdevlib/js/lofty/ui/flash/1.0/doc/index.html","text": "flash Flash基础组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
@@ -169,7 +169,7 @@ Docs.contents=[
 						{"id": "fui.com.scroller.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/scroller/1.0/doc/scroller.html","text": "scroller 滚动","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.searchtext.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/searchtext/1.0/doc/index.html","text": "searchtext 搜索框","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.suggestion.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/suggestion/1.0/doc/index.html","text": "suggestion 自动推荐","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
-						{"id": "fui.com.swipe.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/swipe/1.0/doc/index.html","text": "swipe 图片轮播","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
+						{"id": "fui.com.swipe.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/swipe/1.0/doc/index.html","text": "switch 切换组件","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true },
 						{"id": "fui.com.timer.mb", "href": "http://style.c.aliimg.com/m/lofty/ui/timer/1.0/doc/index.html","text": "timer 倒计时","isClass": true,"iconCls": "icon-js","cls": "cls","leaf": true }	
 					]
 				},
