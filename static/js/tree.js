@@ -305,7 +305,7 @@ Docs.contents=[
 	        {"id": "tools.ju", "href": "http://wd.alibaba-inc.com/ju","text": "方凳聚","isClass": true,"iconCls": "icon-tools","cls": "cls","leaf": true }
 	    ]
 	},
-	{ "id": "rules","text": "约定规范","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
+	/* { "id": "rules","text": "约定规范","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[
 	        {"id": "rules.ajax", "href": "output/rules/ajax.html","text": "异步请求数据的前后台约定","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
             {"id": "rules.demo.HTML", "href": "output/rules/html-template.html","text": "HTML基本结构模板","isClass": true,"iconCls": "icon-html","cls": "cls","leaf": true },
@@ -314,7 +314,7 @@ Docs.contents=[
 	        {"id": "rules.cookie", "href": "output/rules/cookie.html","text": "前端专属cookie使用规则","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
 	        {"id": "rules.logo", "href": "output/rules/logo.html","text": "中文站LOGO前端使用规则","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true }
 	    ]
-	},
+	}, */
 	{ "id": "sys","text": "通用接口/模块说明","iconCls": "icon-cmp","cls": "package","singleClickExpand": true,children:
 		[
 	        {"id": "sys.alibar", "href": "output/sys/alibar.html","text": "Alibar(页头通栏)","isClass": true,"iconCls": "icon-txt","cls": "cls","leaf": true },
